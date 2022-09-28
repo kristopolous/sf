@@ -91,6 +91,33 @@ figure {
   color: #768;
 }
 
+table {
+  border-spacing: 0;
+  border: 1px solid #777;
+}
+td,th {
+  border-bottom: 1px solid #777;
+  padding: 0.25rem;
+  text-align: center;
+  min-width: 1.5rem;
+  border-bottom: 1px solid #777;
+  border-right: 1px solid #777;
+}
+th {
+  text-align: left;
+  text-orientation: sideways-right;
+  writing-mode: vertical-rl;
+}
+td:nth-child(1) {
+  text-align: right;
+  white-space: nowrap;
+}
+td.yes {
+  background-color: #cac7f3;
+}
+td.no {
+  background-color: #F2C6D9;
+}
 img {
   width: min(80vw, 42rem);
   box-shadow: 0 0 0.5rem 0.2rem #eee6ee;
