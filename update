@@ -1,0 +1,5 @@
+pandoc -T "Silicon Folklore Intro" -H header index.md > index.html
+cat header <(pandoc index.md) footer > index.html 
+pandoc nuclear-myth.md -o nuclear-myth.html
+cat header nuclear-myth.html > out.html
+scp out.html kristopolous.xen.prgmr.com:/var/www/sf/nuclear-myth.html
