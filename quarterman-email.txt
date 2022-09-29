@@ -1,0 +1,112 @@
+On Wed, Sep 28, 2022, 08:36 John S. Quarterman <***@***> wrote:
+
+ Thanks for the inquiry.
+
+ And thanks for digging into Internet history; it's always interesting to
+ see new material dug up.
+
+ I'm not sure what you're getting at with your "stated without citation."
+ I didn't see any reason to cite my own opinion which I previously also wrote.
+ Most likely if you dig back in issues of Matrix News you'll find even
+ earlier versions.
+
+ After your question "Why didn't he just stick with that?"
+
+ I had to reread several times to convince myself you weren't attributing
+ the Japan Information Highway article to me. Could you please clarify by
+ saying something like "text by others".
+
+ To directly answer your question, The Matrix is a history and policy book.
+ The other two you quote are, as their titles indicate, about technical
+ aspects of how to use the stuff. History was not the main point of those
+ books. As you say, "these statements are small buried passages in much
+ larger, often dry technical works." These particular statements were not
+ intended to be complete histories of the origins of the ARPANET. They are
+ indeed a bit too condensed.
+
+ I am puzzled by your characterization, "This ARPANET is one step removed
+ from nuclear war planning narrative".
+
+ First of all, that doesn't seem to be what you are objecting to. Earlier,
+ you wrote: "was *designed from the start* to withstand a nuclear attack."
+
+ Secondly, you documented the one step removed in your
+ quotes from "Recommendation to the air staff" by RAND, from August 1965."
+ See also below about Licklider: RAND is not the only connection between
+ nuclear war planning and ARPA and the ARPANET..
+
+ Yes, I am and was well aware that the principal purpose of ARPANET and the
+ Internet is resource sharing. There was no real need to spell that out of
+ the readers of those two books, because they were reading them to learn how
+ to implement that. But that is not the whole story, as you have started
+ discovering. Why was resource sharing on peoples' minds back then? And
+ where did the money come from?
+
+ Bruce Sterling's writeup is not wrong. Sure, it's better than my shorthand
+ blurb in those two books. My error is in the "ARPA was charged with". No,
+ not exactly..
+
+ You may want to ask Bruce if he read "Recommendation to the air staff". I
+ wouldn't be surprised if he did; he does pretty thorough research.
+
+ Also, it's a bit unfair to characterize Bruce among "fabulists trying to
+ tell compelling stories." That piece was history, not fiction.
+
+ However, remember that ARPA funding was from Navy money. So while
+ everybody working on ARPANET most likely was working on resource sharing,
+ if you want to dig, it would be interesting to find out if in the ARPA
+ funding allocation discussions what else was used for justification. It
+ wouldn't be the first time researchers were busily working on a virtuous
+ project that was being funded for different reasons. Let me know if you dig
+ into that.
+
+ You don't mention Licklider or his work at the Pentagon. See Sharon
+ Weinberger <https://aeon.co/users/sharon-weinberger>, "Web of War," Aeon,
+ extract from a 2017 book.
+
+ https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet
+ For example:
+ "Licklider was well aware of the Pentagon's interest in command and
+ control of nuclear weapons. One of his early descriptions for work on
+ computer networking referenced the need to link computers that would be
+ part of the nascent National Military Command System used to control
+ nuclear weapons. His vision was for something much broader, however. When
+ he met with Jack Ruina, the head of ARPA, and Eugene Fubini, one of Brown's
+ deputies, Licklider pitched interactive computing to them. Rather than
+ focusing strictly on technologies to improve command and control, he wanted
+ to transform the way people worked with computers. "Who can direct a battle
+ when he's got to write a program in the middle of that battle?" Licklider
+ asked."
+
+ You ask: "where did people like Gilster and Quarterman get this idea?"
+
+ I have no idea about Gilster.
+
+ As for me, I don't rightly recall, it was long common wisdom. Since I
+ worked at BBN, which was full of MIT people who knew Licklider, I would
+ guess it was some derivation of Licklider's Pentagon and ARPA work. Whose
+ work shows that there were indeed Cold War nuclear bomb roots of the
+ ARPANET, even though that network was not directly designed to survive a
+ nuclear attack.
+
+ Errata: You mention NIRPNET. Maybe you mean NIPRnet.
+ In the same sentence, it's should be its.
+
+ You note: "If you click through the above article you'll see a linguistic
+ phenomena: It's called Internet without the word "the" preceding it. This
+ was pretty common through about 1994. "I'm on Internet" sounds weird to us
+ but say, "I'm on AOL" does not - and that was basically the logic. It gets
+ deeper. For instance, it's called "The Usenet" in the article and we
+ actually would drop the "the" on that word today just like we do with
+ "ARPANET", or how it used to be stylized, "ARPAnet". This history needs its
+ own atticle as well."
+
+ (Typo: atticle should be article.)
+
+ Yes, please write an article about Internet as a proper name. Including
+ the neo-logism internet without a capital, which is irritating, because
+ while there are indeed disconnected small-i internets, there is only one
+ Internet with a capital I.
+
+ Got to go prepare for a hurricane. Thanks again for your research. -jsq
+

@@ -15,10 +15,10 @@ main {
   box-shadow: 0 0 2rem 0.1rem #e4e4e4;
   width: min(50rem, 100vw - 3rem);
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
   font-family: 'Roboto Slab', serif;
 }
-   h2,h3   {
+   h2,h3   ,h5{
 font-weight: 500;
 text-transform: uppercase;
 color:#69196D;
@@ -50,7 +50,10 @@ h4 {
   font-weight: 400;
   color: #555;
 }
-
+h5 {
+  text-transform: none;
+  font-size: 1rem;
+}
 a {
   color: #44a;
 }
