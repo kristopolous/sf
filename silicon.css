@@ -13,7 +13,7 @@ main {
   padding-top: 0;
   display: inline-block;
   box-shadow: 0 0 2rem 0.1rem #e4e4e4;
-  width: min(50rem, 100vw - 3rem);
+  width: min(60rem, 100vw - 3rem);
 }
 h1,h2,h3,h4,h5{
   font-family: 'Roboto Slab', serif;
@@ -64,6 +64,8 @@ h1 a, h1 a:visited {
 
 strong,b {
   font-weight: 900;
+  -webkit-text-stroke: 0.4px;
+  text-stroke: 0.4px;
 }
 p {
   margin: 1.5rem 0;
@@ -114,6 +116,9 @@ th {
 td:nth-child(1) {
   text-align: right;
   white-space: nowrap;
+}
+td.maybe {
+  background-color: #dcdcdc;
 }
 td.yes {
   background-color: #cac7f3;
