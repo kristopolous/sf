@@ -57,6 +57,13 @@ h5 {
 a {
   color: #44a;
 }
+a.foot {
+  text-decoration:none;
+  color: #84a;
+}
+p.foot {
+  margin-left:2rem;
+}
 h1 a, h1 a:visited {
   color:#111;
   text-decoration: none;
