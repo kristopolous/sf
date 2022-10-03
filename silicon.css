@@ -8,13 +8,12 @@ body {
 }
 main {
   text-align: left;
-  background: #fff;
   padding: 1.5rem;
   padding-top: 0;
   display: inline-block;
   box-shadow: 0 0 2rem 0.1rem #e4e4e4;
   width: min(60rem, 100vw - 3rem);
-  background: url("draft.png") repeat;
+  background-color: #fff;
 }
 h1,h2,h3,h4,h5{
   font-family: 'Roboto Slab', serif;
@@ -98,6 +97,7 @@ figure {
 }
 
 table {
+  background: #fff;
   border-spacing: 0;
   border: 1px solid #777;
 }
@@ -108,6 +108,12 @@ td,th {
   min-width: 1.5rem;
   border-bottom: 1px solid #777;
   border-right: 1px solid #777;
+}
+tr > td:last-of-type {
+  border-right: none;
+}
+tbody > tr:last-of-type > td {
+  border-bottom: none;
 }
 th {
   text-align: left;
