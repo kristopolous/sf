@@ -21,6 +21,9 @@ function img() {
   $number = counter('img');
   return "<b><a name='img-$number'></a>Figure $number.</b> ";
 }
+function alt($text) {
+  echo 'alt="'.$text.'" title="'.$text.'"';
+}
 ?>
 <!doctype html>
 <head>
@@ -76,7 +79,7 @@ function img() {
 
 </style>
 <div id="h">
-<img alt="Nine images depicting the layout of the ARPANET between 1969 and 1978 as a stylized header for the article." src=Report4799AHistoryOfArpanetTheFirstDecade_0023.png>
+<img <?= alt("Nine images depicting the layout of the ARPANET between 1969 and 1978 as a stylized header for the article.") ?> src=Report4799AHistoryOfArpanetTheFirstDecade_0023.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0024.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0025.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0026.png>
@@ -138,7 +141,7 @@ function img() {
 <h2 id="tying-it-together">1992: The Inter-what?!</h2>
 <p>So apparently the internet is becoming a big deal. The first prominant and more direct "Internet was designed to survive bombs" connection is in <a href="https://archive.org/details/wholeinternetuse00krol/page/10/mode/2up">“The Whole Internet User’s Guide &amp; Catalog” from September 1992</a> by <a href="https://en.wikipedia.org/wiki/Ed_Krol">Ed Krol</a>. This is one of those books that’s so successful he came back to pen two sequels. <a href="https://www.amazon.com/Internet-Catalog-Intanetto-yuzazu-Japanese/dp/4900718122/">Amazon even sells a Japanese version</a>. Here, near the beginning of the book, we get our narrative. However, instead of “nuclear” it’s an unspecified “bomb attack”:</p>
 <figure>
-<img src="first-reference.png" alt="An image of the first page of the book. The important text is 'research about how to build networks that could withstand partial outages (like bomb attacks) and still function'" /><figcaption><?= img() ?>Is this the beginning?</figcaption>
+<img src="first-reference.png" <?= alt("An image of the first page of the book. The important text is 'research about how to build networks that could withstand partial outages (like bomb attacks) and still function'") ?> /><figcaption><?= img() ?>Is this the beginning?</figcaption>
 </figure>
 <p>It’s worth noting this is an honest error connecting a project that didn’t get approved, the bomb resiliant project by Paul Baran proposed to the Air Force, with the ARPA Network project (more on both of these later). Specifically this is referring to what Baran called <a href="https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM3103.pdf">“hot-potato routing”</a> in 1964.</p>
 <p>Without knowing the individuals involved in each project it is understandable to assume they are connected; that a later effort was a result of an earlier effort as opposed to an independent one.</p>
@@ -150,7 +153,7 @@ function img() {
 <h2 id="what-about-a-bigger-bomb">1993: This thing's geting popular&hellip;</h2>
 <p>By 1993, multi-generational references start to pop up. For instance, <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet for Dummies</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details (it also alludes to <a href="https://en.wikipedia.org/wiki/Flag_day_(computing)">Flag Day</a> but erroneously dates it in 1982. For Dummies indeed&hellip;):</p>
 <figure>
-<img src="inet-for-dummies.jpg" alt="Two screenshots comparing an almost identical passage between the two books. The text is 'these days backhoes cutting cables are more of a threat' compared with 'an errant backhoe cutting a cable is just as much of a threat'">
+<img src="inet-for-dummies.jpg" <?=alt("Two screenshots comparing an almost identical passage between the two books. The text is 'these days backhoes cutting cables are more of a threat' compared with 'an errant backhoe cutting a cable is just as much of a threat'")?>>
 <figcaption><?= img() ?>“The Whole Internet User’s Guide & Catalog”, 1992 versus "Internet for Dummies", 1993.</figcaption>
 </figure>
 <p>The generic bomb gets an upgrade in what was at the time, a best-seller, the 1993 text, “The Internet Navigator” by <a href="https://www.planetary.org/profiles/paul-gilster">Paul Gilster</a> which, <a href="https://archive.org/details/internetnavigato00paul/page/14/mode/2up">on page 14 says in an uncited passage</a>:</p>
@@ -176,7 +179,7 @@ function img() {
 <p>Look how smooth that is with the phrase "Shortly afterward". He's not exactly <em>saying</em> they're explicitly connected, just that's the chronology. Someone misreading this as a claim of attribution probably can't be faulted.</p>
 <p>This connection gets repeated in texts such as 1994’s <a href="https://archive.org/details/internetconnecti0000quar/page/20/mode/2up">“The Internet connection: system connectivity and configuration”</a> where the author, <a href="https://en.wikipedia.org/wiki/John_Quarterman">John Quarterman</a> states without citation (going back to our "common knowledge" definition above) in a section titled “Surviving a Nuclear War” a very similar passage he stated in a 1993 text co-authored with Smoot Carl-Mitchell, <a href="https://archive.org/details/practicalinterne0000carl/page/4/mode/2up">“Practical Internetworking with TCP/IP and Unix”</a>:</p>
 <figure>
-<img src="quarterman.png" alt="Another split image demonstrating an almost identical passage between two books. The passage reads 'The ARPANET was a direct product of the Cold War. ARPA itself was formed in response to the launching of the Sputnik satellite by the Soviet Union in 1957. It was intended to ensure the US got ahead in military research and stayed there. As DoD urgently wanted military command and control networks that could survive a nuclear war...'" /><figcaption><?= img() ?>Quite similar</figcaption>
+<img src="quarterman.png" <?=alt("Another split image demonstrating an almost identical passage between two books. The passage reads 'The ARPANET was a direct product of the Cold War. ARPA itself was formed in response to the launching of the Sputnik satellite by the Soviet Union in 1957. It was intended to ensure the US got ahead in military research and stayed there. As DoD urgently wanted military command and control networks that could survive a nuclear war...'")?> /><figcaption><?= img() ?>Quite similar</figcaption>
 </figure>
 <p>It’s worth noting that John Quarterman might have had his mind changed on this. In an earlier, widely cited, 1990 text by him, <a href="https://archive.org/details/matrixcomputernet00quar/page/142/mode/2up">"The Matrix: Computer Networks and Conferencing Systems Worldwide"</a>, he used a citation and told a much more accurate history as follows:</p>
 <blockquote>
@@ -213,7 +216,7 @@ function img() {
 <p>In all these claims the statement was ARPA was looking for a resilient network due to cold war politics with the risk of nuclear war playing somewhere in the background and the ARPANET came out of this dynamic.</p>
 <p>Apparently the ARPA people have started to hear the nuclear narrative a bit too much. In <a href="https://books.google.com/books?id=URcEAAAAMBAJ&amp;lpg=PA61&amp;pg=PA61#v=onepage&amp;q&amp;f=false">Network World from Aug 22, 1994</a> they put a special “Myth vs. Reality” inset from <a href="https://en.wikipedia.org/wiki/Leonard_Kleinrock">Leonard Kleinrock</a> in an absolutely futile effort to try and dislodge things:</p>
 <figure>
-<img src="myth-v-reality.png" alt="The text of the image reads: Myth: ARPANET was conceived as a way to maingain government data communications after a nuclear war. Reality: ARPANET was conceived as a way to save money by getting government-funded researchers to share computers rather than each of them buying their own. Source: Leonard Kleinrock, UCLA" /><figcaption><?= img() ?>Sigh, we’re still trying to correct this</figcaption>
+<img src="myth-v-reality.png" <?=alt("The text of the image reads: Myth: ARPANET was conceived as a way to maingain government data communications after a nuclear war. Reality: ARPANET was conceived as a way to save money by getting government-funded researchers to share computers rather than each of them buying their own. Source: Leonard Kleinrock, UCLA")?> /><figcaption><?= img() ?>Sigh, we’re still trying to correct this</figcaption>
 </figure>
 <p>It was hopeless. Network World was the first source we found for spreading it to begin with.</p>
 <p>It's worth pointing out since we're in 1994, the article that was referenced in "Where the Wizards Stay Up Late" from the beginning. It was <a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">the lead for the July 25, 1994 issue of TIME Magazine</a>, which has been misdated on their website. It can also be found at <tt>/time/072594/07259925.000</tt> in the <a href="https://archive.org/details/cd_TIME_Magazine_Almanac_-_All_TIME_Magazine_articles_1989-1995_Win3.1">TIME Magazine Almanac CD-ROM from 1995</a> to confirm the 1994 date. Here's the now common story:</p>
@@ -233,7 +236,7 @@ function img() {
 </blockquote>
 <p>After that it was off to the races, such as in this 1995 text, <a href="https://archive.org/details/vrmlbrowsingbuil00pesc/page/10/mode/2up">"VRML Browsing &amp; Building Cyberspace: The Definitive Resource for VRML Technology"</a>:</p>
 <figure>
-<img src="routing-errors.png" alt="The text of the image is 'To ARPAnet, nuclear war is no more than a bunch of routing errors that it could immediately correct'" /><figcaption><?= img() ?>What have we done?!</figcaption>
+<img src="routing-errors.png" <?=alt("The text of the image is 'To ARPAnet, nuclear war is no more than a bunch of routing errors that it could immediately correct'")?> /><figcaption><?= img() ?>What have we done?!</figcaption>
 </figure>
 <p>This myth has serious sticking power and other than for the people who actually built the Internet, nobody seems to have any desire to correct it.</p>
 <h2><a name="survey"></a>Narrative Survey</h2>
@@ -591,7 +594,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <p>The robustness of this result is interesting. The most likely cause is my own incompetent execution. Ignoring that possibility, it's of unique interest simply because of Reddit's growth and demographic change over time.</p>
 <p>The graph below is the month-by-month line count for the archival comments linked above. Every comment in the archives is one line of encoded JSON.</p>
 <figure>
-<img src="comments-per-month.png" alt="A chart showing how Reddit has grown to 250 million comments per month since the start of the data dump in 2007'">
+<img src="comments-per-month.png" <?=alt("A chart showing how Reddit has grown to 250 million comments per month since the start of the data dump in 2007'")?>>
 <figcaption><?= img() ?>Monthly comments on Reddit in millions.</figcaption>
 </figure>
 <p>Then again, this is something that was communicated by University professors that had been publishing on networks since the 1970s. Newspapers, textbooks, congressional documents, a certain percentage all gave part of a (P) narrative. There could be more fundamental reasons for its continued persistence.</p>
@@ -606,7 +609,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <p>To put this in perspective let’s use living recent memory. It would be like seeing a connection between say COVID-19 pandemic outcomes being related to political governance, that there was a 2012 Ebola outbreak and then claim the outcome of the Obama/Romney 2012 election was a direct consequence of the federal COVID-19 response.</p>
 <p>That’s really the same dynamic. Events in the 1970s are being placed categorically adjacent to events in the 1960s and after the table is set, a narrative is drawn between them.</p>
 <figure>
-<img src="cerf1.jpg" alt="A crop of a comic book where the hero says 'This is worse than I imagined cerf boy. The writer has completely lost control of the plot'">
+<img src="cerf1.jpg" <?=alt("A crop of a comic book where the hero says 'This is worse than I imagined cerf boy. The writer has completely lost control of the plot'")?>>
 <figcaption><?= img() ?>From <a href="https://archive.org/details/CaptainInternetAndCERFBoyNumber1October1991/page/n13/mode/2up">The Adventures of Captain Internet And CERF Boy - Number 1 October 1991</a>.</figcaption>
 </figure>
 <h2 id="right-click-view-source">Right Click, View Source</h2>
@@ -673,8 +676,8 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <p>The point is that Paul Baran wasn’t chartering a path through the wilderness; networked time-sharing and resource combination was the clear trajectory. The obvious way to achieve this was to time-share the communication channel as well. That’s where you get packets and switching.</p>
 <p>Or hey, there’s probably more to it. There always is.</p>
 <figure>
-<img src="web.png" alt="A black and white adventurous drawing of a woman with a keyboard strapped to her shoulder like a purse admiring an abstract frame surrounded by a cloud titled 'Internetland' which depicts E-mail, usenet, gopher and other internet technologies that were comon in 1994" >
-<figcaption><?= img() ?>From <a href="https://archive.org/details/internetguidefor00dani/page/n33/mode/2up">The Internet Guide for New Users, 1994</a>. Drawn by <a href="http://www.pyracantha.com/">Hannah Michael Gale Shapero</a>.</figcaption>
+<img src="web.png" <?=alt("A black and white adventurous drawing of a woman with a keyboard strapped to her shoulder like a purse admiring an abstract frame surrounded by a cloud titled 'Internetland' which depicts E-mail, usenet, gopher and other internet technologies that were comon in 1994")?> >
+<figcaption><?= img() ?>From <a href="https://archive.org/details/internetguidefor00dani/page/n33/mode/2up">The Internet Guide for New Users, 1994</a>. Artist is <a href="http://www.pyracantha.com/">Hannah MG Shapero</a>.</figcaption>
 </figure>
 
 <hr>
