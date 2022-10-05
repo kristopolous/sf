@@ -23,7 +23,7 @@ for m in plot:
 print("</tr></thead><tbody>")
 
 
-for year in range(2009, 2022): 
+for year in range(2009, 2023): 
   with open("{}_all.txt".format(year)) as f:
     ttl_read = 0
     ttl_hit = 0
