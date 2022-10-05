@@ -4,7 +4,8 @@ RewriteBase /
 
 
 # add .php file extension
-RewriteRule ^nuclear-myth.html$ nuclear-myth.php [L]
+RewriteRule ^nuclear-myth.html$ internet-history.php [L]
+RewriteRule ^nuclear-myth$ internet-history.php [L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.+)$ $1.php [L]

@@ -746,6 +746,6 @@ In the ARPA network, a user of one computer will have access to programs in all 
   <li><a href="https://archive.org/details/zenartofinternet00keho/mode/2up">Kehoe, Brendan P. "Zen and The Art of The Internet: A Beginner's Guide", 1994</a>: Frequently referenced, no origin story.</a></li>
   <li><a href="https://www.proquest.com/central/docview/307909591/CDE810A37ADD4A38PQ/90">(Proquest) Swisher, Kara. "The Frenzy Over the Internet's Fee Enterprise", The Washington Post, Oct 16, 1995</a>: Description too short. ("Since the Internet's founding in 1969 to aid government communications in wartime")</li>
 </ul>    
-<h5><b>You made it to the end. Epic.</b></h5><h5><a href="https://github.com/kristopolous/sf">Edit history is on github</a>.<br/>I guess you could also <a href="https://twitter.com/emoRobot">follow me on twitter</a>, ok sure.</h5>
+<h5><b>You made it to the end. Epic.</b></h5><h5><a href="https://github.com/kristopolous/sf">Edit history is on GitHub</a>.<br/>I guess you could also <a href="https://twitter.com/emoRobot">follow me on twitter</a>, ok sure.</h5>
   </main>
   </html>
