@@ -28,6 +28,10 @@ h1,h2,      h5{
   text-align: center;
 }
 
+.tabular-magic {
+  width: min(100%, 100vw - 3rem);
+  overflow-x:auto;
+}
 #list h2 {
   color: #555;
 }

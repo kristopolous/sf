@@ -30,28 +30,30 @@
 <style>
 #h > img { 
   background: rgba(202, 199, 243, 50%);
-	box-shadow: none;
+  box-shadow: none;
   margin: 0.15rem;
-  width: 30%}
- #h img:nth-child(3n) {
-    background:rgba(239, 242, 198,50%);
-  }
-#h  img:nth-child(2n) {
-    background:rgba(242,198,217,50%);
-  }
-#h  img:nth-child(4n) {
-    background:rgba(198, 242, 223,50%);
-  }
+  width: 30%
+}
+#h img:nth-child(3n) {
+  background:rgba(239, 242, 198,50%);
+}
+#h img:nth-child(2n) {
+  background:rgba(242,198,217,50%);
+}
+#h img:nth-child(4n) {
+  background:rgba(198, 242, 223,50%);
+}
 #h h2 {margin-top: 1rem;}
 #h h4 {font-size: 1rem;}
-#h{
-margin-top: 2rem;
-display:inline-block;
-text-align: center;
-    font-size: 0}
+#h {
+ margin-top: 2rem;
+ display:inline-block;
+ text-align: center;
+ font-size: 0
+}
 
 </style>
-<div id=h>
+<div id="h">
 <img alt="Nine images depicting the layout of the ARPANET between 1969 and 1978 as a stylized header for the article." src=Report4799AHistoryOfArpanetTheFirstDecade_0023.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0024.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0025.png>
@@ -230,7 +232,7 @@ The narrative has been broken down into a number of story points and the narrati
   <li>The "faction" row is approximately where the narrative split is (see below).</li>
   <li>The columns with the green background (accessibilty notes: also titled "arpa" and for the color-blind, vertical lines) are ARPA faction narratives. They are additionally stylized to demonstrate a point made below.</li>
 </ul>
-<div style="width: min(100%, 100vw - 3rem);overflow-x:auto">
+<div class="tabular-magic">
 <a name="chart"></a>
 <table>
   <thead>
@@ -249,7 +251,7 @@ The narrative has been broken down into a number of story points and the narrati
       <th>1993/<a href="https://greensboro.com/internet-s-growth-is-catching-the-eye-of-businesses-for/article_23e4343f-2d3f-53e1-88ee-a0a2943cf95f.html">11</a>: The Internet For Dumm&hellip;</th>
       <th>1994/<a href="https://archive.org/details/login_mar94/page/n43/mode/2up">02</a>: Quarterman</th>
       <th>1994/03: INSCOM</th>
-			<th>1994/<a href="https://archive.org/details/ConneXions.08.07/page/26/mode/2up">07</a>: <a href="https://archive.org/details/internetguidefor00dani/page/8/mode/2up">The Internet Guide for&hellip;</a></th>
+      <th>1994/<a href="https://archive.org/details/ConneXions.08.07/page/26/mode/2up">07</a>: <a href="https://archive.org/details/internetguidefor00dani/page/8/mode/2up">The Internet Guide for&hellip;</a></th>
       <th>1994/07: Time</th>
       <th>1994/08: Network World</th>
       <th>1994/08: <a href="https://www.latimes.com/archives/la-xpm-1994-08-11-me-26027-story.html">LA Times</a></th>
@@ -539,7 +541,8 @@ In the ARPA network, a user of one computer will have access to programs in all 
 
 <p>The first column are affirmatives of the story point and the second columns are instances where negation appeared. The "sample size" is the total number of comments considered for a given year. You can hover over each cell to see the value on desktop.</p>
 
-<div style="width: min(100%, 100vw - 3rem);overflow-x:auto">
+<div class="tabular-magic">
+<!-- This is generated from the python program linked above. -->
 <table id=heat><thead><tr><th>Year</th><th>Sample Size</th><th colspan=2>Paul Baran/RAND</th><th colspan=2>Bomb</th><th colspan=2>Nuclear</th><th colspan=2>Decentralized</th><th colspan=2>Cost Reduction</th><th colspan=2>Research</th><th colspan=2>Collaboration</th></tr></thead><tbody>
 <tr><td>2009</td><td>75</td><td title=8% style='opacity:32%'></td><td title=1% style='opacity: 5%'></td><td title=0% style='opacity: 0%'></td><td title=0% style='opacity: 0%'></td><td title=16% style='opacity:64%'></td><td title=1% style='opacity: 5%'></td><td title=8% style='opacity:32%'></td><td title=6% style='opacity:27%'></td><td title=6% style='opacity:27%'></td><td title=2% style='opacity:11%'></td><td title=25% style='opacity:100%'></td><td title=13% style='opacity:53%'></td><td title=9% style='opacity:37%'></td><td title=1% style='opacity: 5%'></td></tr>
 <tr><td>2010</td><td>150</td><td title=8% style='opacity:35%'></td><td title=5% style='opacity:21%'></td><td title=4% style='opacity:16%'></td><td title=2% style='opacity:11%'></td><td title=12% style='opacity:51%'></td><td title=5% style='opacity:21%'></td><td title=7% style='opacity:29%'></td><td title=2% style='opacity: 8%'></td><td title=8% style='opacity:32%'></td><td title=3% style='opacity:13%'></td><td title=16% style='opacity:67%'></td><td title=8% style='opacity:35%'></td><td title=17% style='opacity:69%'></td><td title=4% style='opacity:16%'></td></tr>
@@ -640,7 +643,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <p>This led to remote terminals.</p>
 <p>Then people realized they could call up any computer once it got a phone number if only they had some agreed way to talk to it. This is still 1960s.</p>
 <p>So you had terminals talking to computers. Surely this will be followed up by computers talking to computers. That’s an obvious next step.</p>
-	<p>ARPA even had a separate project, called project MAC, which along with having legends like <a href="https://en.wikipedia.org/wiki/Marvin_Minsky">Marvin Minsky</a> and <a href="https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)">John McCarthy</a> made a time-sharing system called <a href="https://en.wikipedia.org/wiki/Compatible_Time-Sharing_System">CTSS</a>.
+  <p>ARPA even had a separate project, called project MAC, which along with having legends like <a href="https://en.wikipedia.org/wiki/Marvin_Minsky">Marvin Minsky</a> and <a href="https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)">John McCarthy</a> made a time-sharing system called <a href="https://en.wikipedia.org/wiki/Compatible_Time-Sharing_System">CTSS</a>.
 <p>The point is that Paul Baran wasn’t chartering a path through the wilderness; networked time-sharing and resource combination was the clear trajectory. The obvious way to achieve this was to time-share the communication channel as well. That’s where you get packets and switching.</p>
 <p>Or hey, there’s probably more to it. There always is.</p>
 <figure>
@@ -667,13 +670,13 @@ In the ARPA network, a user of one computer will have access to programs in all 
 
 <h4>Footnotes</h4>
 <ol>
-	<li><p><a name="jcr"></a>But not, perhaps, by ARPA IPTO (basically the CEO), JCR Licklider as John Quarterman points out in his email, linking to an excerpt from a 2017 book by <a href="https://en.wikipedia.org/wiki/Sharon_Weinberger">Sharon Weinberger</a>, <a href="https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet">"The Imagineers of War"</a> (not yet available in digital libraries, excerpt from Aeon.co included) where she quotes Licklider, "Who can direct a battle when he’s got to write a program in the middle of that battle?"</p></li>
-	<li><p><a name="prior"></a>This includes histories of the ARPANET "DARPANET" and “ARPA Network”. <a href="mailto:info@siliconfolklore.com?subject=Before+1991">Please reach out if you know of any</a> and I'll be happy to update.</p></li>
+  <li><p><a name="jcr"></a>But not, perhaps, by ARPA IPTO (basically the CEO), JCR Licklider as John Quarterman points out in his email, linking to an excerpt from a 2017 book by <a href="https://en.wikipedia.org/wiki/Sharon_Weinberger">Sharon Weinberger</a>, <a href="https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet">"The Imagineers of War"</a> (not yet available in digital libraries, excerpt from Aeon.co included) where she quotes Licklider, "Who can direct a battle when he’s got to write a program in the middle of that battle?"</p></li>
+  <li><p><a name="prior"></a>This includes histories of the ARPANET "DARPANET" and “ARPA Network”. <a href="mailto:info@siliconfolklore.com?subject=Before+1991">Please reach out if you know of any</a> and I'll be happy to update.</p></li>
   <li><p><a name="sharon"></a>I had a brief chat with Sharon on Oct 3, 2022 over Facebook. She also wrote a 1993 text, <a href="https://archive.org/details/ridinginternethi00fish/page/12/mode/2up">"Riding the Internet Highway"</a> which contained a similiar origin narrative. In our conversation she recommended a <a href="https://vintageapple.org/byte/pdf/199107_Byte_Magazine_Vol_16-07_DOS_5.0.pdf">July 1991 Byte</a>(PDF) article she wrote. It starts on PDF page 209 and cites Quarterman's Matrix as she does in the InfoWorld article work for his 1986 work, <a href="https://dl.acm.org/doi/abs/10.1145/6617.6618">"Notable Computer Networks"</a>.</p>
   <li><p><a name="first"></a>Calling something "first" is so risky. Let me clarify. First as far as ProQuest, archive.org and Google books is concerned. Have an earlier one? <a href="mailto:info@siliconfolklore.com?subject=Earlier+Reference">Please send it over</a>.</p></li>
 
   <li><p><a name="infoworld"></a>Quarterman's Matrix is included in Fisher's bibliography and her description mirrors the one from The Matrix. Going over the names referenced there's three without Wikipedia pages: David Wasley, David Buerger, John Rugo and one with: <a href="https://en.wikipedia.org/wiki/Robert_Metcalfe">Bob Metcalfe</a> who has a mixed history with ARPA and wasn't used for the history section.</li>
-	<li><p><a name="krol"></a>I was unable to determine a source for Krol here. He mentions Quarterman's Matrix but that does not have the (P) bomb narrative. Krol has earlier work such as <a href="https://www.rfc-editor.org/rfc/rfc1118.html">"The Hitchhikers Guide to the Internet"</a> but nothing I could find had an origin story. He references Douglas Comer's "Internetworking TCP/IP" which is a 3-volume set also without an origin story. Comer's work references Cerf's "The History of the ARPANET" but Cerf is (A) while Krol is a (P) narrative. Also mentioned is Craig Hunt's <a href="https://archive.org/details/tcpipnetworkadmi00hunt/page/n25/mode/2up">"TCP/IP network administration"</a> which has an origin story but it's (A) style.</p>
+  <li><p><a name="krol"></a>I was unable to determine a source for Krol here. He mentions Quarterman's Matrix but that does not have the (P) bomb narrative. Krol has earlier work such as <a href="https://www.rfc-editor.org/rfc/rfc1118.html">"The Hitchhikers Guide to the Internet"</a> but nothing I could find had an origin story. He references Douglas Comer's "Internetworking TCP/IP" which is a 3-volume set also without an origin story. Comer's work references Cerf's "The History of the ARPANET" but Cerf is (A) while Krol is a (P) narrative. Also mentioned is Craig Hunt's <a href="https://archive.org/details/tcpipnetworkadmi00hunt/page/n25/mode/2up">"TCP/IP network administration"</a> which has an origin story but it's (A) style.</p>
 <p>An additional reference later in the work is <a href="https://archive.org/details/computersecurity00russ/page/210/mode/2up">"Computer Security Basics"</a> which references ARPANET but has no origin story. Another reference <a href="https://archive.org/details/practicalunixsec00garf_0/page/6/mode/2up">"Practical UNIX Security"</a> only historical reference is a brief description of Project MAC without referring to it by name.</p>
 <p>The section from his book photographed above even gets published as <a href="https://www.rfc-editor.org/rfc/rfc1462">RFC 1462</a> and here is where we find our first potential (P) link. The other author here, <a href="https://dblp.org/pid/86/5409.html">Ellen S Hoffman</a> is from the alternative <a href="https://en.wikipedia.org/wiki/Merit_Network">Merit Network</a> which is older than the ARPANET. It plays a very important role in the history of the Internet which is outside our scope.</p>
 <p>Also the author page of a later work from 1995, <a href="https://archive.org/details/wholeinternetfor00krol/page/n649/mode/2up">"The Whole Internet for Windows 95"</a> claims Krol was part of the original NSFnet installation at UIUC which was part of Merit and arguably puts him in the (P) group.</p>
@@ -701,7 +704,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 
 <p>A number of works were not considered. A few examples have been placed below with the reason:</p>
 <ul>
-	<li><a href="https://archive.org/details/unixnetworkprogr0000stev/page/198/mode/2up">Stevens, W. Richard. "UNIX Network Programming", 1990</a>: No origin story.</li>
+  <li><a href="https://archive.org/details/unixnetworkprogr0000stev/page/198/mode/2up">Stevens, W. Richard. "UNIX Network Programming", 1990</a>: No origin story.</li>
   <li><a href="https://archive.org/details/internetworkingw00come/page/32/mode/2up">Comer, Douglas E. "Internetworking with TCP/IP", 1991</a>: Description too short. (Scientific research)</li>
   <li><a href="https://archive.org/details/internetgettings0000unse/mode/2up">Marine, April. "Internet: Getting Started", 1992</a>: No origin story.</li>
   <li><a href="https://archive.org/details/internetcompanio00laqu_0/page/2/mode/2up">LaQuey, Tracy. "The Internet Companion", 1993</a>: Description too short. (Collaboration by design)</li>
@@ -710,8 +713,8 @@ In the ARPA network, a user of one computer will have access to programs in all 
   <li><a href="https://archive.org/details/tcpiparchitectur00feit/page/4/mode/2up">Feit, Sidnie. "TCP/IP: Architecture, Protocols, and Implementation", 1993</a>: Description too short. (Scientific Research)</li>
   <li><a href="https://archive.org/details/sim_newsweek_1993-09-06_122_10/page/36/mode/2up">Newsweek, Sep 9, 1993</a>: Description too short. (Collaboration by design)</li>
   <li><a href="https://www-proquest-com.ezproxy.lapl.org/central/docview/294801007/F9B76FC7236D4899PQ/9">(Proquest) Hyatt, Josh. "Network difficulties Computer world's Internet sees clash of cultures", Boston Globe, Sep 15 1993</a>: Description too short (Collaboration by design)</li>
-	<li><a href="https://archive.org/details/zenartofinternet00keho/mode/2up">Kehoe, Brendan P. "Zen and The Art of The Internet: A Beginner's Guide", 1994</a>: Frequently referenced, no origin story.</a></li>
-	<li><a href="https://www.proquest.com/central/docview/307909591/CDE810A37ADD4A38PQ/90">(Proquest) Swisher, Kara. "The Frenzy Over the Internet's Fee Enterprise", The Washington Post, Oct 16, 1995</a>: Description too short. ("Since the Internet's founding in 1969 to aid government communications in wartime")</li>
+  <li><a href="https://archive.org/details/zenartofinternet00keho/mode/2up">Kehoe, Brendan P. "Zen and The Art of The Internet: A Beginner's Guide", 1994</a>: Frequently referenced, no origin story.</a></li>
+  <li><a href="https://www.proquest.com/central/docview/307909591/CDE810A37ADD4A38PQ/90">(Proquest) Swisher, Kara. "The Frenzy Over the Internet's Fee Enterprise", The Washington Post, Oct 16, 1995</a>: Description too short. ("Since the Internet's founding in 1969 to aid government communications in wartime")</li>
 </ul>    
 <h5><b>You made it to the end. Epic.</b></h5><h5><a href="https://github.com/kristopolous/sf">Edit history is on github</a>.<br/>I guess you could also <a href="https://twitter.com/emoRobot">follow me on twitter</a>, ok sure.</h5>
   </main>
