@@ -108,6 +108,15 @@ table {
   border-spacing: 0;
   border: 1px solid #777;
 }
+#heat td:nth-child(2n+3){
+	border:0;
+  background-color: #cac7f3;
+}
+#heat td:nth-child(2n+4){
+	border:0;
+  background-color: #F2C6D9;
+}
+
 td,th {
   white-space: nowrap;
   border-bottom: 1px solid #777;
