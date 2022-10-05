@@ -19,7 +19,7 @@ function table() {
 }
 function img() {
   $number = counter('img');
-  return "<b><a name='img-$number'></a>Image $number.</b> ";
+  return "<b><a name='img-$number'></a>Figure $number.</b> ";
 }
 ?>
 <!doctype html>
@@ -70,6 +70,9 @@ function img() {
  text-align: center;
  font-size: 0
 }
+#h figcaption {
+  font-size: .8rem;
+}
 
 </style>
 <div id="h">
@@ -82,8 +85,8 @@ function img() {
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0030.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0031.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0032.png>
-<h2 id="was-the-internet-designed-to-survive-a-nuclear-attack">Was The Internet designed to survive a nuclear attack?</h2>
 </div>
+<h2 id="was-the-internet-designed-to-survive-a-nuclear-attack">Was The Internet designed to survive a nuclear attack?</h2>
 <p>The early Internet looked nothing like mountainside NORAD bunkers you see in movies. Instead it was computers sitting in normal offices in university buildings without any backup power, fortification, security (network or physical) and no connections to military communication at all. Designed for World War 3? The children in <a href="https://www.youtube.com/watch?v=LWH4tWkZpPU">"Duck and Cover"</a> from 1951 had a better chance of surviving.</p>
 <p>The computing on doomsday story is also disputed by people who did the actual designing of the Internet.<sup><a href="#jcr"><?= $foot++ ?></a></sup></p>
 <p>In texts that give Internet history a serious treatment, such as the 1996 <a href="https://archive.org/details/wherewizardsstay00haf_vgj/">“Where Wizards Stay Up Late - The Origin of the Internet”</a> you can <a href="https://archive.org/details/wherewizardsstay00haf_vgj/page/n4/mode/2up?q=nuclear">search the word “nuclear”</a> and come up with passages like this:</p>
@@ -148,7 +151,7 @@ function img() {
 <p>By 1993, multi-generational references start to pop up. For instance, <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet for Dummies</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details (it also alludes to <a href="https://en.wikipedia.org/wiki/Flag_day_(computing)">Flag Day</a> but erroneously dates it in 1982. For Dummies indeed&hellip;):</p>
 <figure>
 <img src="inet-for-dummies.jpg" alt="Two screenshots comparing an almost identical passage between the two books. The text is 'these days backhoes cutting cables are more of a threat' compared with 'an errant backhoe cutting a cable is just as much of a threat'">
-<figcaption><?= img() ?>“The Whole Internet User’s Guide & Catalog”, 1992 versus IDG's "Internet for Dummies", 1993.</figcaption>
+<figcaption><?= img() ?>“The Whole Internet User’s Guide & Catalog”, 1992 versus "Internet for Dummies", 1993.</figcaption>
 </figure>
 <p>The generic bomb gets an upgrade in what was at the time, a best-seller, the 1993 text, “The Internet Navigator” by <a href="https://www.planetary.org/profiles/paul-gilster">Paul Gilster</a> which, <a href="https://archive.org/details/internetnavigato00paul/page/14/mode/2up">on page 14 says in an uncited passage</a>:</p>
 <blockquote>
@@ -564,7 +567,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <div class="tabular-magic">
 <!-- This is generated from the python program linked above. -->
 <table id=heat>
-<caption><?= table() ?>Heatmap of Internet history narrative story points from reddit comments</caption>
+<caption><?= table() ?>Heatmap of Internet history narrative story points from Reddit comments.</caption>
 <thead><tr><th>Year</th><th>Sample Size</th><th colspan=2>Paul Baran/RAND</th><th colspan=2>Bomb</th><th colspan=2>Nuclear</th><th colspan=2>Decentralized</th><th colspan=2>Cost Reduction</th><th colspan=2>Research</th><th colspan=2>Collaboration</th></tr></thead><tbody>
 <tr><td>2009</td><td>75</td><td title=8% style='opacity:32%'></td><td title=1% style='opacity: 5%'></td><td title=0% style='opacity: 0%'></td><td title=0% style='opacity: 0%'></td><td title=16% style='opacity:64%'></td><td title=1% style='opacity: 5%'></td><td title=8% style='opacity:32%'></td><td title=6% style='opacity:27%'></td><td title=6% style='opacity:27%'></td><td title=2% style='opacity:11%'></td><td title=25% style='opacity:100%'></td><td title=13% style='opacity:53%'></td><td title=9% style='opacity:37%'></td><td title=1% style='opacity: 5%'></td></tr>
 <tr><td>2010</td><td>150</td><td title=8% style='opacity:35%'></td><td title=5% style='opacity:21%'></td><td title=4% style='opacity:16%'></td><td title=2% style='opacity:11%'></td><td title=12% style='opacity:51%'></td><td title=5% style='opacity:21%'></td><td title=7% style='opacity:29%'></td><td title=2% style='opacity: 8%'></td><td title=8% style='opacity:32%'></td><td title=3% style='opacity:13%'></td><td title=16% style='opacity:67%'></td><td title=8% style='opacity:35%'></td><td title=17% style='opacity:69%'></td><td title=4% style='opacity:16%'></td></tr>
@@ -586,9 +589,10 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <h4>Notes</h4>
 <p>When filtering strictly on "ARPANET", the nuclear affirmative numbers dropped by about ~4 percentage points which is to be expected if we are to assume those familiar with ARPANET may be more likely to know the (A) narrative. To answer the posed question, it looks to be, at least according to those opining on Reddit in a way that matches my filters, about <b>1/6</b> affirm the nuclear narrative and this appears to be more or less stable over the 13 year range.</p>
 <p>The robustness of this result is interesting. The most likely cause is my own incompetent execution. Ignoring that possibility, it's of unique interest simply because of Reddit's growth and demographic change over time.</p>
+<p>The graph below is the month-by-month line count for the archival comments linked above. Every comment in the archives is one line of encoded JSON.</p>
 <figure>
 <img src="comments-per-month.png" alt="A chart showing how Reddit has grown to 250 million comments per month since the start of the data dump in 2007'">
-<figcaption><?= img() ?>Monthly comments on Reddit in millions</figcaption>
+<figcaption><?= img() ?>Monthly comments on Reddit in millions.</figcaption>
 </figure>
 <p>Then again, this is something that was communicated by University professors that had been publishing on networks since the 1970s. Newspapers, textbooks, congressional documents, a certain percentage all gave part of a (P) narrative. There could be more fundamental reasons for its continued persistence.</p>
 
@@ -689,6 +693,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
   <!--<li>2022/10/02: Bruce Sterling and Vint Cerf were emailed and requested for comment.</li>-->
 </ol>
 <p>I was unable to find a way to reach Ed Krol or Bruce Sterling. Corrections and comments are welcome at <a href="mailto:info@siliconfolklore.com">info@siliconfolklore.com</a>.</p>
+<p>The nine colorful diagrams at the beginning forming the 3x3 motif are from the 1981 text, <a href="https://archive.org/details/Report4799AHistoryOfArpanetTheFirstDecade/page/n23/mode/2up">"A History Of ARPANet. The First Decade"</a>.</p>
 
 <h4>Footnotes</h4>
 <ol>
