@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+
+# add .php file extension
+RewriteRule ^nuclear-myth.html$ nuclear-myth.php [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+)$ $1.php [L]

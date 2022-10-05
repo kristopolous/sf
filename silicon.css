@@ -18,13 +18,13 @@ main {
 h1,h2,h3,h4,h5{
   font-family: 'Roboto Slab', serif;
 }
-   h2,h3   ,h5{
+   h2,h3,h4   {
 font-weight: 500;
 text-transform: uppercase;
 color:#69196D;
 margin-top:2.5rem;
 }
-h1,h2,   h4{
+h1,h2,      h5{
   text-align: center;
 }
 
@@ -46,13 +46,13 @@ h3 {
   font-size: 1.15rem;
 }
 h4 {
-  margin-top: -.5rem;
-  font-weight: 400;
-  color: #555;
-}
-h5 {
   text-transform: none;
   font-size: 1rem;
+}
+h5 {
+  margin-top: 1rem;
+  font-weight: 400;
+  color: #555;
 }
 a {
   color: #44a;
@@ -109,6 +109,7 @@ table {
   border: 1px solid #777;
 }
 td,th {
+  white-space: nowrap;
   border-bottom: 1px solid #777;
   padding: 0.25rem;
   text-align: center;
@@ -116,7 +117,14 @@ td,th {
   border-bottom: 1px solid #777;
   border-right: 1px solid #777;
 }
-tr > td:last-of-type {
+td.arpa {
+  background-image: url("arpa.png");
+}
+tr.thic > td {
+  border-bottom: 1px solid #000;
+}
+tr > *:last-of-type
+{
   border-right: none;
 }
 tbody > tr:last-of-type > td {
@@ -175,7 +183,7 @@ aside {
   border-top: 0.1rem solid rgba(105, 25, 109, 20%);
   border-bottom: 0.1rem solid rgba(105, 25, 109, 20%);
 }
-aside h4 {
+aside h5 {
   text-transform: uppercase;
   font-size: 0.9rem;
   margin-top:1rem;
