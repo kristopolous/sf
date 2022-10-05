@@ -8,10 +8,10 @@ body {
 }
 main {
   text-align: left;
-  padding: 1.25rem;
+  padding: 0.94rem;
   padding-top: 0;
   display: inline-block;
-  box-shadow: 0 0 2rem 0.1rem #e4e4e4;
+  box-shadow: 0 0 1rem 0.1rem #e4e4e4;
   width: min(60rem, 100vw - 2.5rem);
   background-color: #fff;
 }
