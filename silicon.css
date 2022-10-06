@@ -166,9 +166,12 @@ td.yes {
 td.no {
   background-color: #F2C6D9;
 }
-img {
+iframe,img {
   width: min(80vw, 42rem);
   box-shadow: 0 0 0.5rem 0.2rem #eee6ee;
+}
+iframe {
+  max-height: 60vw;
 }
 li {
   margin: 0.5rem 0;
