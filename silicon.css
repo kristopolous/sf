@@ -8,11 +8,11 @@ body {
 }
 main {
   text-align: left;
-  padding: 0.94rem;
+  padding: 1.3rem;
   padding-top: 0;
   display: inline-block;
   box-shadow: 0 0 1rem 0.1rem #e4e4e4;
-  width: min(60rem, 100vw - 2.5rem);
+  width: min(60rem, 100vw - 3.3rem);
   background-color: #fff;
 }
 h1,h2,h3,h4,h5{
@@ -39,9 +39,8 @@ h1,h2,      h5{
   text-transform: none;
 }
 h1 {
-  padding: 0.5rem 0;
-  margin: 0.5rem 0;
-  border-bottom: 0.07rem solid #242;
+  padding: 1.5rem 0 0 0;
+  margin: 0.5rem 0 0;
 }
 h2 {
   font-size: 1.25rem;

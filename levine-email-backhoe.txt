@@ -1,0 +1,11 @@
+I took a look.  The research is impressive but sometimes you just guessed wrong.
+
+For example, the reference in Internet for Dummies about backhoe attacks didn't come from Krol's book.  It was and is a cliche in the telecom world (memes hadn't been invented yet) and we both used it independently.
+
+I also don't see that we made any reference to the 1 Jan 83 flag day. Our audience wouldn't have cared.  Some other book, maybe?
+
+R's,
+John 
+
+(authors note: the flag day reference was an off-handed joke and was
+removed)

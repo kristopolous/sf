@@ -155,11 +155,13 @@ function alt($text) {
 </blockquote>
 <p>Looks like there's now two fairly incompatible stories. Well I'm sure this will be tidied right up. Hold on, I heard from the future. Apparently no, it's just a bigger mess.</p>
 <h2 id="what-about-a-bigger-bomb">1993: This thing's getting popular&hellip;</h2>
-<p>By 1993, second generation references start to pop up. For instance, <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet for Dummies</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details (it also alludes to <a href="https://en.wikipedia.org/wiki/Flag_day_(computing)">Flag Day</a> but erroneously dates it in 1982. For dummies indeed&hellip;):</p>
+<p>By 1993, second generation references start to pop up. For instance, <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet for Dummies</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details:</p> 
 <figure>
 <img src="inet-for-dummies.jpg" <?=alt("Two screenshots comparing an almost identical passage between the two books. The text is 'these days backhoes cutting cables are more of a threat' compared with 'an errant backhoe cutting a cable is just as much of a threat'")?>>
 <figcaption><?= img() ?>“The Whole Internet User’s Guide & Catalog”, 1992 versus "Internet for Dummies", 1993.</figcaption>
 </figure>
+<p>(<b>Note:</b> The author of "Internet for Dummies", John Levine, responded to and disputed this section on October 6, 2022. Please <a href="#backhoe">see the footnote below for more information</a>.)</p> 
+
 <p>The generic bomb gets an upgrade in what was at the time, a best-seller, the 1993 text, “The Internet Navigator” by <a href="https://www.planetary.org/profiles/paul-gilster">Paul Gilster</a> which, <a href="https://archive.org/details/internetnavigato00paul/page/14/mode/2up">on page 14 says in an uncited passage</a>:</p>
 <blockquote>
 <p>The ARPANET was a network connecting university, military, and defense contractors; it was established to aid researchers in the process of sharing information, and not coincidentally to study how communications could be maintained in the event of nuclear attack.</p>
@@ -252,7 +254,7 @@ function alt($text) {
 <ul>
   <li><b>ARPA:</b> Documents bearing the ARPA name or people directly involved with the ARPANET project. (A)</li>
   <li><b>Peers:</b> Either scholars or people who worked on other networks. (P)</li>
-  <li><b>Outsiders:</b> Those who are not in the first two groups but are what we called knowledge staters, such as reporters. They either credit members of either of the first two groups or nobody. (<?= $oa?>, <?=$op?>, or <?=$on?>).</li>
+  <li><b>Outsiders:</b> Those who are not in the first two groups but are what we called knowledge staters, such as reporters. They either credit members of either of the first two groups or nobody. (<?= $oa?>, <?=$op?>, or <?=$on?>). Outsiders Nobody (<?=$on?>) is possibly equivalent to "common knowledge".</li>
 </ul>
 <p>
 The narrative has been broken down into a number of story points and were arranged as chronologically as possible. Notes on methodology can be found at the end.</p>
@@ -273,26 +275,26 @@ The narrative has been broken down into a number of story points and were arrang
   <thead>
     <tr>
       <th></th>
-      <th>1988/04: Infoworld</th>
-      <th>1990/01: Matrix</th>
-      <th>1990/02: DARPA</th>
+      <th>1988/04: <a href="https://books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiGz_ml97H6AhXtMEQIHV5EC2oQ6AF6BAgEEAI#v=onepage&amp;q&amp;f=false">Infoworld</a></th>
+      <th>1990/01: <a href="https://archive.org/details/matrixcomputernet00quar/page/142/mode/2up">Matrix</a></th>
+      <th>1990/02: <a href="https://www.researchgate.net/publication/235051902_DARPA_Technical_Accomplishments_An_Historical_Review_of_Selected_DARPA_Projects_Volume_1">DARPA</a></th>
       <th>1990/09: <a href="https://www.nytimes.com/1990/09/02/business/creating-a-giant-computer-highway.html">NYT</a></th>
-      <th>1991/08: Network World</th>
+      <th>1991/08: <a href="https://books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiSyfnLqrT6AhUXLEQIHTjLBmEQ6AF6BAgCEAI#v=onepage&amp;q&amp;f=false">Network World</a></th>
       <th>1991/09: <a href="https://archive.org/details/computer-magazine-1991-09/page/n69/mode/2up">Computer Magazine</a></li>
-      <th>1992/09: Krol</th>
-      <th>1992/10: DNS/BIND</th>
-      <th>1993/02: Sterling</th>
-      <th>1993/<a href="https://archive.org/details/sim_special-libraries_fall-1993_84_4/page/n13/mode/2up">09</a>: Gilster</th>
-      <th>1993/<a href="https://greensboro.com/internet-s-growth-is-catching-the-eye-of-businesses-for/article_23e4343f-2d3f-53e1-88ee-a0a2943cf95f.html">11</a>: The Internet For Dumm&hellip;</th>
-      <th>1994/<a href="https://archive.org/details/login_mar94/page/n43/mode/2up">02</a>: Quarterman</th>
-      <th>1994/03: INSCOM</th>
+      <th>1992/09: <a href="https://archive.org/details/wholeinternetuse00krol/page/10/mode/2up">Krol</a></th>
+      <th>1992/10: <a href="https://archive.org/details/dnsbindinnutshel00albi/page/n29/mode/2up">DNS/BIND</a></th>
+      <th>1993/02: <a href="https://groups.google.com/g/alt.politics.datahighway/c/FNqaxfFk2hU/m/2E8hxTU823UJ">Sterling</a></th>
+      <th>1993/<a href="https://archive.org/details/sim_special-libraries_fall-1993_84_4/page/n13/mode/2up">09</a>: <a href="https://archive.org/details/internetnavigato00paul/page/14/mode/2up">Gilster</a></th>
+      <th>1993/<a href="https://greensboro.com/internet-s-growth-is-catching-the-eye-of-businesses-for/article_23e4343f-2d3f-53e1-88ee-a0a2943cf95f.html">11</a>: <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet For Dumm&hellip;</a></th>
+      <th>1994/<a href="https://archive.org/details/login_mar94/page/n43/mode/2up">02</a>: <a href="https://archive.org/details/internetconnecti0000quar/page/20/mode/2up">Quarterman</a></th>
+      <th>1994/03: <a href="https://www.google.com/books/edition/INSCOM_Journal/wqkrAAAAYAAJ?hl=en&amp;gbpv=1&amp;pg=RA3-PA10&amp;printsec=frontcover">INSCOM</a></th>
       <th>1994/<a href="https://archive.org/details/ConneXions.08.07/page/26/mode/2up">07</a>: <a href="https://archive.org/details/internetguidefor00dani/page/8/mode/2up">The Internet Guide for&hellip;</a></th>
-      <th>1994/07: Time</th>
-      <th>1994/08: Network World</th>
+      <th>1994/07: <a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">Time</a></th>
+      <th>1994/08: <a href="https://books.google.com/books?id=URcEAAAAMBAJ&amp;lpg=PA61&amp;pg=PA61#v=onepage&amp;q&amp;f=false">Network World</a></th>
       <th>1994/08: <a href="https://www.latimes.com/archives/la-xpm-1994-08-11-me-26027-story.html">LA Times</a></th>
       <th>1995/??: <a href="https://archive.org/details/teachyourselfint00rand/page/34/mode/2up">Teach yourself the Inter&hellip;</a></th>
       <th>1995/<a href="https://www.imdb.com/title/tt7076054/">08</a>: <a href="https://archive.org/details/TheInternetShow1995IzqMrhG50q0/The+Internet+Show+(1995)-IzqMrhG50q0.mp4">The Internet Show</a></th>
-      <th>1995/09: Global Communications</th>
+      <th>1995/09: <a href="https://www.google.com/books/edition/Global_Communications/m4keIKypadcC?hl=en&amp;gbpv=1&amp;pg=PA102&amp;printsec=frontcover">Global Communications</a></th>
     </tr>
   </thead>
   <tbody>
@@ -408,7 +410,7 @@ The narrative has been broken down into a number of story points and were arrang
       <td title="arpa" class="arpa"><?= $oa ?></td>
       <td title="arpa" class="arpa"><?= $oa ?></td>
       <td><?= $on ?></td>
-      <td>O?<sup><a href="#pbs"><?= $foot++ ?></a></sup></td>
+      <td><?= $on ?><sup><a href="#pbs"><?= $foot++ ?></a></sup></td>
       <td><?= $on ?></td>
     </tr>
     <tr>
@@ -716,6 +718,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
   <li>2022/10/03: Sharon Fisher responded for additional background. Paul Albitz (DNS/BIND) was contacted.</li>
   <li>2022/10/04: Paul Albitz responded. Hacker News user Matt Campbell assisted in the accessibility of the document. Thanks!</li>
   <li>2022/10/05: Quarterman was followed up. Cricket Liu (DNS/BIND) was contacted.</li>
+  <li>2022/10/06: John Levine from the PBS documentary was contacted and responded.</li>
   <!--<li>2022/10/02: Bruce Sterling and Vint Cerf were emailed and requested for comment.</li>-->
 </ol>
 <p>I was unable to find a way to reach Ed Krol or Bruce Sterling. Corrections and comments are welcome at <a href="mailto:info@siliconfolklore.com">info@siliconfolklore.com</a>.</p>
@@ -743,11 +746,11 @@ In the ARPA network, a user of one computer will have access to programs in all 
   </li>
   <li><p><a name="time"></a> Time names the following in the article: <a href="https://en.wikipedia.org/wiki/Laurence_Canter_and_Martha_Siegel">Laurence Canter, Martha Siegel</a>, <a href="https://en.wikipedia.org/wiki/Howard_Rheingold">Howard Rheingold</a>, <a href="https://en.wikipedia.org/wiki/Clifford_Stoll">Clifford Stoll</a> (quoted for article, author of The Cuckoo's Egg), Steven Levy, <a href="https://en.wikipedia.org/wiki/Thomas_Kalil">Tom Kalil</a>, <a href="https://en.wikipedia.org/wiki/Bruce_Fancher">Bruce Fancher</a> (quoted), <a href="https://en.wikipedia.org/wiki/A._J._Liebling">AJ Liebling</a>, <a href="https://en.wikipedia.org/wiki/Adam_Curry">Adam Curry</a>, <a href="https://en.wikipedia.org/wiki/Brad_Templeton"><b>Brad Templeton</b></a>, <a href="https://en.wikipedia.org/wiki/Brock_Meeks">Brock Meeks</a> (quoted), <a href="https://en.wikipedia.org/wiki/Martin_Nisenholtz">Martin Nisenholtz</a> (quoted), <a href="https://en.wikipedia.org/wiki/Dale_Dougherty">Dale Dougherty</a> (quoted), <b>Dave Farber</b>, <a href="https://en.wikipedia.org/wiki/Esther_Dyson">Esther Dyson</a> (quoted) and <a href="https://en.wikipedia.org/wiki/Stacy_Horn">Stacy Horn</a> (quoted). 
   <li><p><a name="pbs"></a> The documentary has a date of 1994 but an air date of 08/1995. Everything takes more than zero time to produce so we're using "release date" for the timestamping.</p>
-  <p>This is a co-production of Rice University and there's a few names I've contacted: <a href="https://en.wikipedia.org/wiki/John_R._Levine">John Levine</a>, <a href="https://en.wikipedia.org/wiki/Gina_Smith_(author)">Gina Smith</a> (the hosts), <a href="https://www.wattsrunning.com/">Bill Watts</a> (who gets a writer credit), <a href="https://www.uh.edu/nsm/computer-science/people/faculty/">Kevin Brook Long</a> (credited as "Internet Consultant"). <a href="https://en.wikipedia.org/wiki/G._Anthony_Gorry">G. Anthony Gorry</a> (Special Thanks section, Computer Science Professor at Rice University) <a href="https://yale62.org/george-anthony-gorry-jr/">died in 2018</a>. As of October 6, 2022, I have gotten no replies.</p></li>
+  <p>This is a co-production of Rice University and there's a few names I've contacted: <a href="https://en.wikipedia.org/wiki/John_R._Levine">John Levine</a>, <a href="https://en.wikipedia.org/wiki/Gina_Smith_(author)">Gina Smith</a> (the hosts), <a href="https://www.wattsrunning.com/">Bill Watts</a> (who gets a writer credit), <a href="https://www.uh.edu/nsm/computer-science/people/faculty/">Kevin Brook Long</a> (credited as "Internet Consultant"). <a href="https://en.wikipedia.org/wiki/G._Anthony_Gorry">G. Anthony Gorry</a> (Special Thanks section, Computer Science Professor at Rice University) <a href="https://yale62.org/george-anthony-gorry-jr/">died in 2018</a>. On October 6, 2022, <a href="levine-email.txt">John Levine responded</a> giving it an "Other/Nobody" or "common knowledge" mark.</p></li>
   <li><p><a name="pbs-text"></a>The 96-word transcript of the narrative is as follows:
 <blockquote>
 <p>
-<b>Gina Smith</b>: The predecessor of the internet was a child of the Cold War first developed by the Defense Department's Advanced Research Projects Agency or ARPA partly to ensure the data communications could survive in case of a nuclear attack.
+<b>Gina Smith</b>: The predecessor of the Internet was a child of the Cold War first developed by the Defense Department's Advanced Research Projects Agency or ARPA partly to ensure the data communications could survive in case of a nuclear attack.
 </p><p>
 <b>John Levine</b>: Created in the late 1960s, ARPANET first connected four computers in California and Utah campuses using a new networking technique. It allowed researchers to run programs on remote computers. Later other research institutions and military sites were added. The idea was even if one part of the system were damaged, the rest would still function and it worked.</p>
 </blockquote></li>
@@ -757,13 +760,27 @@ In the ARPA network, a user of one computer will have access to programs in all 
 </ol>
 
 <p class="foot"><a name="unconfirmed"><b>&dagger;</b></a> Efforts were made to confirm these links are accurate but there has not been any response.</p>
+<h4><a name="backhoe"></a>Backhoe Section</h4>
+<p>Here's John Levine's October 6, 2022 <a href="levine-email-backhoe.txt">response to my claim</a> of the Krol source:</p>
+<blockquote>
+<p>
+The research is impressive but sometimes you just guessed wrong.
+</p>
+<p>For example, the reference in Internet for Dummies about backhoe attacks didn't come from Krol's book.  It was and is a cliche in the telecom world (memes hadn't been invented yet) and we both used it independently.
+</p>
+</blockquote>
+<p>As a practice and a discipline, a source's claim takes precedence over any interpretation and should be disclosed. However, every subsequent claim needs to be subject to the same rigor and scrutiny and as of now, the phrasing similarity is just too close for me to claim they are disconnected. Additionally, there is no source that I could find that had such similarity prior to Krol. Of course it may not yet be digitized.</p>
+<p>The origin of the backhoe seems to be a now obscure December 12, 1986 White Plains ARPAnet Northeast disconnect incident when 7 fiber optic cables going through the same conduit were cut. This has its own narrative history. All New England trunk lines were cut at 1:11 AM and were knocked off until about 12:11.</p>
+<p>As far as I can tell, a backhoe started to be associated with this 1AM disconnect around 1988 and later was commonly claimed to be accidental. I was unable to find any criminal investigation, admittance of guilt, or direct evidence as to how the conduit was cut. Being an obscure event, a trip to archival rooms in New York libraries would probably be required to find out more information. Alternatively, it's possible that AT&T, which restored the line, could have a report somewhere.</p>
+<p>I will happily annotate the section as false if more evidence comes forward as removing it could lead to Mandela effects and further folklore.</p>
+
 <h4>Survey Methodology</h4>
 
-<p>Search queries were performed on archive.org text search, Google books, Google groups and ProQuest Central with the access covered by the LA public library card between September 18 2022 and October 3 2022.</p>
+<p>Search queries were performed on archive.org text search, Google books, Google groups and ProQuest Central with the access covered by the LA public library card between September 18 2022 and October 6 2022.</p>
 
 <p>Terms searched were "arpanet", "arpa network", "darpanet", "internet 1969", "internet history", "internet started", "internet atomic", "internet bomb", "internet nuclear", and "internet war"</p>
 
-<p>Only documents with a published date of before January 1 1996 were considered. The texts chosen needed to have enough words to establish their faction.</p>
+<p>Only media with a publish or air date of before January 1 1996 were considered. Those chosen needed to have enough words to establish their faction.</p>
 
 <p>A number of works were not considered. A few examples have been placed below with the reason:</p>
 <ul>
