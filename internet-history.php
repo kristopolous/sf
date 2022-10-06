@@ -91,8 +91,8 @@ function alt($text) {
 </div>
 <h2 id="was-the-internet-designed-to-survive-a-nuclear-attack">Was The Internet designed to survive a nuclear attack?</h2>
 <p>The early Internet looked nothing like mountainside NORAD bunkers you see in movies. Instead it was computers sitting in normal offices in university buildings without any backup power, fortification, security (network or physical) and no connections to military communication at all. Designed for World War 3? The children in <a href="https://www.youtube.com/watch?v=LWH4tWkZpPU">"Duck and Cover"</a> from 1951 had a better chance of surviving.</p>
-<p>The computing on doomsday story is also disputed by people who did the actual designing of the Internet.<sup><a href="#jcr"><?= $foot++ ?></a></sup></p>
-<p>In texts that give Internet history a serious treatment, such as the 1996 <a href="https://archive.org/details/wherewizardsstay00haf_vgj/">“Where Wizards Stay Up Late - The Origin of the Internet”</a> you can <a href="https://archive.org/details/wherewizardsstay00haf_vgj/page/n4/mode/2up?q=nuclear">search the word “nuclear”</a> and come up with passages like this:</p>
+<p>Besides, the "Computing on Doomsday" story is disputed by people who did the actual designing of the Internet.<sup><a href="#jcr"><?= $foot++ ?></a></sup></p>
+<p>In texts giving Internet history a serious treatment, such as the 1996 <a href="https://archive.org/details/wherewizardsstay00haf_vgj/">“Where Wizards Stay Up Late - The Origin of the Internet”</a> you can <a href="https://archive.org/details/wherewizardsstay00haf_vgj/page/n4/mode/2up?q=nuclear">search the word “nuclear”</a> and come up with passages like:</p>
 <blockquote>
 <p><a href="https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist)">Bob Taylor</a>… was also on a personal mission to correct an inaccuracy of long standing. Rumors had persisted for years that the ARPANET had been built to protect national security in the face of a nuclear attack. It was a myth that had gone unchallenged long enough to become widely accepted as fact.</p>
 </blockquote>
@@ -100,8 +100,8 @@ function alt($text) {
 <blockquote>
 <p>Lately, the mainstream press had picked up the grim myth of a nuclear survival scenario and had presented it as an established truth. When <a href="http://content.time.com/time/magazine/0,9263,7601940725,00.html">TIME magazine committed the error</a>, Taylor wrote a letter to the editor, but the magazine didn’t print it. The effort to set the record straight was like chasing the wind; Taylor was beginning to feel like a crank.</p>
 </blockquote>
-<p>Here’s <a href="https://en.wikipedia.org/wiki/Vint_Cerf">Vint Cerf</a>, in <a href="https://youtu.be/lWyv4wU-WNA?t=4441">July 2022 still trying to correct things</a>. Somehow this story got out of hand and the people who were there have been trying to politely correct it in vain for decades.</p>
-<p>Apparently surviving a nuclear war is a more memorable story than wanting to try out the first massively parallel computer, the <a href="https://en.wikipedia.org/wiki/ILLIAC_IV">ILLIAC IV</a>. The designer of the machine, <a href="https://en.wikipedia.org/wiki/Daniel_Slotnick">Daniel Slotnick</a>, was also a chief architect of the ARPANET which was built partially to get the computer to be online in order to justify the cost of building the computer. This way more scientists could use the expensive machine doing remote time-sharing.</p>
+<p>Here’s <a href="https://en.wikipedia.org/wiki/Vint_Cerf">Vint Cerf</a>, in <a href="https://youtu.be/lWyv4wU-WNA?t=4441">July 2022 still trying to correct things</a>. Apparently, "Networking for the Post-Apocalypse" is out of hand and people who were there have been trying to politely correct it in vain for decades.</p>
+<p>Somehow military communications during nuclear war makes a more memorable story than designing a way to remote access to the first massively parallel computer, the <a href="https://en.wikipedia.org/wiki/ILLIAC_IV">ILLIAC IV</a>. The designer of the machine, <a href="https://en.wikipedia.org/wiki/Daniel_Slotnick">Daniel Slotnick</a>, was also a chief architect of the ARPANET which was built partially to get the computer to be online in order to justify the cost of building it. This way more scientists could use the expensive machine doing remote time-sharing.</p>
 <p>See you glazed over that. I know it. Isn’t <a href="https://jacobin.com/2022/06/internet-privatization-profit-centralization-democracy">“bringing the mainframe to the battlefield”</a> more sexy? That’s June 2022.</p>
 <p>To find out where this story came from we're going to go back to when hard drives were measured in megabytes and colorful floppies arrived in your mail promising you 100 free hours online.</p>
 <h2 id="where-the-internet-came-from-before-1991">Where the Internet came from before 1991</h2>
@@ -151,7 +151,7 @@ function alt($text) {
 </blockquote>
 <p>Looks like there's now two fairly incompatible stories. Well I'm sure this will be tidied right up. Hold on, I heard from the future. Apparently no, it's just a bigger mess.</p>
 <h2 id="what-about-a-bigger-bomb">1993: This thing's getting popular&hellip;</h2>
-<p>By 1993, multi-generational references start to pop up. For instance, <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet for Dummies</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details (it also alludes to <a href="https://en.wikipedia.org/wiki/Flag_day_(computing)">Flag Day</a> but erroneously dates it in 1982. For Dummies indeed&hellip;):</p>
+<p>By 1993, multi-generational references start to pop up. For instance, <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet for Dummies</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details (it also alludes to <a href="https://en.wikipedia.org/wiki/Flag_day_(computing)">Flag Day</a> but erroneously dates it in 1982. For dummies indeed&hellip;):</p>
 <figure>
 <img src="inet-for-dummies.jpg" <?=alt("Two screenshots comparing an almost identical passage between the two books. The text is 'these days backhoes cutting cables are more of a threat' compared with 'an errant backhoe cutting a cable is just as much of a threat'")?>>
 <figcaption><?= img() ?>“The Whole Internet User’s Guide & Catalog”, 1992 versus "Internet for Dummies", 1993.</figcaption>
@@ -219,12 +219,12 @@ function alt($text) {
 <img src="myth-v-reality.png" <?=alt("The text of the image reads: Myth: ARPANET was conceived as a way to maintain government data communications after a nuclear war. Reality: ARPANET was conceived as a way to save money by getting government-funded researchers to share computers rather than each of them buying their own. Source: Leonard Kleinrock, UCLA")?> /><figcaption><?= img() ?>Sigh, we’re still trying to correct this</figcaption>
 </figure>
 <p>It was hopeless. Network World was the first source we found for spreading it to begin with.</p>
-<p>It's worth pointing out since we're in 1994, the article that was referenced in "Where the Wizards Stay Up Late" from the beginning. It was <a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">the lead for the July 25, 1994 issue of TIME Magazine</a>, which has been misdated on their website. It can also be found at <tt>/time/072594/07259925.000</tt> in the <a href="https://archive.org/details/cd_TIME_Magazine_Almanac_-_All_TIME_Magazine_articles_1989-1995_Win3.1">TIME Magazine Almanac CD-ROM from 1995</a> to confirm the 1994 date. Here's the now common story:</p>
+<p>While we're here the article that was referenced in "Where the Wizards Stay Up Late" from the beginning is <a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">the lead for the July 25, 1994 issue of TIME Magazine</a>, which has been misdated on their website. It can also be found at <tt>/time/072594/07259925.000</tt> in the <a href="https://archive.org/details/cd_TIME_Magazine_Almanac_-_All_TIME_Magazine_articles_1989-1995_Win3.1">TIME Magazine Almanac CD-ROM from 1995</a> to confirm the 1994 date. Here's the now common story:</p>
 <blockquote>
   <p>The Internet evolved from a computer system built 25 years ago by the Defense Department to enable academic and military researchers to continue to do government work even if part of the network were taken out in a nuclear attack. It eventually linked universities, government facilities and corporations around the world, and they all shared the costs and technical work of running the system.</p>
 </blockquote>
 <h2 id="the-extended-universe">1995: The extended universe</h2>
-<p>1995! Let's log on to AOL and use the keyword MovieLink to find the screentimes for The Net with Sandra Bollock. Then we'll hop in the minivan and watch it at the mall!</p>
+<p>1995! Let's log on to AOL and use the keyword MovieLink to find the screentimes for The Net with Sandra Bullock. Then we'll hop in the minivan and watch it at the mall!</p>
 
 <p>By now the nuclear narrative has become "common knowledge" so people start making logical inferences from it in official documents such as the US Congressional Office of Technology Assessment's <a href="https://www.google.com/books/edition/Global_Communications/m4keIKypadcC?hl=en&amp;gbpv=1&amp;pg=PA102&amp;printsec=frontcover">“Global Communications: Opportunities for Trade and Aid.”</a> from 1995, page 102:</p>
 <blockquote>
@@ -238,7 +238,7 @@ function alt($text) {
 <figure>
 <img src="routing-errors.png" <?=alt("The text of the image is 'To ARPAnet, nuclear war is no more than a bunch of routing errors that it could immediately correct'")?> /><figcaption><?= img() ?>What have we done?!</figcaption>
 </figure>
-<p>This myth has serious sticking power and other than for the people who actually built the Internet, nobody seems to have any desire to correct it.</p>
+<p>This story has serious sticking power and other than for the people who actually built the Internet, nobody seems to have any desire to correct it.</p>
 <h2><a name="survey"></a>Narrative Survey</h2>
 <p>The history narrative appears to be able to be clustered in three general camps:</p>
 <ul>
