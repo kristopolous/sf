@@ -127,7 +127,6 @@ table {
 
 td,th {
   white-space: nowrap;
-  border-bottom: 1px solid #777;
   padding: 0.25rem;
   text-align: center;
   min-width: 1.5rem;
@@ -208,4 +207,54 @@ aside h5 {
   font-size: 0.9rem;
   margin-top:1rem;
   color: #313;
+}
+@media print {
+  main {
+    box-shadow: none;
+  }
+  .noprint {
+    display: none !important;
+  }
+
+  iframe {
+    display: none;
+  }
+  img {
+    width: 40vw;
+    position: relative;
+    box-shadow: none;
+  }
+  body,main,figure,section,p { display: block }
+  section {
+    page-break-before: always;
+    break-before: always;
+  }
+  figure,aside {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  b {
+    -webkit-text-stroke: 0;
+  }
+  th {
+    display: none;
+    max-width: 5rem;
+   }
+   th,td{
+    border-bottom: 0;
+    border-right: 0;
+  }
+  td.arpa {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .tabular-magic {
+    font-size: 9px;
+    overflow: visible;
+   }
 }

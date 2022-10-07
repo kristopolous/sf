@@ -36,7 +36,7 @@ function alt($text) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Roboto+Slab&family=Cutive+Mono&display=swap" rel="stylesheet"> 
-<link href="silicon.css?1" rel="stylesheet">
+<link href="silicon.css?2" rel="stylesheet">
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@emorobot" />
 <meta name="twitter:description" content="Silicon Folklore" />
@@ -52,7 +52,6 @@ function alt($text) {
 </head>
 <body>
   <main>
-<h1 id="silicon-folklore"><a href="/">Silicon Folklore</a></h1>
 <style>
 #h > img { 
   background: rgba(202, 199, 243, 50%);
@@ -82,7 +81,8 @@ function alt($text) {
 }
 
 </style>
-<div id="h">
+<h1 class="noprint" id="silicon-folklore"><a href="/">Silicon Folklore</a></h1>
+<div id="h" class="noprint">
 <img <?= alt("Nine images depicting the layout of the ARPANET between 1969 and 1978 as a stylized header for the article.") ?> src=Report4799AHistoryOfArpanetTheFirstDecade_0023.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0024.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0025.png>
@@ -104,10 +104,11 @@ function alt($text) {
 <blockquote>
 <p>Lately, the mainstream press had picked up the grim myth of a nuclear survival scenario and had presented it as an established truth. When <a href="http://content.time.com/time/magazine/0,9263,7601940725,00.html">TIME magazine committed the error</a>, Taylor wrote a letter to the editor, but the magazine didn’t print it. The effort to set the record straight was like chasing the wind</p>
 </blockquote>
-<p>Here’s <a href="https://en.wikipedia.org/wiki/Vint_Cerf">Vint Cerf</a> in <a href="https://youtu.be/lWyv4wU-WNA?t=4441">July 2022 still trying to correct things</a>. Apparently, "Networking for the Post-Apocalypse" got out of hand and people who were there have been trying to politely correct it in vain for decades.</p>
+<p>Here’s <a href="https://en.wikipedia.org/wiki/Vint_Cerf">Vint Cerf</a>, one of the key architects of the Internet, in <a href="https://youtu.be/lWyv4wU-WNA?t=4441">July 2022 still trying to correct things</a>. Apparently, "Networking for the Post-Apocalypse" got out of hand and people who were there have been trying to politely fix things in vain for decades.</p>
 <p>Somehow military communications during nuclear war makes a more memorable story than designing a way to remote access the first massively parallel computer, the <a href="https://en.wikipedia.org/wiki/ILLIAC_IV">ILLIAC IV</a>. The designer of the machine, <a href="https://en.wikipedia.org/wiki/Daniel_Slotnick">Daniel Slotnick</a>, was also a chief architect of the ARPANET which was built partially to get the computer to be online in order to justify the cost of building it. This way more scientists could use the expensive machine doing remote time-sharing.</p>
 <p>See you glazed over that. I know it. Isn’t <a href="https://jacobin.com/2022/06/internet-privatization-profit-centralization-democracy">“bringing the mainframe to the battlefield”</a> more sexy? That’s June 2022.</p>
 <p>To find out where this story comes from we're going to go back to when hard drives were measured in megabytes and colorful floppies arrived in your mail promising you 100 free hours online.</p>
+<section>
 <h2 id="where-the-internet-came-from-before-1991">Where the Internet came from before 1991</h2>
 <p>Prior to 1991 there is no history of the Internet narrative which has the nuclear origin story.<sup><a href="#prior"><?= $foot++ ?></a></sup></p>
 <p>Instead, they more closely resembles the one Cerf and Taylor of the ARPANET project advocate for. In April 1988 for instance, <a href="https://twitter.com/slfisher">Sharon Fisher</a><sup><a href="#sharon"><?= $foot++ ?></a></sup> in <a href="https://books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiGz_ml97H6AhXtMEQIHV5EC2oQ6AF6BAgEEAI#v=onepage&amp;q&amp;f=false">Infoworld says</a>:</p>
@@ -126,6 +127,8 @@ function alt($text) {
 </blockquote>
 
 <p>So what happened? We're going to set our Wayback machine to 1991 to find out. But first, homework!</p>
+</section>
+<section>
 <h4>Common Knowledge or "Come on! Knowledge!"</h4>
 
 <p>Before we continue we need a headache-inducing distinction between <a href="https://en.wikipedia.org/wiki/Common_knowledge">"common knowledge or wisdom"</a> and <a href="https://en.wikipedia.org/wiki/General_knowledge">"general knowledge"</a>. Common knowledge is specific to a community and general knowledge is not. For instance, cultural customs are common knowledge.</p>
@@ -134,6 +137,8 @@ function alt($text) {
 <p>You may notice there is a requisite of commonality for common knowledge. When trying to figure out narrative histories, whether someone cites a passage or not is a forensic tool of how common they considered the knowledge. Generally speaking, presuming good intent, the more careful a narration is, the more likely we are to an early version of it. This is of course a statistical and not anecdotal statement.</p>
 
 <p>Alright, good homework. You get an A+. Let's continue.</p>
+</section>
+<section>
 <h2 id="im-sure-nobody-will-notice">1991: Network World Vol.8-33 P65&sect;12. It Begins.</h2>
 <p>The first instance<sup><a href="#first"><?= $foot++ ?></a></sup> of the misattribution is both a victim of how chronology works and slight journalistic error. The <a href="https://books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiSyfnLqrT6AhUXLEQIHTjLBmEQ6AF6BAgCEAI#v=onepage&amp;q&amp;f=false">Aug 19, 1991 issue of Network World</a> has a biography on someone who will be important in our story, <a href="https://en.wikipedia.org/wiki/Paul_Baran">Paul Baran</a>. It’s a long passage. I snipped the relevant parts below:</p>
 <blockquote>
@@ -142,18 +147,22 @@ function alt($text) {
 <p>This is the correct timeline, but not the correct chain of events. It’s not the last time it will be made.</p>
 <p>It's buried right near the end of the magazine, after the small back-of-the issue black and white ads. But this is 1991, 13 days after <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a> <a href="https://www.w3.org/People/Berners-Lee/1991/08/art-6484.txt">announced the WorldWideWeb</a>. Who cares about the Internet except for a bunch of nerds and weirdos? I'm sure it will continue to be obscure and irrelevant.</p>
 <p>Let's move on to 1992.</p>
+</section>
+<section>
 <h2 id="tying-it-together">1992: The Inter-what?!</h2>
 <p>So apparently the Internet is becoming a big deal. The first prominent and more direct "Internet was designed to survive bombs" connection is in <a href="https://archive.org/details/wholeinternetuse00krol/page/10/mode/2up">“The Whole Internet User’s Guide &amp; Catalog” from September 1992</a> by <a href="https://en.wikipedia.org/wiki/Ed_Krol">Ed Krol</a>. This is one of those books that’s so successful he came back to pen two sequels. <a href="https://www.amazon.com/Internet-Catalog-Intanetto-yuzazu-Japanese/dp/4900718122/">Amazon even sells a Japanese version</a>. Here, near the beginning of the book, we get our narrative. However, instead of “nuclear” it’s an unspecified “bomb attack”:</p>
 <figure>
 <img src="first-reference.png" <?= alt("An image of the first page of the book. The important text is 'research about how to build networks that could withstand partial outages (like bomb attacks) and still function'") ?> /><figcaption><?= img() ?>Is this the beginning?</figcaption>
 </figure>
-<p>This is an honest error connecting a project that didn’t get approved, the bomb resilient project by Paul Baran proposed to the Air Force, with the ARPA Network project (more on both of these later). Specifically this is referring to what Baran called <a href="https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM3103.pdf">“hot-potato routing”</a> in 1964.</p>
+<p>This is an honest error connecting a project that didn’t get approved, the bomb resilient network Paul Baran proposed to the Air Force, with the ARPA Network project (more on both of these later). Specifically this is referring to what Baran called <a href="https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM3103.pdf">“hot-potato routing”</a> in 1964.</p>
 <p>Without knowing the individuals involved in each project it is understandable to assume they are connected; that a later effort was a result of an earlier effort as opposed to an independent one.</p>
 <p>The ARPA narrative continues to persist as well such as in the 1992 <a href="https://archive.org/details/dnsbindinnutshel00albi/page/n29/mode/2up">“DNS and BIND in a nutshell”</a> by <a href="https://www.linkedin.com/in/paul-albitz-9602294/">Paul Albitz</a> and <a href="https://www.linkedin.com/in/cricketliu/">Cricket Liu</a>:</p>
 <blockquote>
   <p>The original goal of the ARPANET was to allow government contractors to share expensive or scarce computing resources. <b>(my note: time-sharing)</b> From the beginning, however, users of the ARPANET also used the network for collaboration. This collaboration ranged from sharing files and software and exchanging electronic mail - to joint development and research using shared remote computers.</p>
 </blockquote>
 <p>Looks like there's now two fairly incompatible stories. Well I'm sure this will be tidied right up. Hold on, I heard from the future. Apparently no, it's just a bigger mess.</p>
+</section>
+<section>
 <h2 id="what-about-a-bigger-bomb">1993: This thing's getting popular&hellip;</h2>
 <p>By 1993, second generation references start to pop up. For instance, <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet for Dummies</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details:</p> 
 <figure>
@@ -183,7 +192,7 @@ function alt($text) {
 <p>During the 60s, this intriguing concept of a decentralized, blastproof, packet-switching network was kicked around by RAND, MIT and UCLA. The National Physical Laboratory in Great Britain set up the first test network on these principles in 1968. <b>(my note: this is the transition)</b> Shortly afterward, the Pentagon’s Advanced Research Projects Agency decided to fund a larger, more ambitious project in the USA. The nodes of the network were to be high-speed supercomputers (or what passed for supercomputers at the time). These were rare and valuable machines which were in real need of good solid networking, for the sake of national research-and-development projects.</p>
 </blockquote>
 <p>Look how smooth that is with the phrase "Shortly afterward". He's not exactly <em>saying</em> they're explicitly connected, just that's the chronology. Someone misreading this as a claim of attribution probably can't be faulted.</p>
-<p>This connection gets repeated in texts such as 1994’s <a href="https://archive.org/details/internetconnecti0000quar/page/20/mode/2up">“The Internet connection: system connectivity and configuration”</a> where the author, <a href="https://en.wikipedia.org/wiki/John_Quarterman">John Quarterman</a> states without citation (going back to our "common knowledge" definition above) in a section titled “Surviving a Nuclear War” a very similar passage he stated in a 1993 text co-authored with Smoot Carl-Mitchell, <a href="https://archive.org/details/practicalinterne0000carl/page/4/mode/2up">“Practical Internetworking with TCP/IP and Unix”</a>:</p>
+<p>This connection can be found in other texts such as 1994’s <a href="https://archive.org/details/internetconnecti0000quar/page/20/mode/2up">“The Internet connection: system connectivity and configuration”</a> where the author, <a href="https://en.wikipedia.org/wiki/John_Quarterman">John Quarterman</a> states without citation (going back to our "common knowledge" definition above) in a section titled “Surviving a Nuclear War” a very similar passage he stated in a 1993 text co-authored with <a href="https://www.linkedin.com/in/carlmitchell/">Smoot Carl-Mitchell</a>&dagger;, <a href="https://archive.org/details/practicalinterne0000carl/page/4/mode/2up">“Practical Internetworking with TCP/IP and Unix”</a>:</p>
 <figure>
 <img src="quarterman.png" <?=alt("Another split image demonstrating an almost identical passage between two books. The passage reads 'The ARPANET was a direct product of the Cold War. ARPA itself was formed in response to the launching of the Sputnik satellite by the Soviet Union in 1957. It was intended to ensure the US got ahead in military research and stayed there. As DoD urgently wanted military command and control networks that could survive a nuclear war...'")?> /><figcaption><?= img() ?>Quite similar</figcaption>
 </figure>
@@ -200,7 +209,7 @@ function alt($text) {
   <p>&hellip;As for me, I don't rightly recall, it was long common wisdom. Since I worked at <a href="https://en.wikipedia.org/wiki/Raytheon_BBN">BBN</a>, which was full of MIT people who knew <a href="https://en.wikipedia.org/wiki/J._C._R._Licklider">Licklider</a>, I would guess it was some derivation of Licklider's Pentagon and ARPA work. Whose work shows that there were indeed Cold War nuclear bomb roots of the ARPANET, even though that network was not directly designed to survive a nuclear attack.</p>
 </blockquote>
 </aside>
-<p>Indeed, it looks like he had two tracks in his writing: one for a general audience and one with much more rigor. For instance, in the <a href="https://archive.org/details/sim_unix-review_1993-08_11_8/page/n79/mode/2up">before August</a>, 1993 more academic text with <a href="https://dl.acm.org/profile/81100325226">Susanne Wilhelm</a>, <a href="https://archive.org/details/unixposixopensys0000quar/page/194/mode/2up">"UNIX, POSIX, and Open Systems: The Open Standards Puzzle"</a>, the story given is:</p>
+<p>Indeed, it looks like he had multiple tracks in his writing. For our purposes we can say there was one for a general audience and one with much more rigor. For instance, in the <a href="https://archive.org/details/sim_unix-review_1993-08_11_8/page/n79/mode/2up">before August</a>, 1993 more academic text with <a href="https://dl.acm.org/profile/81100325226">Susanne Wilhelm</a>, <a href="https://archive.org/details/unixposixopensys0000quar/page/194/mode/2up">"UNIX, POSIX, and Open Systems: The Open Standards Puzzle"</a>, the story given is:</p>
 <blockquote>
   <p>
   &hellip;The ARPANET was created by DARPA as an experiment in and platform for research in packet switched networking.
@@ -208,7 +217,8 @@ function alt($text) {
 </blockquote>
 
 <p>Regardless, the "common knowledge" narrative continues to evolve.</p>
-
+</section>
+<section>
 <h2 id="no-wait-wait-it-was-even-more-connected">1994: The Cathedral Becomes a Bazaar</h2>
 <p>It's 1994! Along with GeoCitites, Lycos and CDNow, we get perhaps the first claim of a direct causal connection from <a href="https://www.google.com/books/edition/INSCOM_Journal/wqkrAAAAYAAJ?hl=en&amp;gbpv=1&amp;pg=RA3-PA10&amp;printsec=frontcover">INSCOM (Army Intelligence &amp; Security Command) in March 1994 on page 10</a>:</p>
 <blockquote>
@@ -225,17 +235,21 @@ function alt($text) {
 <img src="myth-v-reality.png" <?=alt("The text of the image reads: Myth: ARPANET was conceived as a way to maintain government data communications after a nuclear war. Reality: ARPANET was conceived as a way to save money by getting government-funded researchers to share computers rather than each of them buying their own. Source: Leonard Kleinrock, UCLA")?> /><figcaption><?= img() ?>Sigh, we’re still trying to correct this</figcaption>
 </figure>
 <p>It was hopeless. Network World was the first source we found for spreading it to begin with.</p>
-<p>While we're here the article that was referenced in "Where the Wizards Stay Up Late" from the beginning is <a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">the lead for the July 25, 1994 issue of TIME Magazine</a><sup><a href="#time-date"><?=$foot++?></a></sup>. Here's the now common story:</p>
+<p>While we're here, the article that was referenced in "Where the Wizards Stay Up Late" from the beginning is <a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">the lead for the July 25, 1994 issue of TIME Magazine</a><sup><a href="#time-date"><?=$foot++?></a></sup>. Here's the now common story:</p>
 <blockquote>
   <p>The Internet evolved from a computer system built 25 years ago by the Defense Department to enable academic and military researchers to continue to do government work even if part of the network were taken out in a nuclear attack. It eventually linked universities, government facilities and corporations around the world, and they all shared the costs and technical work of running the system.</p>
 </blockquote>
+</section>
+<section>
 <h2 id="the-extended-universe">1995: The extended universe</h2>
 <p>1995! Let's log on to AOL and use the keyword MovieLink to find the screentimes for The Net with Sandra Bullock. Then we'll hop in the minivan and watch it at the mall!</p>
-<p>"Oh what do you mean we have to watch PBS instead?! Alright alright fine, let's <a href="https://archive.org/details/The_Internet_Show_KCET_PBS_1994">watch the documentary</a>!"</p>
+<div class="noprint">
+<p>"Oh what do you mean we have to watch PBS instead?! Alright alright fine, let's <a href="https://archive.org/details/The_Internet_Show_KCET_PBS_1994">watch the documentary</a>!":</p>
 <figure>
 <iframe <?= alt("The predecessor of the internet was a child of the Cold War first developed by the defense departments advanced research projects agency or ARPA partly to ensure the data communications could survive in case of a nuclear attack. Created in the late 1960s ARPANET first connected four computers in California and Utah campuses using a new networking technique. It allowed researchers to run programs on remote computers. Later other research institutions and military sites were added. The idea was even if one part of the system were damaged, the rest would still function and it worked.") ?> width="560" height="315" src="https://www.youtube.com/embed/S_JzUBP_1wM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<figcaption><?= vid() ?>We even get to see the explosion!</figcaption>
+<figcaption><?= vid() ?>We even get to see the explosion! (&#9855; <a href="#pbs-text">Transcript</a>)</figcaption>
 </figure>
+</div>
 <p>By now the nuclear narrative has become "common knowledge" so people start making logical inferences from it in official documents such as the US Congressional Office of Technology Assessment's <a href="https://www.google.com/books/edition/Global_Communications/m4keIKypadcC?hl=en&amp;gbpv=1&amp;pg=PA102&amp;printsec=frontcover">“Global Communications: Opportunities for Trade and Aid.”</a> from 1995, page 102:</p>
 <blockquote>
 <p>…the desire for a computer network that would remain operational in the event that part of the network was destroyed by a nuclear explosion. The ARPANET therefore had no central control.</p>
@@ -249,6 +263,8 @@ function alt($text) {
 <img src="routing-errors.png" <?=alt("The text of the image is 'To ARPAnet, nuclear war is no more than a bunch of routing errors that it could immediately correct'")?> /><figcaption><?= img() ?>What have we done?!</figcaption>
 </figure>
 <p>This story has serious sticking power and other than for the people who actually built the Internet, nobody seems to have any desire to correct it.</p>
+</section>
+<section>
 <h2><a name="survey"></a>Narrative Survey</h2>
 <p>The history narrative appears to be able to be clustered in three general camps:</p>
 <ul>
@@ -257,49 +273,50 @@ function alt($text) {
   <li><b>Outsiders:</b> Those who are not in the first two groups but are what we called knowledge staters, such as reporters. They either credit members of either of the first two groups or nobody. (<?= $oa?>, <?=$op?>, or <?=$on?>). Outsiders Nobody (<?=$on?>) is possibly equivalent to "common knowledge".</li>
 </ul>
 <p>
-The narrative has been broken down into a number of story points and were arranged as chronologically as possible. Notes on methodology can be found at the end.</p>
+The narrative has been broken down into a number of story points and were arranged as chronologically as possible. The methodology <a href="#survey-method">can be found at the end</a>.</p>
 <ul>
   <li>Blue cells with a &check; mean a claim was made. For instance, "Paul Baran invented packet-switching at RAND which led to ARPAnet".</li>
   <li>Grey cells with a &sect; sign means things were mentioned but not causally linked. For instance, "Before ARPAnet, Paul Baran also had a packet-switching project at RAND" would be "sectional" and not "causal".</li>
   <li>Red cells with a &cross; mean a claim was refuted. For instance, "ARPAnet's architecture was distinct from Paul Baran's and both groups say they're unrelated".</li>
   <li>Empty cells mean nothing either way was said.</li>
   <li>Word count is the number of words dedicated to the telling of the narrative.</li>
-  <li>The "faction" row is approximately where the narrative split is (see below).</li>
-  <li>The columns with the green background (accessibilty notes: also titled "arpa" and for the color-blind, vertical lines) are ARPA faction narratives. They are additionally stylized to demonstrate a point made below.</li>
+  <li>The "faction" is approximately where the narrative split is (see below).</li>
+  <li>The columns with the green background <span class="noprint">(&#9855; titled "arpa" and for the color-blind, vertical lines)</span> are ARPA faction narratives. They are additionally stylized to demonstrate a point made below.</li>
 </ul>
 <center>
 <div class="tabular-magic">
 <a name="chart"></a>
 <table>
-  <caption><?=table()?> Narrative survey of 20 media from 1988-1995</caption>
+  <caption><?=table()?>Narrative survey of 20 media from 1988-1995 + 1</caption>
   <thead>
     <tr>
       <th></th>
-      <th>1988/04: <a href="https://books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiGz_ml97H6AhXtMEQIHV5EC2oQ6AF6BAgEEAI#v=onepage&amp;q&amp;f=false">Infoworld</a></th>
-      <th>1990/01: <a href="https://archive.org/details/matrixcomputernet00quar/page/142/mode/2up">Matrix</a></th>
-      <th>1990/02: <a href="https://www.researchgate.net/publication/235051902_DARPA_Technical_Accomplishments_An_Historical_Review_of_Selected_DARPA_Projects_Volume_1">DARPA</a></th>
-      <th>1990/09: <a href="https://www.nytimes.com/1990/09/02/business/creating-a-giant-computer-highway.html">NYT</a></th>
-      <th>1991/08: <a href="https://books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiSyfnLqrT6AhUXLEQIHTjLBmEQ6AF6BAgCEAI#v=onepage&amp;q&amp;f=false">Network World</a></th>
-      <th>1991/09: <a href="https://archive.org/details/computer-magazine-1991-09/page/n69/mode/2up">Computer Magazine</a></li>
-      <th>1992/09: <a href="https://archive.org/details/wholeinternetuse00krol/page/10/mode/2up">Krol</a></th>
-      <th>1992/10: <a href="https://archive.org/details/dnsbindinnutshel00albi/page/n29/mode/2up">DNS/BIND</a></th>
-      <th>1993/02: <a href="https://groups.google.com/g/alt.politics.datahighway/c/FNqaxfFk2hU/m/2E8hxTU823UJ">Sterling</a></th>
-      <th>1993/<a href="https://archive.org/details/sim_special-libraries_fall-1993_84_4/page/n13/mode/2up">09</a>: <a href="https://archive.org/details/internetnavigato00paul/page/14/mode/2up">Gilster</a></th>
-      <th>1993/<a href="https://greensboro.com/internet-s-growth-is-catching-the-eye-of-businesses-for/article_23e4343f-2d3f-53e1-88ee-a0a2943cf95f.html">11</a>: <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet For Dumm&hellip;</a></th>
-      <th>1994/<a href="https://archive.org/details/login_mar94/page/n43/mode/2up">02</a>: <a href="https://archive.org/details/internetconnecti0000quar/page/20/mode/2up">Quarterman</a></th>
-      <th>1994/03: <a href="https://www.google.com/books/edition/INSCOM_Journal/wqkrAAAAYAAJ?hl=en&amp;gbpv=1&amp;pg=RA3-PA10&amp;printsec=frontcover">INSCOM</a></th>
-      <th>1994/<a href="https://archive.org/details/ConneXions.08.07/page/26/mode/2up">07</a>: <a href="https://archive.org/details/internetguidefor00dani/page/8/mode/2up">The Internet Guide for&hellip;</a></th>
-      <th>1994/07: <a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">Time</a></th>
-      <th>1994/08: <a href="https://books.google.com/books?id=URcEAAAAMBAJ&amp;lpg=PA61&amp;pg=PA61#v=onepage&amp;q&amp;f=false">Network World</a></th>
-      <th>1994/08: <a href="https://www.latimes.com/archives/la-xpm-1994-08-11-me-26027-story.html">LA Times</a></th>
-      <th>1995/??: <a href="https://archive.org/details/teachyourselfint00rand/page/34/mode/2up">Teach yourself the Inter&hellip;</a></th>
-      <th>1995/<a href="https://www.imdb.com/title/tt7076054/">08</a>: <a href="https://archive.org/details/TheInternetShow1995IzqMrhG50q0/The+Internet+Show+(1995)-IzqMrhG50q0.mp4">The Internet Show</a></th>
-      <th>1995/09: <a href="https://www.google.com/books/edition/Global_Communications/m4keIKypadcC?hl=en&amp;gbpv=1&amp;pg=PA102&amp;printsec=frontcover">Global Communications</a></th>
+<th>1988/04: <wbr><a href="https://books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiGz_ml97H6AhXtMEQIHV5EC2oQ6AF6BAgEEAI#v=onepage&amp;q&amp;f=false">Info&shy;<wbr>world</a></th>
+<th>1990/01: <wbr><a href="https://archive.org/details/matrixcomputernet00quar/page/142/mode/2up">Matrix</a></th>
+<th>1990/02: <wbr><a href="https://www.researchgate.net/publication/235051902_DARPA_Technical_Accomplishments_An_Historical_Review_of_Selected_DARPA_Projects_Volume_1">DARPA</a></th>
+<th>1990/09: <wbr><a href="https://www.nytimes.com/1990/09/02/business/creating-a-giant-computer-highway.html">NYT</a></th>
+<th>1991/08: <wbr><a href="https://books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiSyfnLqrT6AhUXLEQIHTjLBmEQ6AF6BAgCEAI#v=onepage&amp;q&amp;f=false">Network <wbr>World</a></th>
+<th>1991/09: <wbr><a href="https://archive.org/details/computer-magazine-1991-09/page/n69/mode/2up">Comp<wbr>uter <wbr>Maga<wbr>zine</a></li>
+<th>1992/09: <wbr><a href="https://archive.org/details/wholeinternetuse00krol/page/10/mode/2up">Krol</a></th>
+<th>1992/10: <wbr><a href="https://archive.org/details/dnsbindinnutshel00albi/page/n29/mode/2up">DNS/<wbr>BIND</a></th>
+<th>1993/02: <wbr><a href="https://groups.google.com/g/alt.politics.datahighway/c/FNqaxfFk2hU/m/2E8hxTU823UJ">Sterling</a></th>
+<th>1993/<a href="https://archive.org/details/sim_special-libraries_fall-1993_84_4/page/n13/mode/2up">09</a>: <wbr><a href="https://archive.org/details/internetnavigato00paul/page/14/mode/2up">Gilster</a></th>
+<th>1993/<a href="https://greensboro.com/internet-s-growth-is-catching-the-eye-of-businesses-for/article_23e4343f-2d3f-53e1-88ee-a0a2943cf95f.html">11</a>: <wbr><a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The <wbr>Inter<wbr>net <wbr>For <wbr>Dumm&hellip;</a></th>
+<th>1994/<a href="https://archive.org/details/login_mar94/page/n43/mode/2up">02</a>: <wbr><a href="https://archive.org/details/internetconnecti0000quar/page/20/mode/2up">Quarter<wbr>&shy;man</a></th>
+<th>1994/03: <wbr><a href="https://www.google.com/books/edition/INSCOM_Journal/wqkrAAAAYAAJ?hl=en&amp;gbpv=1&amp;pg=RA3-PA10&amp;printsec=frontcover">INSCOM</a></th>
+<th>1994/<a href="https://archive.org/details/ConneXions.08.07/page/26/mode/2up">07</a>: <wbr><a href="https://archive.org/details/internetguidefor00dani/page/8/mode/2up">The <wbr>Inter<wbr>net <wbr>Guide <wbr>for&hellip;</a></th>
+<th>1994/07: <wbr><a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">Time</a></th>
+<th>1994/08: <wbr><a href="https://books.google.com/books?id=URcEAAAAMBAJ&amp;lpg=PA61&amp;pg=PA61#v=onepage&amp;q&amp;f=false">Network <wbr>World</a></th>
+<th>1994/08: <wbr><a href="https://www.latimes.com/archives/la-xpm-1994-08-11-me-26027-story.html">LA <wbr>Times</a></th>
+<th>1995/??: <wbr><a href="https://archive.org/details/teachyourselfint00rand/page/34/mode/2up">Teach <wbr>your&shy;<wbr>self <wbr>the <wbr>Inter&hellip;</a></th>
+<th>1995/<a href="https://www.imdb.com/title/tt7076054/">08</a>: <wbr><a href="https://archive.org/details/TheInternetShow1995IzqMrhG50q0/The+Internet+Show+(1995)-IzqMrhG50q0.mp4">The <wbr>Inter<wbr>net <wbr>Show</a></th>
+<th>1995/09: <wbr><a href="https://www.google.com/books/edition/Global_Communications/m4keIKypadcC?hl=en&amp;gbpv=1&amp;pg=PA102&amp;printsec=frontcover">Global <wbr>Communi&shy;<wbr>cations</a></th>
+<th>2022/10: <wbr><a href="#narrative">Silicon&shy;<wbr>folklore</a></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>RAND/Paul Baran</td>
+      <td>RAND/<wbr>Paul Baran</td>
       <td></td>
       <td></td>
       <td title="arpa" class="arpa no">&cross;</td>
@@ -320,9 +337,10 @@ The narrative has been broken down into a number of story points and were arrang
       <td></td>
       <td></td>
       <td></td>
+      <td class="no">&cross;</td>
     </tr>
     <tr>
-      <td>Bombs or Explosions</td>
+      <td>Bombs or <wbr>Explosions</td>
       <td></td>
       <td></td>
       <td title="arpa" class="arpa"></td>
@@ -343,9 +361,10 @@ The narrative has been broken down into a number of story points and were arrang
       <td></td>
       <td></td>
       <td></td>
+      <td class="maybe">&sect;</td>
     </tr>
     <tr>
-      <td>Nuclear Attack/War</td>
+      <td>Nuclear <wbr>Attack/War</td>
       <td></td>
       <td></td>
       <td title="arpa" class="arpa"></td>
@@ -366,9 +385,10 @@ The narrative has been broken down into a number of story points and were arrang
       <td class="yes">&check;</td>
       <td class="yes">&check;</td>
       <td class="yes">&check;</td>
+      <td class="maybe">&sect;</td>
     </tr>
     <tr class='thic'>
-      <td>Not central due to War</td>
+      <td>Not Central<wbr> Due to War</td>
       <td></td>
       <td></td>
       <td title="arpa" class="arpa"></td>
@@ -389,6 +409,7 @@ The narrative has been broken down into a number of story points and were arrang
       <td></td>
       <td class="yes">&check;</td>
       <td class="yes">&check;</td>
+      <td class="maybe">&sect;</td>
     </tr>
     <tr>
       <td>Faction</td>
@@ -412,9 +433,10 @@ The narrative has been broken down into a number of story points and were arrang
       <td><?= $on ?></td>
       <td><?= $on ?><sup><a href="#pbs"><?= $foot++ ?></a></sup></td>
       <td><?= $on ?></td>
+      <td><?= $op ?><?= $oa ?></td>
     </tr>
     <tr>
-      <td>Cost Cutting/Time-Sharing</td>
+      <td>Cost Cutting/<wbr>Time-Sharing</td>
       <td class="yes">&check;</td>
       <td class="yes">&check;</td>
       <td class="yes">&check;</td>
@@ -435,9 +457,10 @@ The narrative has been broken down into a number of story points and were arrang
       <td></td>
       <td></td>
       <td></td>
+      <td class="yes">&check;</td>
     </tr>
     <tr>
-      <td>Scientific Research</td>
+      <td>Scientific<wbr> Research</td>
       <td class="yes">&check;</td>
       <td class="yes">&check;</td>
       <td class="yes">&check;</td>
@@ -458,9 +481,10 @@ The narrative has been broken down into a number of story points and were arrang
       <td></td>
       <td class="yes">&check;</td>
       <td></td>
+      <td class="yes">&check;</td>
     </tr>
     <tr>
-      <td>Collaborative by design</td>
+      <td>Collaborative<wbr> by design</td>
       <td class="yes">&check;</td>
       <td></td>
       <td class="yes">&check;</td>
@@ -481,9 +505,10 @@ The narrative has been broken down into a number of story points and were arrang
       <td class="yes">&check;</td>
       <td></td>
       <td></td>
+      <td class="yes">&check;</td>
     </tr>
     <tr>
-      <td>Collaborative by accident</td>
+      <td>Collaborative<wbr> by accident</td>
       <td></td>
       <td class="yes">&check;</td>
       <td></td>
@@ -504,6 +529,7 @@ The narrative has been broken down into a number of story points and were arrang
       <td></td>
       <td></td>
       <td></td>
+      <td class="yes">&check;</td>
     </tr>
     <tr>
       <td>Word Count</td>
@@ -527,6 +553,7 @@ The narrative has been broken down into a number of story points and were arrang
       <td>53</td>
       <td>96<sup><a href="#pbs-text"><?= $foot ?></a></sup></td>
       <td>83</td>
+      <td>138</td>
     </tr>
     <tr>
       <td>Year</td>
@@ -536,7 +563,8 @@ The narrative has been broken down into a number of story points and were arrang
       <td colspan=2>1992</td>
       <td colspan=3>1993</td>
       <td colspan=6>1994</td>
-      <td colspan=4>1995</td>
+      <td colspan=3>1995</td>
+      <td>2022</td>
     </tr>
     <tr>
       <td>Events/Era</td>
@@ -544,19 +572,22 @@ The narrative has been broken down into a number of story points and were arrang
       <td colspan=2>Gore<sup><a href="#gore"><?= $foot++ ?></a></sup></td>
       <td colspan=3>AOL Email</td>
       <td colspan=6>Netscape/Yahoo</td>
-      <td colspan=4>Amazon/Ebay</td>
+      <td colspan=3>Amazon/Ebay</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 </div>
 </center>
+<section>
 <h4>Analysis</h4>
 <p>There appears to roughly be two schools. The Peer group gave more encompassing histories then the ARPA group. The ARPA group told a history to more or less the exclusion or omission of other projects.</p>
 <p>Because the Peer group had more moving pieces, a wider diversity of narratives could be constructed from it.</p>
 <p>This is more a social phenomena than anything intentional and will be explored in other articles. People in "the winner's circle", defined by that which became dominant, tend to narrow the narrative and give their efforts a higher priority while the outsiders in other notable projects, tend to broaden the narrative and level things out.</p>
 <p>They both play an important role in the documentation. The outsiders carefully document the important contributions of others while the winner's circle carefully document their own contributions. They pair together to form a complete picture.</p>
-<h3>The evidence supported story</h3>
-<p>Before we go on let's untangle things. I believe this is what has direct evidence:</p>
+</section>
+<h3><a name="narrative"></a>The evidence supported story</h3>
+<p>Before we go on let's untangle things. I believe this is what has direct evidence. As this is yet an additional narrative, it's been included as the right-most column in <a href=#tbl-1>Table 1</a>:</p>
 <ul>
   <li><a href="https://archive.org/details/RecommendationToTheAirStaff/mode/2up">Paul Baran and RAND had a proposed network in 1965 to USAF</a>.</li>
   <li>(same reference) It was not intended to use the phone system but instead, be an independent network built parallel to the electric grid.</li>
@@ -583,6 +614,8 @@ In the ARPA network, a user of one computer will have access to programs in all 
 </blockquote>
 <p>Well said, well said.</p>
 
+</section>
+<section>
 <h3><a name="common"></a>How common are the narratives</h3>
 
 <p>Barry Gerber, who <a href="gerber-email.txt">was contacted for this story</a> and did some early social science research about the ARPAnet at UCLA presented an interesting question: "I have to wonder how widespread the belief in this particular myth is today".</p>
@@ -623,7 +656,8 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <figcaption><?= img() ?>Monthly comments on Reddit in millions.</figcaption>
 </figure>
 <p>Then again, this is something that was communicated by University professors that had been publishing on networks since the 1970s. Newspapers, textbooks, congressional documents, a certain percentage all gave part of a (P) narrative. There could be more fundamental reasons for its continued persistence.</p>
-
+</section>
+<section>
 <h3 id="why-it-sticks">Why the Nuclear story sticks</h3>
 <p>Like good conspiracy theories, there’s related truths that make the core message believable. The ARPANET project was by DARPA, which was under the Department of Defense. This organization was launched after Sputnik. The military had something called <a href="https://en.wikipedia.org/wiki/MILNET">MILNET</a>, it’s own split-off from the Internet from 1983 which became NIPRnet.</p>
 <p>In 1971 the command and control <a href="https://en.wikipedia.org/wiki/Worldwide_Military_Command_and_Control_System">WWMCCS</a> had an ARPANET like system using BBN IMPs. <a href="https://en.wikipedia.org/wiki/ALOHAnet">ALOHAnet</a> did lead to <a href="https://en.wikipedia.org/wiki/PRNET">PRNET</a> and a packet-radio van which interacted with a satellite network, SATNET. Before that there was a trans-atlantic link, NORSAR connecting to seismic units in Norway to, among other things, <a href="https://en.wikipedia.org/wiki/NORSAR">enforce the Comprehensive Nuclear Test Ban Treaty</a>.</p>
@@ -633,10 +667,12 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <p>People also have a tendency to not be careful with chronologies and often attribute events in a narrative structure that would require people time-traveling to be possible.</p>
 <p>To put this in perspective let’s use living recent memory. It would be like seeing a connection between say COVID-19 pandemic outcomes being related to political governance, that there was a 2012 Ebola outbreak and then claim the outcome of the Obama/Romney 2012 election was a direct consequence of the federal COVID-19 response.</p>
 <p>That’s really the same dynamic. Events in the 1970s are being placed categorically adjacent to events in the 1960s and after the table is set, a narrative is drawn between them.</p>
-<figure>
+<figure class="noprint">
 <img src="cerf1.jpg" <?=alt("A crop of a comic book where the hero says 'This is worse than I imagined cerf boy. The writer has completely lost control of the plot'")?>>
 <figcaption><?= img() ?>From <a href="https://archive.org/details/CaptainInternetAndCERFBoyNumber1October1991/page/n13/mode/2up">The Adventures of Captain Internet And CERF Boy - Number 1 October 1991</a>.</figcaption>
 </figure>
+</section>
+<section>
 <h2 id="right-click-view-source">Right Click, View Source</h2>
 <p>As I’ll cover in further articles in this series, there’s no expectation that an engineer be a historian or that accurate scholarship can be expected in the days before mass digitization especially in texts where the history isn’t a focus of the scholarship.</p>
 <p>Also, the prevailing assumption is to look for mistakes before assuming malice. Not just because it’s more polite to do so but also because these statements are small buried passages in much larger, often dry technical works. There’s no evidence these authors are fabulists trying to tell compelling stories.</p>
@@ -668,7 +704,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 </blockquote>
 <p>So we have two possible strains, both sourcing back to early 1960s RAND work by Paul Baran; a connection between Baran and ARPANET made by a good friend of his and an understandable scholarship mistake.</p>
 <h3 id="paul-baran-agrees">Paul Baran agrees</h3>
-<p>Living life in contemptuous bitterness and obscurity might be understandable but that’s not what Paul Baran did. He moved on and did many other great things. In <a href="https://www.wired.com/2001/03/baran/">March 2001, Wired interviewed him</a>:</p>
+<p>After being rejected just to see another network take off a few years later, Paul Baran could have lived the life of <a href="https://en.wikipedia.org/wiki/Miss_Havisham">Miss Havisham</a> in contemptuous bitterness and obscurity but that’s not what he did. He dusted off his shoes, moved on and did many other great things. In <a href="https://www.wired.com/2001/03/baran/">March 2001, Wired interviewed him</a>:</p>
 <blockquote>
 <p><strong>Wired</strong>: The myth of the Arpanet - which still persists - is that it was developed to withstand nuclear strikes. That’s wrong, isn’t it?</p>
 <p><strong>Baran</strong>: Yes. Bob Taylor had a couple of computer terminals speaking to different machines, and his idea was to have some way of having a terminal speak to any of them and have a network. That’s really the origin of the Arpanet. The method used to connect things together was an open issue for a time.</p>
@@ -679,8 +715,11 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <p><strong>Wired</strong>: Taylor heard about not through you, but through Donald Davies originally?</p>
 <p><strong>Baran</strong>: I have two different views on that. I didn’t pay much attention to it then, but with all the nonsense about it, I went back and started digging through the old records. I don’t believe anything unless I can find it in writing, in contemporaneous documentation. I had many, many discussions with the folks at Arpa, starting in the very early ’60s. The information about packet switching was not a surprise, not new. People can listen to things and put them in the back of their mind. So you don’t know. People say they’d never heard of me at the time, yet I’d chaired a session with them in it.</p>
 </blockquote>
-<p>Here’s where we get our first potential conflict. The ARPA people say they didn’t know about or were influenced by Baran’s work yet Baran finds that implausible.</p>
-<p>Really either could be true.</p>
+<p>So the ARPA people say they didn’t know about or were influenced by Baran’s work yet Baran finds that implausible.</p>
+<p>Really either could be true. A pont-by-point, design decision by design decision analysis could be made and it might be possible to empirically favor one side or the other, but that's out of scope here. Don't worry though, it actually falls within the scope of a planned article so I should get to it eventually.</p>
+
+</section>
+<section>
 <h3 id="batch-processing-versus-time-sharing">Final words</h3>
 <p>There's earlier notable history to the Internet. Vannevar Bush's <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/">"As We May Think"</a> in July 1945 describes a mechanical microfilm archival machine he dubs the Memex. The IPTO of ARPA, JCR Licklider's April 1963, <a href="http://worrydream.com/refs/Licklider-IntergalacticNetwork.pdf">"Members and Affiliates of the Intergalactic Computer Network"</a>.
 <p>There's also many other networks long forgotten. The best reference is in the April 1972 issue of Datamation which isn't digitized yet. However, I went to the archives at UCLA and painfully montaged some photocopies. David Farber, who was mentioned above, is the author. Pages <a href="farber-datamation-0472-01.png">36, 37</a> and <a href="farber-datamation-0472-02.png">38, 39</a>. No mention of Paul Baran or nuclear war this time in his description of ARPANET and we even got a shout out to Slotnick's ILLIAC IV which is also called out in the DARPA document, section 18-1.</p>
@@ -704,7 +743,8 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <img src="web.png" <?=alt("A black and white adventurous drawing of a woman with a keyboard strapped to her shoulder like a purse admiring an abstract frame surrounded by a cloud titled 'Internetland' which depicts E-mail, usenet, gopher and other internet technologies that were common in 1994")?> >
 <figcaption><?= img() ?>From <a href="https://archive.org/details/internetguidefor00dani/page/n33/mode/2up">The Internet Guide for New Users, 1994</a>. Artist is <a href="http://www.pyracantha.com/">Hannah MG Shapero</a>.</figcaption>
 </figure>
-
+</section>
+<section>
 <hr>
 <h3>Notes</h3>
 <h4>Timeline & Thanks</h4>
@@ -718,7 +758,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
   <li>2022/10/03: Sharon Fisher responded for additional background. Paul Albitz (DNS/BIND) was contacted.</li>
   <li>2022/10/04: Paul Albitz responded. Hacker News user Matt Campbell assisted in the accessibility of the document. Thanks!</li>
   <li>2022/10/05: Quarterman was followed up. Cricket Liu (DNS/BIND) was contacted.</li>
-  <li>2022/10/06: John Levine from the PBS documentary was contacted and responded.</li>
+  <li>2022/10/06: John Levine from the PBS documentary was contacted and responded. He also authored the 1993, "Internet for Dummies" source.</li>
   <!--<li>2022/10/02: Bruce Sterling and Vint Cerf were emailed and requested for comment.</li>-->
 </ol>
 <p>I was unable to find a way to reach Ed Krol or Bruce Sterling. Corrections and comments are welcome at <a href="mailto:info@siliconfolklore.com">info@siliconfolklore.com</a>.</p>
@@ -726,7 +766,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 
 <h4>Footnotes</h4>
 <ol>
-  <li><p><a name="jcr"></a>But not, perhaps, by ARPA IPTO (basically the CEO), JCR Licklider as John Quarterman points out in his email, linking to an excerpt from a 2017 book by <a href="https://en.wikipedia.org/wiki/Sharon_Weinberger">Sharon Weinberger</a>, <a href="https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet">"The Imagineers of War"</a> (not yet available in digital libraries, excerpt from Aeon.co included) where she quotes Licklider, "Who can direct a battle when he’s got to write a program in the middle of that battle?"</p></li>
+  <li><p><a name="jcr"></a>But not, perhaps, by ARPA IPTO (basically the CEO), JCR Licklider as John Quarterman points out in an email, linking to an excerpt from a 2017 book by <a href="https://en.wikipedia.org/wiki/Sharon_Weinberger">Sharon Weinberger</a>, <a href="https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet">"The Imagineers of War"</a> (not yet available in digital libraries, excerpt from Aeon.co included) where she quotes Licklider, "Who can direct a battle when he’s got to write a program in the middle of that battle?"</p></li>
   <li><p><a name="prior"></a>This includes histories of the ARPANET "DARPANET" and “ARPA Network”. <a href="mailto:info@siliconfolklore.com?subject=Before+1991">Please reach out if you know of any</a> and I'll be happy to update.</p></li>
   <li><p><a name="sharon"></a>I had a brief chat with Sharon on Oct 3, 2022 over Facebook. She also wrote a 1993 text, <a href="https://archive.org/details/ridinginternethi00fish/page/12/mode/2up">"Riding the Internet Highway"</a> which contained a similar origin narrative. In our conversation she recommended a <a href="https://vintageapple.org/byte/pdf/199107_Byte_Magazine_Vol_16-07_DOS_5.0.pdf">July 1991 Byte</a> (PDF) article she wrote. It starts on PDF page 209 and cites Quarterman's Matrix as she does in the InfoWorld article work for his 1986 work, <a href="https://dl.acm.org/doi/abs/10.1145/6617.6618">"Notable Computer Networks"</a>.</p>
   <li><p><a name="first"></a>Calling something "first" is so risky. Let me clarify. First as far as ProQuest, archive.org and Google books is concerned. Have an earlier one? <a href="mailto:info@siliconfolklore.com?subject=Earlier+Reference">Please send it over</a>.</p></li>
@@ -760,6 +800,8 @@ In the ARPA network, a user of one computer will have access to programs in all 
 </ol>
 
 <p class="foot"><a name="unconfirmed"><b>&dagger;</b></a> Efforts were made to confirm these links are accurate but there has not been any response.</p>
+</section>
+<section>
 <h4><a name="backhoe"></a>Backhoe Section</h4>
 <p>Here's John Levine's October 6, 2022 <a href="levine-email-backhoe.txt">response to my claim</a> of the Krol source:</p>
 <blockquote>
@@ -772,9 +814,9 @@ The research is impressive but sometimes you just guessed wrong.
 <p>As a practice and a discipline, a source's claim takes precedence over any interpretation and should be disclosed. However, every subsequent claim needs to be subject to the same rigor and scrutiny and as of now, the phrasing similarity is just too close for me to claim they are disconnected. Additionally, there is no source that I could find that had such similarity prior to Krol. Of course it may not yet be digitized.</p>
 <p>The origin of the backhoe seems to be a now obscure December 12, 1986 White Plains ARPAnet Northeast disconnect incident when 7 fiber optic cables going through the same conduit were cut. This has its own narrative history. All New England trunk lines were cut at 1:11 AM and were knocked off until about 12:11.</p>
 <p>As far as I can tell, a backhoe started to be associated with this 1AM disconnect around 1988 and later was commonly claimed to be accidental. I was unable to find any criminal investigation, admittance of guilt, or direct evidence as to how the conduit was cut. Being an obscure event, a trip to archival rooms in New York libraries would probably be required to find out more information. Alternatively, it's possible that AT&T, which restored the line, could have a report somewhere.</p>
-<p>I will happily annotate the section as false if more evidence comes forward as removing it could lead to Mandela effects and further folklore.</p>
+<p>I will happily annotate the section as false if more instances of backhoes or related narratives comes forward as removing it could lead to Mandela effects and further folklore.</p>
 
-<h4>Survey Methodology</h4>
+<h4><a name="survey-method"></a>Survey Methodology</h4>
 
 <p>Search queries were performed on archive.org text search, Google books, Google groups and ProQuest Central with the access covered by the LA public library card between September 18 2022 and October 6 2022.</p>
 
@@ -797,5 +839,6 @@ The research is impressive but sometimes you just guessed wrong.
   <li><a href="https://www.proquest.com/central/docview/307909591/CDE810A37ADD4A38PQ/90">(Proquest) Swisher, Kara. "The Frenzy Over the Internet's Fee Enterprise", The Washington Post, Oct 16, 1995</a>: Description too short. ("Since the Internet's founding in 1969 to aid government communications in wartime")</li>
 </ul>    
 <h5><b>You made it to the end. Epic.</b></h5><h5><a href="https://github.com/kristopolous/sf">Edit history is on GitHub</a>.<br/>I guess you could also <a href="https://twitter.com/emoRobot">follow me on twitter</a>, ok sure.</h5>
+</section>
   </main>
   </html>
