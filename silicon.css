@@ -208,7 +208,9 @@ aside h5 {
   margin-top:1rem;
   color: #313;
 }
+.onlyprint { display: none }
 @media print {
+  .onlyprint { display: inline-block }
   main {
     box-shadow: none;
   }
@@ -220,8 +222,10 @@ aside h5 {
     display: none;
   }
   img {
-    width: 40vw;
+    width: 50vw;
     position: relative;
+    padding: 0.5rem;
+    border: 1px solid #777;
     box-shadow: none;
   }
   body,main,figure,section,p { display: block }
@@ -241,20 +245,20 @@ aside h5 {
     -webkit-text-stroke: 0;
   }
   th {
-    display: none;
-    max-width: 5rem;
-   }
+    text-align: center;
+  }
    th,td{
-    border-bottom: 0;
-    border-right: 0;
+    border-bottom: 0.25px dotted black;
+    border-right: 0.25px dotted black;
+    padding: 0.2rem 0;
   }
   td.arpa {
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
   }
   .tabular-magic {
-    font-size: 9px;
+    font-size: 12px;
     overflow: visible;
    }
 }
