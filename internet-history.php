@@ -464,7 +464,7 @@ The narrative has been broken down into a number of story points and were arrang
       <td>P</td>
       <td><?= $op ?></td>
       <td title="arpa" class="arpa"><?= $oa ?></td>
-      <td><?= $op ?><?= $foot("time") ?></td>
+      <td><?= $op ?><?= foot("time") ?></td>
       <td title="arpa" class="arpa"><?= $oa ?></td>
       <td title="arpa" class="arpa"><?= $oa ?></td>
       <td><?= $on ?></td>
