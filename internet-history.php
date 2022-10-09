@@ -4,6 +4,7 @@
    $op = "P<sub>o</sub>";
    $th = 1;
 
+   $footMap = [];
    $ixmap=[];
 function counter($what) {
   global $ixmap;
@@ -30,10 +31,15 @@ function alt($text) {
   echo 'alt="'.$text.'" title="'.$text.'"';
 }
 function foot($name, $text = '') {
-  global $foot;
-  $foot ++;
-  if(count($text) == 0){ 
-    $text = $foot;
+  global $foot, $footMap;
+  if(array_key_exists($name, $footMap)) {
+    $text = $footMap[$name];
+  } else {
+    $foot ++;
+    if(strlen($text) == 0){ 
+      $text = $foot;
+    }
+    $footMap[$name] = $foot;
   }
   echo "<sup><a href=#$name>$text</a></sup>";
 }
@@ -114,7 +120,7 @@ function foot($name, $text = '') {
 <p>Lately, the mainstream press had picked up the grim myth of a nuclear survival scenario and had presented it as an established truth. When <a href="http://content.time.com/time/magazine/0,9263,7601940725,00.html">TIME magazine committed the error</a>, Taylor wrote a letter to the editor, but the magazine didn’t print it. The effort to set the record straight was like chasing the wind</p>
 </blockquote>
 <p>Here’s <a href="https://en.wikipedia.org/wiki/Vint_Cerf">Vint Cerf</a>, one of the key architects of the Internet, in <a href="https://youtu.be/lWyv4wU-WNA?t=4441">July 2022 still trying to correct things</a>. Apparently, "Networking for the Post-Apocalypse" got out of hand and people who were there have been trying to politely fix things in vain for decades.</p>
-<p>Somehow military communications during nuclear war makes a more memorable story than designing a way to remote access the first massively parallel computer, the <a href="https://en.wikipedia.org/wiki/ILLIAC_IV">ILLIAC IV</a>. The designer of the machine, <a href="https://en.wikipedia.org/wiki/Daniel_Slotnick">Daniel Slotnick</a>, was also a chief architect of the ARPANET which was built partially to get the computer to be online in order to justify the cost of building it. This way more scientists could use the expensive machine doing remote time-sharing.</p>
+<p>Somehow military communications during nuclear war makes a more memorable story than designing a way to remote access what would become the first massively parallel computer, the <a href="https://en.wikipedia.org/wiki/ILLIAC_IV">ILLIAC IV</a>. The funding and motivation for building ARPANET was partially to get this computer, once built, to be "online" in order to justify the cost of building it. This way more scientists could use the expensive machine.<?= foot("cerf"); ?></p>
 <p>See you glazed over that. I know it. Isn’t <a href="https://jacobin.com/2022/06/internet-privatization-profit-centralization-democracy">“bringing the mainframe to the battlefield”</a> more sexy? That’s June 2022.</p>
 <p>To find out where this story comes from we're going to go back to when hard drives were measured in megabytes and colorful floppies arrived in your mail promising you 100 free hours online.</p>
 <section>
@@ -295,7 +301,7 @@ The narrative has been broken down into a number of story points and were arrang
 </ul>
 <div class="onlyprint">
 <h4>Table headers</h4>
-<ol>
+<ol style="line-height:1rem">
 <li>1988/04: <a href="https://books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiGz_ml97H6AhXtMEQIHV5EC2oQ6AF6BAgEEAI#v=onepage&amp;q&amp;f=false">Infoworld</a></li>
 <li>1990/01: <a href="https://archive.org/details/matrixcomputernet00quar/page/142/mode/2up">Matrix</a></li>
 <li>1990/02: <a href="https://www.researchgate.net/publication/235051902_DARPA_Technical_Accomplishments_An_Historical_Review_of_Selected_DARPA_Projects_Volume_1">DARPA</a></li>
@@ -306,17 +312,17 @@ The narrative has been broken down into a number of story points and were arrang
 <li>1992/10: <a href="https://archive.org/details/dnsbindinnutshel00albi/page/n29/mode/2up">DNS/BIND</a></li>
 <li>1993/02: <a href="https://groups.google.com/g/alt.politics.datahighway/c/FNqaxfFk2hU/m/2E8hxTU823UJ">Sterling</a></li>
 <li>1993/<a href="https://archive.org/details/sim_special-libraries_fall-1993_84_4/page/n13/mode/2up">09</a>: <a href="https://archive.org/details/internetnavigato00paul/page/14/mode/2up">Gilster</a></li>
-<li>1993/<a href="https://greensboro.com/internet-s-growli-is-catching-lie-eye-of-businesses-for/article_23e4343f-2d3f-53e1-88ee-a0a2943cf95f.html">11</a>: <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet For Dumm&hellip;</a></li>
+<li>1993/<a href="https://greensboro.com/internet-s-growli-is-catching-lie-eye-of-businesses-for/article_23e4343f-2d3f-53e1-88ee-a0a2943cf95f.html">11</a>: <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet For Dummies</a></li>
 <li>1994/<a href="https://archive.org/details/login_mar94/page/n43/mode/2up">02</a>: <a href="https://archive.org/details/internetconnecti0000quar/page/20/mode/2up">Quarterman</a></li>
 <li>1994/03: <a href="https://www.google.com/books/edition/INSCOM_Journal/wqkrAAAAYAAJ?hl=en&amp;gbpv=1&amp;pg=RA3-PA10&amp;printsec=frontcover">INSCOM</a></li>
-<li>1994/<a href="https://archive.org/details/ConneXions.08.07/page/26/mode/2up">07</a>: <a href="https://archive.org/details/internetguidefor00dani/page/8/mode/2up">The Internet Guide for&hellip;</a></li>
+<li>1994/<a href="https://archive.org/details/ConneXions.08.07/page/26/mode/2up">07</a>: <a href="https://archive.org/details/internetguidefor00dani/page/8/mode/2up">The Internet Guide for New Users</a></li>
 <li>1994/07: <a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">Time</a></li>
 <li>1994/08: <a href="https://books.google.com/books?id=URcEAAAAMBAJ&amp;lpg=PA61&amp;pg=PA61#v=onepage&amp;q&amp;f=false">Network World</a></li>
 <li>1994/08: <a href="https://www.latimes.com/archives/la-xpm-1994-08-11-me-26027-story.html">LA Times</a></li>
-<li>1995/??: <a href="https://archive.org/details/teachyourselfint00rand/page/34/mode/2up">Teach yourself the Inter&hellip;</a></li>
+<li>1995/??: <a href="https://archive.org/details/teachyourselfint00rand/page/34/mode/2up">Teach yourself the Internet in a Week</a></li>
 <li>1995/<a href="https://www.imdb.com/title/tt7076054/">08</a>: <a href="https://archive.org/details/TheInternetShow1995IzqMrhG50q0/The+Internet+Show+(1995)-IzqMrhG50q0.mp4">The Internet Show</a></li>
 <li>1995/09: <a href="https://www.google.com/books/edition/Global_Communications/m4keIKypadcC?hl=en&amp;gbpv=1&amp;pg=PA102&amp;printsec=frontcover">Global Communications</a></li>
-<li>2022/10: <a href="#narrative">Siliconfolklore</a></li>
+<li>2022/10: <a href="#narrative">Siliconfolklore.com</a></li>
 </ol>
 </div>
 <center>
@@ -631,10 +637,16 @@ The narrative has been broken down into a number of story points and were arrang
   <li><a href="https://www.rand.org/pubs/research_memoranda/RM3103.html">It was designed to be redundant, but not to scale</a>.</li>
   <li>(same reference) It was meant to be used for command and control loads and not intended to be expanded beyond military communication and use.</li>
   <li><a href="https://dl.acm.org/doi/abs/10.1145/800001.811669">ARPANET had routing based on Donald Davies work</a>, not Paul Baran's and was unrelated to the RAND project or system.</li>
+<!--
   <li><a href="https://archive.org/details/DTIC_AD0705149">The principal engineer doing that work on ARPANET was Leonard Kleinrock</a>.</li> 
+-->
   <li><a href="https://archive.org/details/DraftReportForDataCommunicationFacilities/page/n1/mode/2up">The 1967 ARPA Network proposal by BBN says it's for research, sharing, and cost cutting</a>.</li>
   <li>(same reference) It was to run on normal phone lines and be focused on connecting nodes, presumed the network would be cared for, and did not offer extreme redundancy.</li>
 </ul>
+<p>
+Additionally, Cerf claims in a personal email, currently unverified:</p>
+<blockquote><p>Kleinrock did queueing theoretic analysis of capacity, delay, throughput of store-and-forward networks. The routing protocols of ARPANET were developed at Bolt, Beranek and Newman. Bob Kahn, John McQuillan and William Crowther and maybe David Walden (?) were principal architects of the routing system of the ARPANET.
+</p></blockquote>
 <p>
 The first article about ARPANET I could find was before it was called ARPANET. In September of 1968, <a href="https://archive.org/details/bitsavers_Electronic9680916_134517369/page/62/mode/2up">Electronics Magazine</a>:
 <blockquote>
@@ -649,8 +661,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
   <p><em>(Distributed Denial of Service Attacks):</em> Roberts notes that sites with smaller computers could start “ganging up” on those with larger processors. This could mean that a lot of work could be thrust upon, say, the Univac 1108’s in the network.</p>
   <p><em>(Societal Implications of the Network):</em> &hellip;geographical separation and user isolation may limit the network’s utility. Mills believes the problem may grow as the user population increases. “There should have been a definition of the relationship between a man and his program, as a unit, and the distant central machine or other data processing gear with which they are working.” In other words, Mills believes ARPA put the cart before the horse by going ahead on interconnecting computers before determining what the benefits of such a network would be.</p>
 </blockquote>
-<p>Well said, well said.</p>
-
+<p>I think this is prescient but I might be reading too much into this. Vint Cerf thinks it was impossible to predict things.<?= foot("cerf"); ?></p>
 </section>
 <section>
 <h3><a name="common"></a>How common are the narratives</h3>
@@ -785,6 +796,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <hr>
 <h3>Notes</h3>
 <h4>Timeline & Thanks</h4>
+<p>I'd like to thank the following for helping put this together: Barry Gerber, Cricket Liu, John Levine, John Quarterman, Matt Campbell, Paul Albitz, Paul Gilster, Sharon Fisher and Vint Cerf.</p>
 <ol>
   <li>2022/09/18: Document started.</li>
   <li>2022/09/26: David Farber, Paul Gilster and John Quarterman were emailed and requested for comment.</li>
@@ -806,6 +818,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <h4>Footnotes</h4>
 <ol>
   <li><p><a name="jcr"></a>But not, perhaps, by ARPA IPTO (basically the CEO), JCR Licklider as John Quarterman points out in an email, linking to an excerpt from a 2017 book by <a href="https://en.wikipedia.org/wiki/Sharon_Weinberger">Sharon Weinberger</a>, <a href="https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet">"The Imagineers of War"</a> (not yet available in digital libraries, excerpt from Aeon.co included) where she quotes Licklider, "Who can direct a battle when he’s got to write a program in the middle of that battle?"</p></li>
+  <li><p><a name="cerf"></a>Thanks to Vint Cerf for helping me on these sections.</p></li>
   <li><p><a name="prior"></a>This includes histories of the ARPANET "DARPANET" and “ARPA Network”. <a href="mailto:info@siliconfolklore.com?subject=Before+1991">Please reach out if you know of any</a> and I'll be happy to update.</p></li>
   <li><p><a name="sharon"></a>I had a brief chat with Sharon on Oct 3, 2022 over Facebook. She also wrote a 1993 text, <a href="https://archive.org/details/ridinginternethi00fish/page/12/mode/2up">"Riding the Internet Highway"</a> which contained a similar origin narrative. In our conversation she recommended a <a href="https://vintageapple.org/byte/pdf/199107_Byte_Magazine_Vol_16-07_DOS_5.0.pdf">July 1991 Byte</a> (PDF) article she wrote. It starts on PDF page 209 and cites Quarterman's Matrix as she does in the InfoWorld article work for his 1986 work, <a href="https://dl.acm.org/doi/abs/10.1145/6617.6618">"Notable Computer Networks"</a>.</p>
   <li><p><a name="first"></a>Calling something "first" is so risky. Let me clarify. First as far as ProQuest, archive.org and Google books is concerned. Have an earlier one? <a href="mailto:info@siliconfolklore.com?subject=Earlier+Reference">Please send it over</a>.</p></li>
@@ -855,6 +868,8 @@ The research is impressive but sometimes you just guessed wrong.
 <p>As far as I can tell, a backhoe started to be associated with this 1AM disconnect around 1988 and later was commonly claimed to be accidental. I was unable to find any criminal investigation, admittance of guilt, or direct evidence as to how the conduit was cut. Being an obscure event, a trip to archival rooms in New York libraries would probably be required to find out more information. Alternatively, it's possible that AT&T, which restored the line, could have a report somewhere.</p>
 <p>I will happily annotate the section as false if more instances of backhoes or related narratives comes forward as removing it could lead to Mandela effects and further folklore.</p>
 
+</section>
+<section>
 <h4><a name="survey-method"></a>Survey Methodology</h4>
 
 <p>Search queries were performed on archive.org text search, Google books, Google groups and ProQuest Central with the access covered by the LA public library card between September 18 2022 and October 6 2022.</p>
