@@ -248,7 +248,7 @@ function foot($name, $text = '') {
 <p>In all these claims the statement was ARPA was looking for a resilient network due to cold war politics with the risk of nuclear war playing somewhere in the background and the ARPANET came out of this dynamic.</p>
 <p>Apparently the ARPA people have started to hear the nuclear narrative a bit too much. In <a href="https://books.google.com/books?id=URcEAAAAMBAJ&amp;lpg=PA61&amp;pg=PA61#v=onepage&amp;q&amp;f=false">Network World from Aug 22, 1994</a> they put a special “Myth vs. Reality” inset from <a href="https://en.wikipedia.org/wiki/Leonard_Kleinrock">Leonard Kleinrock</a> in an absolutely futile effort to try and dislodge things:</p>
 <figure>
-<img src="myth-v-reality.png" <?=alt("The text of the image reads: Myth: ARPANET was conceived as a way to maintain government data communications after a nuclear war. Reality: ARPANET was conceived as a way to save money by getting government-funded researchers to share computers rather than each of them buying their own. Source: Leonard Kleinrock, UCLA")?> /><figcaption><?= img() ?>Sigh, we’re still trying to correct this</figcaption>
+<img src="myth-v-reality.jpg" <?=alt("The text of the image reads: Myth: ARPANET was conceived as a way to maintain government data communications after a nuclear war. Reality: ARPANET was conceived as a way to save money by getting government-funded researchers to share computers rather than each of them buying their own. Source: Leonard Kleinrock, UCLA")?> /><figcaption><?= img() ?>Sigh, we’re still trying to correct this</figcaption>
 </figure>
 <p>It was hopeless. Network World was the first source we found for spreading it to begin with.</p>
 <p>While we're here, the article that was referenced in "Where the Wizards Stay Up Late" from the beginning is <a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">the lead for the July 25, 1994 issue of TIME Magazine</a><?= foot("time-date") ?>. Here's the now common story:</p>
@@ -636,7 +636,6 @@ The narrative has been broken down into a number of story points and were arrang
   <li>(same reference) It was not intended to use the phone system but instead, be an independent network built parallel to the electric grid.</li>
   <li><a href="https://www.rand.org/pubs/research_memoranda/RM3103.html">It was designed to be redundant, but not to scale</a>.</li>
   <li>(same reference) It was meant to be used for command and control loads and not intended to be expanded beyond military communication and use.</li>
-  <li><a href="https://dl.acm.org/doi/abs/10.1145/800001.811669">ARPANET had routing based on Donald Davies work</a>, not Paul Baran's and was unrelated to the RAND project or system.</li>
 <!--
   <li><a href="https://archive.org/details/DTIC_AD0705149">The principal engineer doing that work on ARPANET was Leonard Kleinrock</a>.</li> 
 -->
@@ -644,9 +643,19 @@ The narrative has been broken down into a number of story points and were arrang
   <li>(same reference) It was to run on normal phone lines and be focused on connecting nodes, presumed the network would be cared for, and did not offer extreme redundancy.</li>
 </ul>
 <p>
-Additionally, Cerf claims in a personal email, currently unverified:</p>
-<blockquote><p>Kleinrock did queueing theoretic analysis of capacity, delay, throughput of store-and-forward networks. The routing protocols of ARPANET were developed at Bolt, Beranek and Newman. Bob Kahn, John McQuillan and William Crowther and maybe David Walden (?) were principal architects of the routing system of the ARPANET.
+Additionally, Cerf claims the following in personal email correspondances, currently unverified:</p>
+<blockquote><ul>
+<li>Kleinrock did queueing theoretic analysis of capacity, delay, throughput of store-and-forward networks. The routing protocols of ARPANET were developed at Bolt, Beranek and Newman. Bob Kahn, John McQuillan and William Crowther and maybe David Walden (?) were principal architects of the routing system of the ARPANET.</li>
+<li> BBN did its routing work independent of Davies <b>(my note: Paul Baran believes it was based on Davies work in a 2001 Wired article, see below)</b> Roberts learned of the <a href="https://en.wikipedia.org/wiki/NPL_network">NPL work</a> while at a 1967 ACM conference in Gatlinburg, TN. One of the NPL team, Roger Scantlebury, was there and told Roberts about the NPL packet network (Davies coined the term "packet" to describe the system he had designed). The NPL network was a single node so there was no real routing in the system. Davies did invent something he called "isarhythmic networking" but it did not scale and was not implemented as far as I am aware.</li>
+</ol>
+</blockquote>
+<p>Additionally Cerf backs the claim of the scaling over reliability aspect of ARPANET which really lays bare any design for nuclear survivability hypothesis:
+</p>
+<blockquote>
+<p>
+Regarding unreliability - yes, alternative, adaptive routing was part of the ARPANET design to deal with link and/or node (packet switch) failures but the protocols internal to the ARPANET were designed to include end-to-end retransmission WITHIN THE NETWORK. The Host-Host protocol (also known as the Network Control Protocol) basically assumed the network was reliable. The Internet design, which had to cope with unreliable radio communications of the Packet Radio and Packet Satellite networks, required end-to-end retransmission at the HOST level. 
 </p></blockquote>
+
 <p>
 The first article about ARPANET I could find was before it was called ARPANET. In September of 1968, <a href="https://archive.org/details/bitsavers_Electronic9680916_134517369/page/62/mode/2up">Electronics Magazine</a>:
 <blockquote>
@@ -763,7 +772,11 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <p><strong>Wired</strong>: Taylor heard about not through you, but through Donald Davies originally?</p>
 <p><strong>Baran</strong>: I have two different views on that. I didn’t pay much attention to it then, but with all the nonsense about it, I went back and started digging through the old records. I don’t believe anything unless I can find it in writing, in contemporaneous documentation. I had many, many discussions with the folks at Arpa, starting in the very early ’60s. The information about packet switching was not a surprise, not new. People can listen to things and put them in the back of their mind. So you don’t know. People say they’d never heard of me at the time, yet I’d chaired a session with them in it.</p>
 </blockquote>
-<p>Baran claims the ARPA people say they didn’t know about or were influenced by Baran’s work yet Baran finds that implausible. However, Vint Cerf responded</p>
+<p>Baran claims the ARPA people say they didn’t know about or were influenced by Baran’s work yet Baran finds that implausible. Vint Cerf responds to this via a personal email:</p>
+<blockquote><p>
+Roberts likely knew about Paul's report and had done a point-to-point experiment in 1966 (?) linking the TX-2 machine at Lincoln Labs to the ANS/Q-32 at System Development Corporation (Santa Monica spinout from RAND) using a packet-switching format.</p>
+</blockquote>
+
 <p>Really either could be true. A pont-by-point, design decision by design decision analysis could be made and it might be possible to empirically favor one side or the other, but that's out of scope here. Don't worry though, it actually falls within the scope of a planned article so I should get to it eventually.</p>
 
 </section>
