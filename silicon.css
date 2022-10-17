@@ -220,6 +220,13 @@ aside h5 {
   main {
     box-shadow: none;
   }
+  .link {
+    font-family: monospace;
+    font-size: 0.8rem;
+  }
+  table .onlyprint {
+    display: none;
+  }
   .noprint {
     display: none !important;
   }
@@ -245,7 +252,7 @@ aside h5 {
   }
   a {
     color: #000;
-    text-decoration: none;
+    text-decoration: underline dotted black 0.02rem;
   }
   b {
     -webkit-text-stroke: 0;
