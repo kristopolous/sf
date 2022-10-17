@@ -1,0 +1,2423 @@
+
+From ***@***  Thu Sep 29 03:06:38 2022
+Return-Path: <***@***>
+X-Original-To: ***@***
+Delivered-To: ***@***
+Received: from mail-qt1-f171.***.*** (mail-qt1-f171.***.*** [*.*.*.*])
+	by ***.*** (Postfix) with ESMTPS id 3F7FD1B904D
+	for <***@***>; Thu, 29 Sep 2022 03:06:38 -0700 (PDT)
+Received: by mail-qt1-f171.***.*** with SMTP id c11so450834qtw.8
+        for <***@***>; Thu, 29 Sep 2022 03:06:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=***.***; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date;
+        bh=***
+        b=***
+         rCkDJGDpwa2rVHmo9039MJbHzQSgVbmoIu3H33rok3300vNqsjiR5bpLfXWH9Fn2JZBl
+         QYe1nW8vTC5vPRY+WOETt5ioN69EcT0wdAl60+Ms4pvLY+F6Yw8zGchQXnyviZ8Uvyh7
+         dDgvXr5d3bqJnHNjLHz+7ZXl7UD1gSG9mhyZrM9oc/6stU4mUEiT0KugIUtOrfCzwSuw
+         ZZXDhQN8i6kz8eMz7DAAM5k8u+25oMeXKCKuAOcZHAoV9S/osp9znPCc2zO/S3ejnZyL
+         0H6A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date;
+        bh=***
+        b=***
+         Fqmlb1QD7w0/udbfB+4c6mIZ++/saTfJwK3ZJG868oYA8lMBqdThTgAMHvAoM43ypU8T
+         N9r2k6JiLiRE1nnwdxG+TG0biD1NqPn38dFZkSFE0TRJjTYf1cx5zuap54EWPOM+sq2s
+         wIMSyE1wnqYE7XFyvsEvk8Y+CxvQll/Lbgi/H8h2vZQl/tAHQeIa7aCvpWM+WQ2EV/bd
+         vV5JMU8q/YO73wVtt4fbzffKTnjdvcsHWkAiw+jshiC6WpOJ5aCGMbmLux+m+2gAWNvz
+         pZHg==
+X-Gm-Message-State: ACrzQf1g7q3TjtKsBnPg2AM2o3ckqrRqmTCpsgdin9ZZpVr1LM8ix8ud
+	sQZO4kUyAsV4H+MkMrOdkYk4bJ7iE047NuvOa1eT/tmbHJw=
+X-Google-Smtp-Source: AMsMyM4naBp1UQpRE62IZxIFrigjjaD7S6CGK+CrzPg5w+VA8mHty05rvIPgjtO97chXlIFz7j45VrGGW4d+/KsWZ+Q=
+X-Received: by 2002:a05:622a:1209:b0:35d:29b:8c4c with SMTP id
+ y9-20020a05622a120900b0035d029b8c4cmr1602472qtx.124.1664445996577; Thu, 29
+ Sep 2022 03:06:36 -0700 (PDT)
+MIME-Version: 1.0
+References: <CA+D0ccHfc1jZCLL4gQ8fYW7-o5QsCi23eF=***@******.***>
+ <83a665c6-227e-01a3-af40-***@***> <CAM8bmg6wwFN-s8qNTbgN3T3uDXyt2OWX+***@******.***>
+ <9e740348-841c-216d-bb05-***@***> <CAM8bmg4=O9AC8+DfzORju+0Nk6b1fK3pyVctA4AoNHW-***@******.***>
+In-Reply-To: <CAM8bmg4=O9AC8+DfzORju+0Nk6b1fK3pyVctA4AoNHW-***@******.***>
+From: Christopher McKenzie <***@***>
+Date: Thu, 29 Sep 2022 03:06:25 -0700
+Message-ID: <CA+D0ccGtzSeh3s-wEuRAxBSF=***@******.***>
+Subject: Fwd: "The Internet Navigator" from an article about the origins of
+ the internet
+To: Chris McKenzie <***@***>
+Content-Type: multipart/alternative; boundary="0000000000005fbaa605e9ce08af"
+Status: O
+Content-Length: 4589
+Lines: 93
+
+--0000000000005fbaa605e9ce08af
+Content-Type: text/plain; charset="UTF-8"
+
+---------- Forwarded message ---------
+From: Paul Gilster <***@***>
+Date: Tue, Sep 27, 2022, 17:20
+Subject: Re: "The Internet Navigator" from an article about the origins of
+the internet
+To: Christopher McKenzie <***@***>
+
+
+My pleasure. By the way, my email address at ***@*** is probably
+the one to use, in case you ever need to reach me again.
+
+All best with your article.
+
+Paul
+
+_______
+
+Paul A. Gilster  |  p <***@***>***@***
+Writer/Editor, Centauri Dreams  |  www.centauri-dreams.org
+"You accomplish the great task by a series of small acts." -- Lao Tzu
+
+
+On Tue, Sep 27, 2022 at 8:17 PM Christopher McKenzie <***@***>
+wrote:
+
+> Thank you so much! I really appreciate your time!
+>
+> On 9/27/22 17:16, Paul Gilster wrote:
+> > I wish I could come up with my source for it. After the book was
+> > published, I began to wonder about the statement and went back to
+> > verify where I had found it, and amidst all my research materials I
+> > couldn't find the source. So I'm drawing a blank here. I know I pulled
+> > it from more than one source but that's about it, and I've wished I
+> > could clarify it, since it now eludes me. At this point I wish I
+> > hadn't written it, given the trajectory of the idea as you recount in
+> > your article. Clearly it was an egregious error.
+>
+
+--0000000000005fbaa605e9ce08af
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" cla=
+ss=3D"gmail_attr">---------- Forwarded message ---------<br>From: <strong c=
+lass=3D"gmail_sendername" dir=3D"auto">Paul Gilster</strong> <span dir=3D"a=
+uto">&lt;<a href=3D"mailto:***@***">***@***</a>&gt;</sp=
+an><br>Date: Tue, Sep 27, 2022, 17:20<br>Subject: Re: &quot;The Internet Na=
+vigator&quot; from an article about the origins of the internet<br>To: Chri=
+stopher McKenzie &lt;<a href=3D"mailto:***@***">kristopolous=
+***@***</a>&gt;<br></div><br><br><div dir=3D"ltr"><div class=3D"gmail_de=
+fault" style=3D"font-family:verdana,sans-serif">My pleasure. By the way, my=
+ email address at <a href=3D"mailto:***@***" target=3D"_blank" re=
+l=3D"noreferrer">***@***</a> is probably the one to use, in case =
+you ever need to reach me again.</div><div class=3D"gmail_default" style=3D=
+"font-family:verdana,sans-serif"><br></div><div class=3D"gmail_default" sty=
+le=3D"font-family:verdana,sans-serif">All best with your article.</div><div=
+ class=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><br></div=
+><div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif">Paul=
+</div><div><div dir=3D"ltr" data-smartmail=3D"gmail_signature"><div dir=3D"=
+ltr"><div><div dir=3D"ltr"><br>_______<br><br>Paul A. Gilster=C2=A0 |=C2=A0=
+ <a href=3D"mailto:***@***" target=3D"_blank" rel=3D"norefer=
+rer">p</a><a href=3D"mailto:***@***" target=3D"_blank" rel=3D"nore=
+ferrer">***@***</a> <br>Writer/Editor, Centauri Dreams=C2=A0 |=C2=
+=A0 <a href=3D"http://www.centauri-dreams.org" target=3D"_blank" rel=3D"nor=
+eferrer">www.centauri-dreams.org</a><br>&quot;You accomplish the great task=
+ by a series of small acts.&quot; -- Lao Tzu </div></div></div></div></div>=
+<br></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_at=
+tr">On Tue, Sep 27, 2022 at 8:17 PM Christopher McKenzie &lt;<a href=3D"mai=
+lto:***@***" target=3D"_blank" rel=3D"noreferrer">kristopolo=
+***@***</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" styl=
+e=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);paddin=
+g-left:1ex">Thank you so much! I really appreciate your time!<br>
+<br>
+On 9/27/22 17:16, Paul Gilster wrote:<br>
+&gt; I wish I could come up with my source for it. After the book was <br>
+&gt; published, I began to wonder about the statement and went back to <br>
+&gt; verify where I had found it, and amidst all my research=C2=A0materials=
+ I <br>
+&gt; couldn&#39;t find the source. So I&#39;m drawing a blank here. I know =
+I pulled <br>
+&gt; it from more than one source but that&#39;s about it, and I&#39;ve wis=
+hed I <br>
+&gt; could clarify it, since it now eludes me. At this point I wish I <br>
+&gt; hadn&#39;t written it, given the trajectory of the idea as you recount=
+ in <br>
+&gt; your article. Clearly it was an egregious error. <br>
+</blockquote></div>
+</div>
+
+--0000000000005fbaa605e9ce08af--
+
+From ***@***  Thu Sep 29 03:06:56 2022
+Return-Path: <***@***>
+X-Original-To: ***@***
+Delivered-To: ***@***
+Received: from mail-qv1-f47.***.*** (mail-qv1-f47.***.*** [*.*.*.*])
+	by ***.*** (Postfix) with ESMTPS id D90701B904D
+	for <***@***>; Thu, 29 Sep 2022 03:06:56 -0700 (PDT)
+Received: by mail-qv1-f47.***.*** with SMTP id m18so592150qvo.12
+        for <***@***>; Thu, 29 Sep 2022 03:06:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=***.***; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date;
+        bh=***
+        b=***
+         f6Scep5Wv4MXebBGn8LOWcg68NAmFh4+vT2zzeEAU2MfupQPaDgJXbR071iQwFXHGq+x
+         GEbuA/yIxrmj8h8xr+WAqZsVEolhDWeyxa5nDZ2550VdORfZrFJ/ay6S+v8mGLQlgKvu
+         UMeo9dDOT0qEmQVZ6noyHO/IWPwFyfXTzMKhOIoiiShMPeVA9GcblU8CcW2nc9P/0LhR
+         BbzFOeg8A/lzOEbBYs31wG9ub4vsEDhpymaX3V53Nd8LDDJgAPQ9CRJ7ZRNAFH+80CwW
+         mbMg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date;
+        bh=***
+        b=***
+         fFEZsoyiHaIWwj7Cn0rjQwzZFm2KuK5fu1qUtmHno8qdpMvSR7HkCkDI1z2gcX2aJxuD
+         2wRUlCdv4e0x5bPyRM1EaJL6hzCNt/1kCpwpMa/aeWMUWwWty+0o6upWIj0NtFsS5U9X
+         1Jw0rmhoTyu02SnFMe8D9UZ+dC51s6Yyc32GSalF1amv20tgC8B4qgocN69E2sBSBz4g
+         /qMa1wHFnefSgyG4XlRl/bYsXPZr3kKSdwkK459Ff6gVTQKK48rUgzPktDgFEvfkkfd7
+         sidw==
+X-Gm-Message-State: ACrzQf0sC4/hoQOxaStL+DV/rwBW4NgN61LfmHJgpgm9gxGpnqsYbBpL
+	R9PRPJF9KqdcIB+nEA0FnYviAknW0G/SzV6nyMcTJR4t7oE=
+X-Google-Smtp-Source: AMsMyM479RT2Ea3Wm1vccMa/HCyl1o+81+BnyEXEOn/QgWIeXKCYMYKrzdeny1UxVPWj75JFDdgFXwQ4jqO9UXGDDQA=
+X-Received: by 2002:a05:6214:76a:b0:4ac:7dc2:e0e0 with SMTP id
+ f10-20020a056214076a00b004ac7dc2e0e0mr1715296qvz.11.1664446015599; Thu, 29
+ Sep 2022 03:06:55 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAPV9vOu=kZP-BgjNG5pV=***@******.***>
+ <CA+D0ccEo3N3=bHnEfPx+***@******.***>
+In-Reply-To: <CA+D0ccEo3N3=bHnEfPx+***@******.***>
+From: Christopher McKenzie <***@***>
+Date: Thu, 29 Sep 2022 03:06:44 -0700
+Message-ID: <CA+D0ccEpM=***@******.***>
+Subject: Fwd: An article about the origins of the internet that mentions you
+To: Chris McKenzie <***@***>
+Content-Type: multipart/alternative; boundary="00000000000081f98005e9ce0905"
+Status: O
+Content-Length: 15892
+Lines: 281
+
+--00000000000081f98005e9ce0905
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Christopher McKenzie <***@***>
+Date: Wed, Sep 28, 2022, 10:44
+Subject: Re: An article about the origins of the internet that mentions you
+To: John S. Quarterman <***@***>
+
+
+Thanks a lot for the detailed response.
+
+I'll pull the article until I go over everything that you've pointed out.
+
+I hope the best for you during the storm and I'll respond when I've
+addressed all your concerns.
+
+On Wed, Sep 28, 2022, 08:36 John S. Quarterman <***@***> wrote:
+
+> Thanks for the inquiry.
+>
+> And thanks for digging into Internet history; it's always interesting to
+> see new material dug up.
+>
+> I'm not sure what you're getting at with your "stated without citation."
+> I didn't see any reason to cite my own opinion which I previously also
+> wrote.
+> Most likely if you dig back in issues of Matrix News you'll find even
+> earlier versions.
+>
+> After your question "Why didn=E2=80=99t he just stick with that?"
+>
+> I had to reread several times to convince myself you weren't attributing
+> the Japan Information Highway article to me. Could you please clarify by
+> saying something like "text by others".
+>
+> To directly answer your question, The Matrix is a history and policy book=
+.
+> The other two you quote are, as their titles indicate, about technical
+> aspects of how to use the stuff. History was not the main point of those
+> books. As you say, "these statements are small buried passages in much
+> larger, often dry technical works." These particular statements were not
+> intended to be complete histories of the origins of the ARPANET. They are
+> indeed a bit too condensed.
+>
+> I am puzzled by your characterization, "This =E2=80=9CARPANET is one step=
+ removed
+> from nuclear war planning=E2=80=9D narrative".
+>
+> First of all, that doesn't seem to be what you are objecting to. Earlier,
+> you wrote:
+> "was *designed from the start* to withstand a nuclear attack."
+>
+> Secondly, you documented the one step removed in your
+> quotes from "=E2=80=9CRecommendation to the air staff=E2=80=9D by RAND, f=
+rom August 1965."
+> See also below about Licklider: RAND is not the only connection between
+> nuclear war planning and ARPA and the ARPANET..
+>
+> Yes, I am and was well aware that the principal purpose of ARPANET and th=
+e
+> Internet is resource sharing. There was no real need to spell that out of
+> the readers of those two books, because they were reading them to learn h=
+ow
+> to implement that. But that is not the whole story, as you have started
+> discovering. Why was resource sharing on peoples' minds back then? And
+> where did the money come from?
+>
+> Bruce Sterling's writeup is not wrong. Sure, it's better than my shorthan=
+d
+> blurb in those two books. My error is in the "ARPA was charged with". No,
+> not exactly..
+>
+> You may want to ask Bruce if he read =E2=80=9CRecommendation to the air s=
+taff=E2=80=9D. I
+> wouldn't be surprised if he did; he does pretty thorough research.
+>
+> Also, it's a bit unfair to characterize Bruce among "fabulists trying to
+> tell compelling stories." That piece was history, not fiction.
+>
+> However, remember that ARPA funding was from Navy money. So while
+> everybody working on ARPANET most likely was working on resource sharing,
+> if you want to dig, it would be interesting to find out if in the ARPA
+> funding allocation discussions what else was used for justification. It
+> wouldn't be the first time researchers were busily working on a virtuous
+> project that was being funded for different reasons. Let me know if you d=
+ig
+> into that.
+>
+> You don't mention Licklider or his work at the Pentagon. See Sharon
+> Weinberger <https://aeon.co/users/sharon-weinberger>, "Web of War," Aeon,
+> extract from a 2017 book.
+>
+> https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-i=
+nternet
+> For example:
+> "Licklider was well aware of the Pentagon=E2=80=99s interest in command a=
+nd
+> control of nuclear weapons. One of his early descriptions for work on
+> computer networking referenced the need to link computers that would be
+> part of the nascent National Military Command System used to control
+> nuclear weapons. His vision was for something much broader, however. When
+> he met with Jack Ruina, the head of ARPA, and Eugene Fubini, one of Brown=
+=E2=80=99s
+> deputies, Licklider pitched interactive computing to them. Rather than
+> focusing strictly on technologies to improve command and control, he want=
+ed
+> to transform the way people worked with computers. =E2=80=98Who can direc=
+t a battle
+> when he=E2=80=99s got to write a program in the middle of that battle?=E2=
+=80=99 Licklider
+> asked."
+>
+> You ask: "where did people like Gilster and Quarterman get this idea?"
+>
+> I have no idea about Gilster.
+>
+> As for me, I don't rightly recall, it was long common wisdom. Since I
+> worked at BBN, which was full of MIT people who knew Licklider, I would
+> guess it was some derivation of Licklider's Pentagon and ARPA work. Whose
+> work shows that there were indeed Cold War nuclear bomb roots of the
+> ARPANET, even though that network was not directly designed to survive a
+> nuclear attack.
+>
+> Errata: You mention NIRPNET. Maybe you mean NIPRnet.
+> In the same sentence, it's should be its.
+>
+> You note: "If you click through the above article you'll see a linguistic
+> phenomena: It's called Internet without the word "the" preceding it. This
+> was pretty common through about 1994. "I'm on Internet" sounds weird to u=
+s
+> but say, "I'm on AOL" does not - and that was basically the logic. It get=
+s
+> deeper. For instance, it's called "The Usenet" in the article and we
+> actually would drop the "the" on that word today just like we do with
+> "ARPANET", or how it used to be stylized, "ARPAnet". This history needs i=
+ts
+> own atticle as well."
+>
+> (Typo: atticle should be article.)
+>
+> Yes, please write an article about Internet as a proper name. Including
+> the neo-logism internet without a capital, which is irritating, because
+> while there are indeed disconnected small-i internets, there is only one
+> Internet with a capital I.
+>
+> Got to go prepare for a hurricane. Thanks again for your research. -jsq
+>
+
+--00000000000081f98005e9ce0905
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" cla=
+ss=3D"gmail_attr">---------- Forwarded message ---------<br>From: <strong c=
+lass=3D"gmail_sendername" dir=3D"auto">Christopher McKenzie</strong> <span =
+dir=3D"auto">&lt;<a href=3D"mailto:***@***">kristopolous@gma=
+***.***</a>&gt;</span><br>Date: Wed, Sep 28, 2022, 10:44<br>Subject: Re: An =
+article about the origins of the internet that mentions you<br>To: John S. =
+Quarterman &lt;<a href=3D"mailto:***@***">***@***</a>&g=
+t;<br></div><br><br><div dir=3D"auto">Thanks a lot for the detailed respons=
+e.=C2=A0<div dir=3D"auto"><br></div><div dir=3D"auto">I&#39;ll pull the art=
+icle until I go over everything that you&#39;ve pointed out.<div dir=3D"aut=
+o"><br></div><div dir=3D"auto">I hope the best for you during the storm and=
+ I&#39;ll respond when I&#39;ve addressed all your concerns.</div></div></d=
+iv><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On =
+Wed, Sep 28, 2022, 08:36 John S. Quarterman &lt;<a href=3D"mailto:jsqgoog@g=
+***.***" target=3D"_blank" rel=3D"noreferrer">***@***</a>&gt; wr=
+ote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;=
+border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">Thanks for th=
+e inquiry.<div><br></div><div>And thanks for digging into Internet history;=
+ it&#39;s always interesting to see new material dug up.<br><div><br></div>=
+<div>I&#39;m not sure what you&#39;re getting at with your &quot;stated wit=
+hout citation.&quot;</div><div>I didn&#39;t see any reason to cite my own o=
+pinion which I previously also wrote.</div><div>Most likely if you dig back=
+ in issues of Matrix News you&#39;ll find even earlier versions.</div><div>=
+<br></div><div>After your question &quot;<span style=3D"color:rgb(0,0,0);fo=
+nt-family:&quot;Cormorant Garamond&quot;,serif;font-size:17.6px;font-weight=
+:600;text-align:justify">Why didn=E2=80=99t he just stick with that?&quot;<=
+/span></div><div><span style=3D"color:rgb(0,0,0);font-family:&quot;Cormoran=
+t Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify"=
+><br></span></div>I had to reread several times to convince myself you were=
+n&#39;t attributing the Japan Information Highway article to me. Could you =
+please clarify by saying something like &quot;text by others&quot;.<div><br=
+></div><div>To directly answer your question, The Matrix is a history and p=
+olicy book. The other two you quote are, as their titles indicate, about te=
+chnical aspects of how to use the stuff. History was not the main point of =
+those books. As you say,=C2=A0&quot;these statements are small buried passa=
+ges in much larger, often dry technical works.&quot; These particular state=
+ments were not intended to be complete histories of the origins of the ARPA=
+NET. They are indeed a bit too condensed.</div><div><br></div><div>I am puz=
+zled by your characterization, &quot;<span style=3D"color:rgb(0,0,0);font-f=
+amily:&quot;Cormorant Garamond&quot;,serif;font-size:17.6px;font-weight:600=
+;text-align:justify">This =E2=80=9CARPANET is one step removed from nuclear=
+ war planning=E2=80=9D narrative&quot;.</span></div><div><span style=3D"col=
+or:rgb(0,0,0);font-family:&quot;Cormorant Garamond&quot;,serif;font-size:17=
+.6px;font-weight:600;text-align:justify"><br></span></div>First of all, tha=
+t doesn&#39;t seem to be what you are objecting to. Earlier, you wrote:<div=
+>&quot;<span style=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond=
+&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify">was=C2=A0=
+</span><em style=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&q=
+uot;,serif;font-size:17.6px;font-weight:600;text-align:justify">designed fr=
+om the start</em><span style=3D"color:rgb(0,0,0);font-family:&quot;Cormoran=
+t Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify"=
+>=C2=A0to withstand a nuclear attack.&quot;</span></div><div><span style=3D=
+"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&quot;,serif;font-siz=
+e:17.6px;font-weight:600;text-align:justify"><br></span></div>Secondly, you=
+ documented the one step removed in your quotes=C2=A0from=C2=A0&quot;=E2=80=
+=9CRecommendation to the air staff=E2=80=9D by RAND, from August 1965.&quot=
+; See also below about Licklider: RAND is not the only connection between n=
+uclear war planning and ARPA and the ARPANET..</div><div><br><div>Yes, I am=
+ and was well aware that the principal purpose of ARPANET and the Internet =
+is resource sharing. There was no real need to spell that out of the reader=
+s of those two books, because they were reading them to learn how to implem=
+ent that. But that is not the whole story, as you have started discovering.=
+ Why was resource sharing on peoples&#39; minds back then? And where did th=
+e money come from?<span style=3D"color:rgb(0,0,0);font-family:&quot;Cormora=
+nt Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify=
+"><br></span></div><div><br></div>Bruce Sterling&#39;s writeup is not wrong=
+. Sure, it&#39;s better than my shorthand blurb in those two books. My erro=
+r is in the &quot;ARPA was charged with&quot;. No, not exactly..</div><div>=
+<br></div><div>You may want to ask Bruce if he read =E2=80=9CRecommendation=
+ to the air staff=E2=80=9D. I wouldn&#39;t be surprised if he did; he does =
+pretty thorough research.</div><div><br></div><div>Also, it&#39;s a bit unf=
+air to characterize Bruce among=C2=A0&quot;fabulists trying to tell compell=
+ing stories.&quot; That piece was history, not fiction.</div><div><br><div>=
+However, remember that ARPA funding was from Navy money. So while everybody=
+ working on ARPANET most likely was working on resource sharing, if you wan=
+t to dig, it would be interesting to find out if in the ARPA funding alloca=
+tion discussions what else was used for justification. It wouldn&#39;t be t=
+he first time researchers were busily working on a virtuous project that wa=
+s being funded for different reasons. Let me know if you dig into that.</di=
+v><div><br></div><div>You don&#39;t mention Licklider or his work at the Pe=
+ntagon. See=C2=A0<a href=3D"https://aeon.co/users/sharon-weinberger" style=
+=3D"box-sizing:border-box;display:inline;margin-right:0.7ex;line-height:1.6=
+" rel=3D"noreferrer noreferrer" target=3D"_blank">Sharon Weinberger</a>, &q=
+uot;Web of War,&quot; Aeon, extract from a 2017 book.</div><div><a href=3D"=
+https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-int=
+ernet" rel=3D"noreferrer noreferrer" target=3D"_blank">https://aeon.co/essa=
+ys/how-nuclear-fears-helped-inspire-creation-of-the-internet</a><br></div><=
+div>For example:</div>&quot;Licklider was well aware of the Pentagon=E2=80=
+=99s interest in command and control of nuclear weapons. One of his early d=
+escriptions for work on computer networking referenced the need to link com=
+puters that would be part of the nascent National Military Command System u=
+sed to control nuclear weapons. His vision was for something much broader, =
+however. When he met with Jack Ruina, the head of ARPA, and Eugene Fubini, =
+one of Brown=E2=80=99s deputies, Licklider pitched interactive computing to=
+ them. Rather than focusing strictly on technologies to improve command and=
+ control, he wanted to transform the way people worked with computers. =E2=
+=80=98Who can direct a battle when he=E2=80=99s got to write a program in t=
+he middle of that battle?=E2=80=99 Licklider asked.&quot;<div><br></div><di=
+v>You ask:=C2=A0&quot;where did people like Gilster and Quarterman get this=
+ idea?&quot;</div><div><br></div><div>I have no idea about Gilster.</div><d=
+iv><br></div><div>As for me, I don&#39;t rightly recall, it was long common=
+ wisdom. Since I worked at BBN, which was full of MIT people who knew Lickl=
+ider, I would guess it was some derivation of Licklider&#39;s Pentagon and =
+ARPA work. Whose work shows that there were indeed Cold War nuclear bomb ro=
+ots of the ARPANET, even though that network was not directly designed to s=
+urvive a nuclear attack.</div><div><br></div><div>Errata: You mention NIRPN=
+ET. Maybe you mean NIPRnet.=C2=A0</div><div>In the same sentence, it&#39;s =
+should be its.</div></div><div><br></div><div>You note:=C2=A0&quot;If you c=
+lick through the above article you&#39;ll see a linguistic phenomena: It&#3=
+9;s called Internet without the word &quot;the&quot; preceding it. This was=
+ pretty common through about 1994. &quot;I&#39;m on Internet&quot; sounds w=
+eird to us but say, &quot;I&#39;m on AOL&quot; does not - and that was basi=
+cally the logic. It gets deeper. For instance, it&#39;s called &quot;The Us=
+enet&quot; in the article and we actually would drop the &quot;the&quot; on=
+ that word today just like we do with &quot;ARPANET&quot;, or how it used t=
+o be stylized, &quot;ARPAnet&quot;. This history needs its own atticle as w=
+ell.&quot;</div><div><br></div><div>(Typo: atticle=C2=A0should be article.)=
+</div><div><br></div><div>Yes, please write an article about Internet as a =
+proper name. Including the neo-logism internet without a capital, which is =
+irritating, because while there are indeed disconnected small-i internets, =
+there is only one Internet with a capital I.</div><div><br></div><div>Got t=
+o go prepare for a hurricane. Thanks again for your research. -jsq</div></d=
+iv>
+</blockquote></div>
+</div>
+
+--00000000000081f98005e9ce0905--
+
+From ***@***  Thu Sep 29 03:11:44 2022
+Return-Path: <***@***>
+X-Original-To: ***@***
+Delivered-To: ***@***
+Received: from mail-qk1-f182.***.*** (mail-qk1-f182.***.*** [*.*.*.*])
+	by ***.*** (Postfix) with ESMTPS id 453B51B904D
+	for <***@***>; Thu, 29 Sep 2022 03:11:44 -0700 (PDT)
+Received: by mail-qk1-f182.***.*** with SMTP id d17so498429qko.13
+        for <***@***>; Thu, 29 Sep 2022 03:11:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=***.***; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date;
+        bh=***
+        b=***
+         q8AAO2Idp+eZonasyxjb+zPVALdY1eezEjGj0OYQEI1A9wTENFeMkAZxUS10KiI3oReV
+         LeH0vjSGIN44En7QQBTGt/vt2qrAeIwSzeA6gR7dliFIixgrKkP5X81Yi0xUqLB/5n+F
+         OGpTBvf8zv0pMs7mvhYD/DS0YBg+R5eDK/9MMnmy+KfJ2wZ1OCtkYQDkQO4V33zTc1SE
+         V7TpKaVQKkI8LgBtpZE8NbRRNdawLJ11wWU1rR5HtQXj3IPuU8TEMx9sk4wj7YX/gB3m
+         gXxw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date;
+        bh=***
+        b=***
+         OCSGjaSpdGvZAmIXjSGXEfhXcsBTP7664EIIn8IzMxYz081oYB7hQMAd/N17Bfn2Ff1A
+         vRddzosj9HVO1/8mFJG4bUqlXYfO5vB/Q2K03xUhHm263oHPTnyeGbKbeVMfpRB+suQ2
+         g5/BSJDNeNTBek0Cx5VG3PDCGmOCaTMfup6y8hfnIKHTx/q1REeMCXTD/WJU8fHFk5Uq
+         MzXNH8mLdMznQToYWIo2napFR2TpWniMo3tAipfuLCsP/GpQzcWkI5SkarKe1ephiseP
+         naZg==
+X-Gm-Message-State: ACrzQf29tMd8OCgJye3wGumVAGO0pg0gbgoAFlhiOhVcrumtkm1je0Ce
+	ApEEV5TmssHIJzJLUNHMFa23/m7lMBUGhacu+37wNeQ8stg=
+X-Google-Smtp-Source: AMsMyM4H/Qr9zHo6Ro4/w1JyflkCcbg7Hr9yu28tX7eysP4yeM/9+l/u8Qj3S2x8RwBvRv5+zkYl9DWzkmQWEdw+KLk=
+X-Received: by 2002:a37:e107:0:b0:6ce:1a08:fbd8 with SMTP id
+ c7-20020a37e107000000b006ce1a08fbd8mr1553879qkm.493.1664446302807; Thu, 29
+ Sep 2022 03:11:42 -0700 (PDT)
+MIME-Version: 1.0
+References: <CA+D0ccHfc1jZCLL4gQ8fYW7-o5QsCi23eF=***@******.***>
+ <83a665c6-227e-01a3-af40-***@***> <CAM8bmg6wwFN-s8qNTbgN3T3uDXyt2OWX+***@******.***>
+In-Reply-To: <CAM8bmg6wwFN-s8qNTbgN3T3uDXyt2OWX+***@******.***>
+From: Christopher McKenzie <***@***>
+Date: Thu, 29 Sep 2022 03:11:31 -0700
+Message-ID: <CA+***@******.***>
+Subject: Fwd: "The Internet Navigator" from an article about the origins of
+ the internet
+To: Chris McKenzie <***@***>
+Content-Type: multipart/alternative; boundary="000000000000a06ce005e9ce1a75"
+Status: O
+Content-Length: 8584
+Lines: 210
+
+--000000000000a06ce005e9ce1a75
+Content-Type: text/plain; charset="UTF-8"
+
+---------- Forwarded message ---------
+From: Paul Gilster <***@***>
+Date: Tue, Sep 27, 2022, 17:16
+Subject: Re: "The Internet Navigator" from an article about the origins of
+the internet
+To: Christopher McKenzie <***@***>
+
+
+Hi Christopher,
+
+Sorry, I must have missed your earlier email. Re that line about
+communications in the event of a nuclear attack, I wish I could come up
+with my source for it. After the book was published, I began to wonder
+about the statement and went back to verify where I had found it, and
+amidst all my research materials I couldn't find the source. So I'm drawing
+a blank here. I know I pulled it from more than one source but that's about
+it, and I've wished I could clarify it, since it now eludes me. At this
+point I wish I hadn't written it, given the trajectory of the idea as you
+recount in your article. Clearly it was an egregious error.
+
+Great article, by the way, and a real contribution.
+
+Paul
+
+_______
+
+Paul A. Gilster  |  p <***@***>***@***
+Writer/Editor, Centauri Dreams  |  www.centauri-dreams.org
+"You accomplish the great task by a series of small acts." -- Lao Tzu
+
+
+On Tue, Sep 27, 2022 at 6:11 PM Christopher McKenzie <***@***>
+wrote:
+
+> Hi,
+>
+> This is a followup to an email I sent yesterday
+>
+> I'm running a project, Silicon Folklore, an in-depth history of
+> tech-related folklore and you play a role in my narrative.
+>
+> I'm reaching out to give you a chance to review, respond, and correct any
+> mistakes I have made mentioning your work. I thank you for your time.
+>
+> You can find the article here:
+> https://***.***/nuclear-myth.html
+> I'm going to likely start promoting it out on Friday Sept 30, 2022 unless
+> I hear back from you or others regarding it. Please reach out if you have
+> questions or object to anything in the article.
+>
+> Have a great day.
+>
+> Thanks!
+> On 9/26/22 03:26, Christopher McKenzie wrote:
+>
+> Hi
+>
+> I hope you're ok with answering such an old question.
+>
+> This passage:
+>
+> *The ARPANET was a network connecting university, military, and defense
+> contractors; it was established to aid researchers in the process of
+> sharing information, and not coincidentally to study how communications
+> could be maintained in the event of nuclear attack*
+>
+> The last part of that, do you have any recollection where you got that
+> information from?
+>
+> I'm doing a meta-history project (basically how narratives form and change
+> over time) and you're one of my loose ends here.
+>
+> Was it Paul Baran's work? Kleinrock? Maybe a conversation with David
+> Farber? Someone else?
+>
+> I thank you so much for your time.
+>
+> Have a great day.
+>
+>
+>
+
+--000000000000a06ce005e9ce1a75
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" cla=
+ss=3D"gmail_attr">---------- Forwarded message ---------<br>From: <strong c=
+lass=3D"gmail_sendername" dir=3D"auto">Paul Gilster</strong> <span dir=3D"a=
+uto">&lt;<a href=3D"mailto:***@***">***@***</a>&gt;</sp=
+an><br>Date: Tue, Sep 27, 2022, 17:16<br>Subject: Re: &quot;The Internet Na=
+vigator&quot; from an article about the origins of the internet<br>To: Chri=
+stopher McKenzie &lt;<a href=3D"mailto:***@***">kristopolous=
+***@***</a>&gt;<br></div><br><br><div dir=3D"ltr"><div class=3D"gmail_de=
+fault" style=3D"font-family:verdana,sans-serif">Hi Christopher,</div><div c=
+lass=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><br></div><=
+div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif">Sorry,=
+ I must have missed your earlier email. Re that line about communications i=
+n the event of a nuclear attack, I wish I could come up with my source for =
+it. After the book was published, I began to wonder about the statement and=
+ went back to verify where I had found it, and amidst all my research=C2=A0=
+materials I couldn&#39;t find the source. So I&#39;m drawing a blank here. =
+I know I pulled it from more than one source but that&#39;s about it, and I=
+&#39;ve wished I could clarify it, since it now eludes me. At this point I =
+wish I hadn&#39;t written it, given the trajectory of the idea as you recou=
+nt in your article. Clearly it was an egregious error.=C2=A0</div><div clas=
+s=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><br></div><div=
+ class=3D"gmail_default" style=3D"font-family:verdana,sans-serif">Great art=
+icle, by the way, and a real contribution.=C2=A0</div><div class=3D"gmail_d=
+efault" style=3D"font-family:verdana,sans-serif"><br></div><div class=3D"gm=
+ail_default" style=3D"font-family:verdana,sans-serif">Paul</div><div><div d=
+ir=3D"ltr" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div di=
+r=3D"ltr"><br>_______<br><br>Paul A. Gilster=C2=A0 |=C2=A0 <a href=3D"mailt=
+o:***@***" target=3D"_blank" rel=3D"noreferrer">p</a><a href=
+=3D"mailto:***@***" target=3D"_blank" rel=3D"noreferrer">ag1877@gm=
+***.***</a> <br>Writer/Editor, Centauri Dreams=C2=A0 |=C2=A0 <a href=3D"htt=
+p://www.centauri-dreams.org" target=3D"_blank" rel=3D"noreferrer">www.centa=
+uri-dreams.org</a><br>&quot;You accomplish the great task by a series of sm=
+all acts.&quot; -- Lao Tzu </div></div></div></div></div><br></div><br><div=
+ class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Tue, Sep 27=
+, 2022 at 6:11 PM Christopher McKenzie &lt;<a href=3D"mailto:kristopolous@g=
+***.***" target=3D"_blank" rel=3D"noreferrer">***@***</a>&g=
+t; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0p=
+x 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+ =20
+   =20
+ =20
+  <div>
+    <p>Hi,</p>
+    <p>This is a followup to an email I sent yesterday</p>
+    <p>I&#39;m running a project, Silicon Folklore, an in-depth history of
+      tech-related folklore and you play a role in my narrative.
+      <br>
+      <br>
+      I&#39;m reaching out to give you a chance to review, respond, and
+      correct any mistakes I have made mentioning your work. I thank you
+      for your time.
+      <br>
+      <br>
+      You can find the article here: <a href=3D"https://***.***=
+/nuclear-myth.html" target=3D"_blank" rel=3D"noreferrer">https://siliconfol=
+***.***/nuclear-myth.html</a>
+      <br>
+      I&#39;m going to likely start promoting it out on Friday Sept 30, 202=
+2
+      unless I hear back from you or others regarding it. Please reach
+      out if you have questions or object to anything in the article.<br>
+      <br>
+      Have a great day.
+      <br>
+      <br>
+      Thanks!
+      <br>
+    </p>
+    <div>On 9/26/22 03:26, Christopher McKenzie
+      wrote:<br>
+    </div>
+    <blockquote type=3D"cite">
+     =20
+      <div dir=3D"auto">Hi=C2=A0
+        <div dir=3D"auto"><br>
+        </div>
+        <div dir=3D"auto">I hope you&#39;re ok with answering such an old
+          question.</div>
+        <div dir=3D"auto"><br>
+        </div>
+        <div dir=3D"auto">This passage:</div>
+        <div dir=3D"auto"><br>
+        </div>
+        <div dir=3D"auto"><i>The ARPANET was a network connecting
+            university, military, and defense contractors; it was
+            established to aid researchers in the process of sharing
+            information, and not coincidentally to <b>study how
+              communications could be maintained in the event of nuclear
+              attack</b></i></div>
+        <div dir=3D"auto"><i><br>
+          </i></div>
+        <div dir=3D"auto">The last part of that, do you have any
+          recollection where you got that information from?</div>
+        <div dir=3D"auto"><br>
+        </div>
+        <div dir=3D"auto">I&#39;m doing a meta-history project (basically h=
+ow
+          narratives form and change over time) and you&#39;re one of my
+          loose ends here.</div>
+        <div dir=3D"auto"><br>
+        </div>
+        <div dir=3D"auto">Was it Paul Baran&#39;s work? Kleinrock? Maybe a
+          conversation with David Farber? Someone else?</div>
+        <div dir=3D"auto"><br>
+        </div>
+        <div dir=3D"auto">I thank you so much for your time.</div>
+        <div dir=3D"auto"><br>
+        </div>
+        <div dir=3D"auto">Have a great day.</div>
+        <div dir=3D"auto"><br>
+        </div>
+        <div dir=3D"auto"><br>
+        </div>
+      </div>
+    </blockquote>
+  </div>
+
+</blockquote></div>
+</div>
+
+--000000000000a06ce005e9ce1a75--
+
+From ***@***  Wed Oct 12 05:43:23 2022
+Return-Path: <***@***>
+X-Original-To: ***@***
+Delivered-To: ***@***
+Received: from mail-qk1-f169.***.*** (mail-qk1-f169.***.*** [*.*.*.*])
+	by ***.*** (Postfix) with ESMTPS id 765D71B89B7
+	for <***@***>; Wed, 12 Oct 2022 05:43:23 -0700 (PDT)
+Received: by mail-qk1-f169.***.*** with SMTP id 8so2862928qka.1
+        for <***@***>; Wed, 12 Oct 2022 05:43:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=***.***; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=***
+        b=***
+         8Hwe8R83JRBVzyvMyvCqt08dswC4KReHvKKmLzflZ/dLRjCXPrLp2hY1vZ/I1R01bu3t
+         5tDvqS0fsn7LmwOwbv4J5LUOS4rp1n2FKI5ATBwGG/a2YKp3EZwf6Fk1Vra7OSOrjPmM
+         POs0bxwkF6F3l3WGnpKbdCBtZnILyH2YG1gKtMAeK/YDn2mDjZEoSQadXxJQI2+9qfUu
+         GeL1jSEOSpS7f87lFhcLK/x0+QJ6l2pcXl5hC4xwy1WcrJa/rpJMeb504YbCfJ2oXF1Z
+         eSrg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=***
+        b=***
+         TVnz77kIrEGJBj58+Dl/LwkohARq1VpOnaClO3TVpyROyqLtnOXyVs72c17eJso0AlMZ
+         U9UIcga8SktrVPJSV0FCKULCd/0Nvl1/FE2XZCsYAfGWxwK40vC4KkBgk1l/qA+Dh6hB
+         X0aQhGjepB60y1dwGF+6Y8LPlwVhV+4+mNASRhfZjLmH+6EOaUq/+Jn1fc5b2Mjtv1Oy
+         LO7wO0jRJscThk95UB0AOia0oxUAyP/OKhVnatEypnPzMijAHkQDaQ54JtQGveckv9KL
+         Y2VA==
+X-Gm-Message-State: ACrzQf295zoEOGqTrRArrW+ZgMq0zBKWtJu2vCODeHzOTanEDRfM2ePK
+	VnXeVy0zJOX1HzjM+AAftofVEApQJKBd6V7oSR7Q7YJ3
+X-Google-Smtp-Source: AMsMyM676sCEqIQZlS/yAo0Tq7SWgirGLJhcvEIy19zT+cRrSoxL1JD9Sl4o5y0zaBnoYD4SbjtTTF9oXZ6gVFWP4K0=
+X-Received: by 2002:a05:620a:2848:b0:6ad:db0a:f227 with SMTP id
+ h8-20020a05620a284800b006addb0af227mr19709615qkp.44.1665578601727; Wed, 12
+ Oct 2022 05:43:21 -0700 (PDT)
+MIME-Version: 1.0
+References: <4ff69c1d-20d7-ad8c-1c23-***@***>
+ <CAHxHgge5bqj0MFF-***@******.***> <CA+D0ccFRVsTSzwSDeCSPBs2JrzR==1Ef=***@******.***>
+In-Reply-To: <CA+D0ccFRVsTSzwSDeCSPBs2JrzR==1Ef=***@******.***>
+From: Christopher McKenzie <***@***>
+Date: Wed, 12 Oct 2022 08:43:10 -0400
+Message-ID: <CA+***@******.***>
+Subject: Fwd: An article about he history of the narrative history of the
+ Internet I'm working on
+To: ***@***
+Content-Type: multipart/alternative; boundary="000000000000e6e46705ead5bc3b"
+Status: RO
+Content-Length: 18112
+Lines: 347
+
+--000000000000e6e46705ead5bc3b
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Christopher McKenzie <***@***>
+Date: Fri, Oct 7, 2022 at 5:47 AM
+Subject: Re: An article about he history of the narrative history of the
+Internet I'm working on
+To: Vint Cerf <***@***>
+
+
+Thank you very much!
+
+I'll carefully go through everything you said and edit the draft. I really
+appreciate your time.
+
+I hope you're doing well.
+
+On Fri, Oct 7, 2022, 02:37 Vint Cerf <***@***> wrote:
+
+> Dan Slotnick was NOT a chief architect of the ARPANET. He was the designe=
+r
+> of the ILLIAC IV which was considered an important computing asset and
+> which was a motivation for the construction of the ARPANET which was aime=
+d
+> at sharing of computing resources among a collection of research
+> universities and institutions.  I am not sure the ILLIAC IV was time-shar=
+ed
+> exactly - it was a super computer of its day for doing modeling and
+> analysis, signal processing.
+>
+> Chief architects of the ARPANET were Bob Taylor, Larry Roberts, Robert
+> Kahn, Frank Heart, Dave Walden, Steve Crocker (host protocols and the
+> network working group), Len Kleinrock (analysis/modeling), Howard Frank
+> (topology) .... <many others>
+>
+> It is weird to pick up the story in 1991. ARPANET starts in 1968 after th=
+e
+> Baran studies of 1962 (published in 1964? at RAND).
+> Implementation commences and first nodes delivered in 1969 by BBN.
+> Internet design starts in 1973. First complete TCP specification in
+> December 1974. First implementations in 1975. Much testing starting in
+> 1975. Iteration of design 1976-1978 leading to TCP/IP v4.
+> Implementation 1978-1982 on many operating systems. Operational launch on
+> ARPANET, Packet Radio Net, Packet Satellite Net on Jan 1, 1983. ARPANET
+> retired in 1990.
+>
+> Regarding unreliability - yes, alternative, adaptive routing was part of
+> the ARPANET design to deal with link and/or node (packet switch) failures
+> but the protocols internal to the ARPANET were designed to include
+> end-to-end retransmission WITHIN THE NETWORK. The Host-Host protocol (als=
+o
+> known as the Network Control Protocol) basically assumed the network was
+> reliable. The Internet design, which had to cope with unreliable radio
+> communications of the Packet Radio and Packet Satellite networks, require=
+d
+> end-to-end retransmission at the HOST level.
+>
+> this is a false statement:
+>
+>    - ARPANET had routing based on Donald Davies work
+>    <https://dl.acm.org/doi/abs/10.1145/800001.811669>, not Paul Baran's
+>    and was unrelated to the RAND project or system.
+>
+>  BBN did its work independent of Davies but Roberts learned of the NPL
+> work while at a 1967 ACM conference in Gatlinburg, TN. One of the NPL tea=
+m,
+> Roger Scantlebury, was there and told Roberts about the NPL packet networ=
+k
+> (Davies coined the term "packet" to describe the system he had designed).
+> The NPL network was a single node so there was no real routing in the
+> system. Davies did invent something he called "isarhythmic networking" bu=
+t
+> it did not scale and was not implemented as far as I am aware.
+>
+> this is an inaccurate statement:
+>
+>
+>    - The principal engineer doing that work on ARPANET was Leonard
+>    Kleinrock <https://archive.org/details/DTIC_AD0705149>.
+>
+>
+> Kleinrock did not exactly do routing as much as he did queueing theoretic
+> analysis of capacity, delay, throughput of store-and-forward networks. Th=
+e
+> routing protocols of ARPANET were developed at Bolt, Beranek and Newman.
+> Bob Kahn, John McQuillan and William Crowther and maybe David Walden (?)
+> were principal architects of the routing system of the ARPANET.
+>
+>
+>
+> your quote:"Well said, well said. " - that's crap. Mills was wrong - I
+> don't think you could have predicted the outcomes before building the
+> system.
+>
+> In 1971 the command and control WWMCCS
+> <https://en.wikipedia.org/wiki/Worldwide_Military_Command_and_Control_Sys=
+tem> had
+> an ARPANET like system using BBN IMPs. ALOHAnet
+> <https://en.wikipedia.org/wiki/ALOHAnet> did lead to PRNET
+> <https://en.wikipedia.org/wiki/PRNET> and a packet-radio van which
+> interacted with a satellite network, SATNET. Before that there was a
+> trans-atlantic link, NORSAR connecting to seismic units in Norway to, amo=
+ng
+> other things, enforce the Comprehensive Nuclear Test Ban Treaty
+> <https://en.wikipedia.org/wiki/NORSAR>.
+>
+> ALOHAnet also let to Ethernet by the way.
+>
+> So the ARPA people say they didn=E2=80=99t know about or were influenced =
+by
+> Baran=E2=80=99s work yet Baran finds that implausible.
+>
+> Roberts likely knew about Paul's report and had done a point-to-point
+> experiment in 1966 (?) linking the TX-2 machine at Lincoln Labs to the
+> ANS/Q-32 at System Development Corporation (Santa Monica spinout from RAN=
+D)
+> using a packet-switching format.
+>
+> You absolutely should share your piece with Bob Kahn (***@***)
+> and Steve Crocker (***@***)
+>
+> The latter is doing a comprehensive history of the Arpanet work.
+>
+> vint
+>
+> On Fri, Oct 7, 2022 at 2:38 AM Chris McKenzie <***@***>
+> wrote:
+>
+>> Hi,
+>>
+>> I'm almost done with an article on the history of the various narrative
+>> histories of the internet and I would like to make sure it has no
+>> inaccuracies:
+>>
+>> https://***.***/internet-history
+>>
+>> Any feedback or corrections on your part would be fantastic.
+>>
+>> So far I've worked on it with John Quarterman (author of the Matrix and
+>> others), Paul Gilster (Internet Navigator), John Levine (wrote a number
+>> of books on the internet and did a few PBS specials in the 90s), Sharon
+>> Fisher (wrote some Infoworld and Byte articles in the 80s and 90s and a
+>> few books on the Internet), Paul Albitz (author of DNS/BIND and others),
+>> Cricket Liu (Number of O'Reilly networking books) along with some
+>> folklorist scholars and social scientists one of which, Barry Gerber,
+>> did sociological theory work of Arpanet at UCLA in the 1970s.
+>>
+>> Thank you so much for your time. I've met you twice by the way: once at
+>> the first Sharkfest (I was working for the company with the tcpdump and
+>> wireshark people at the time) and second at Scale in LA in July.
+>>
+>> ~chris
+>>
+>>
+>
+> --
+> Please send any postal/overnight deliveries to:
+> Vint Cerf
+> Google, LLC
+> +1 (571) *** ****
+>
+>
+> until further notice
+>
+>
+>
+>
+
+--000000000000e6e46705ead5bc3b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">---------- Forwarded message ---------<br>From: <strong cla=
+ss=3D"gmail_sendername" dir=3D"auto">Christopher McKenzie</strong> <span di=
+r=3D"auto">&lt;<a href=3D"mailto:***@***">kristopolous@gmail=
+***.***</a>&gt;</span><br>Date: Fri, Oct 7, 2022 at 5:47 AM<br>Subject: Re: An=
+ article about he history of the narrative history of the Internet I&#39;m =
+working on<br>To: Vint Cerf &lt;<a href=3D"mailto:***@***">vint@goo=
+***.***</a>&gt;<br></div><br><br><div dir=3D"auto">Thank you very much!<div=
+ dir=3D"auto"><br></div><div dir=3D"auto">I&#39;ll carefully go through eve=
+rything you said and edit the draft. I really appreciate your time.<div dir=
+=3D"auto"><br></div><div dir=3D"auto">I hope you&#39;re doing well.</div></=
+div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_at=
+tr">On Fri, Oct 7, 2022, 02:37 Vint Cerf &lt;<a href=3D"mailto:***@***=
+com" target=3D"_blank">***@***</a>&gt; wrote:<br></div><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div dir=3D"ltr">Dan Slotnick was NOT a chief architect =
+of the ARPANET. He was the designer of the ILLIAC IV which was considered a=
+n important computing asset and which was a motivation for the construction=
+ of the ARPANET which was aimed at sharing of computing resources among a c=
+ollection of research universities and institutions.=C2=A0 I am not sure th=
+e ILLIAC IV was time-shared exactly - it was a super computer of its day fo=
+r doing modeling and analysis, signal processing.=C2=A0<div><br></div><div>=
+Chief architects of the ARPANET were Bob Taylor, Larry Roberts, Robert Kahn=
+, Frank Heart, Dave Walden, Steve Crocker (host protocols and the network w=
+orking group), Len Kleinrock (analysis/modeling), Howard Frank (topology) .=
+... &lt;many others&gt;</div><div><br></div><div>It is weird to pick up the=
+ story in 1991. ARPANET starts in 1968 after the Baran studies of 1962 (pub=***
+lished in 1964? at RAND).=C2=A0</div><div>Implementation commences and firs=
+t nodes delivered in 1969 by BBN. Internet design starts in 1973. First com=
+plete TCP specification in December 1974. First implementations in 1975. Mu=
+ch testing starting in 1975. Iteration=C2=A0of design 1976-1978 leading to =
+TCP/IP v4. Implementation=C2=A01978-1982 on many operating systems. Operati=
+onal launch on ARPANET, Packet Radio Net, Packet Satellite Net on Jan 1, 19=
+83. ARPANET retired in 1990.=C2=A0</div><div><br></div><div>Regarding unrel=
+iability - yes, alternative, adaptive routing was part of the ARPANET desig=
+n to deal with link and/or node (packet switch) failures but the protocols =
+internal to the ARPANET were designed to include end-to-end retransmission =
+WITHIN THE NETWORK. The Host-Host protocol (also known as the Network Contr=
+ol Protocol) basically assumed the network was reliable. The Internet desig=
+n, which had to cope with unreliable radio communications of the Packet Rad=
+io and Packet Satellite networks, required end-to-end retransmission at the=
+ HOST level.=C2=A0</div><div><br></div><div>this is a false statement:</div=
+><div><ul style=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&qu=
+ot;,serif;font-size:medium;font-weight:600"><li style=3D"margin:0.5rem 0px"=
+><a href=3D"https://dl.acm.org/doi/abs/10.1145/800001.811669" style=3D"colo=
+r:rgb(68,68,170)" rel=3D"noreferrer" target=3D"_blank">ARPANET had routing =
+based on Donald Davies work</a>, not Paul Baran&#39;s and was unrelated to =
+the RAND project or system.</li></ul><div>=C2=A0BBN did its work independen=
+t of Davies but Roberts learned of the NPL work while at a 1967 ACM confere=
+nce in Gatlinburg, TN. One of the NPL team, Roger Scantlebury, was there an=
+d told Roberts about the NPL packet network (Davies coined the term &quot;p=
+acket&quot; to describe the system he had designed). The NPL network was a =
+single node so there was no real routing in the system. Davies did invent s=
+omething he called &quot;isarhythmic=C2=A0networking&quot; but it did not s=
+cale and was not implemented as far as I am aware.=C2=A0<br></div></div><di=
+v><br></div><div>this is an inaccurate statement:</div><div><br></div><div>=
+<ul style=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&quot;,se=
+rif;font-size:medium;font-weight:600"><li style=3D"margin:0.5rem 0px"><a hr=
+ef=3D"https://archive.org/details/DTIC_AD0705149" style=3D"color:rgb(68,68,=
+170)" rel=3D"noreferrer" target=3D"_blank">The principal engineer doing tha=
+t work on ARPANET was Leonard Kleinrock</a>.</li></ul><br></div><div>Kleinr=
+ock did not exactly do routing as much as he did queueing theoretic analysi=
+s of capacity, delay, throughput of store-and-forward networks. The routing=
+ protocols of ARPANET were developed at Bolt, Beranek and Newman. Bob Kahn,=
+ John McQuillan and William Crowther and maybe David Walden (?) were princi=
+pal architects of the routing system of the ARPANET.</div><div><br></div><d=
+iv><br></div><div><br></div><div>your quote:&quot;<span style=3D"color:rgb(=
+0,0,0);font-family:&quot;Cormorant Garamond&quot;,serif;font-size:17.6px;fo=
+nt-weight:600;text-align:justify">Well said, well said.=C2=A0</span>&quot; =
+- that&#39;s crap. Mills was wrong - I don&#39;t think you could have predi=
+cted the outcomes before building the system.=C2=A0</div><div><br></div><di=
+v><span style=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&quot=
+;,serif;font-size:17.6px;font-weight:600;text-align:justify">In 1971 the co=
+mmand and control=C2=A0</span><a href=3D"https://en.wikipedia.org/wiki/Worl=
+dwide_Military_Command_and_Control_System" style=3D"color:rgb(68,68,170);fo=
+nt-family:&quot;Cormorant Garamond&quot;,serif;font-size:17.6px;font-weight=
+:600;text-align:justify" rel=3D"noreferrer" target=3D"_blank">WWMCCS</a><sp=
+an style=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&quot;,ser=
+if;font-size:17.6px;font-weight:600;text-align:justify">=C2=A0had an ARPANE=
+T like system using BBN IMPs.=C2=A0</span><a href=3D"https://en.wikipedia.o=
+rg/wiki/ALOHAnet" style=3D"color:rgb(68,68,170);font-family:&quot;Cormorant=
+ Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify" =
+rel=3D"noreferrer" target=3D"_blank">ALOHAnet</a><span style=3D"color:rgb(0=
+,0,0);font-family:&quot;Cormorant Garamond&quot;,serif;font-size:17.6px;fon=
+t-weight:600;text-align:justify">=C2=A0did lead to=C2=A0</span><a href=3D"h=
+ttps://en.wikipedia.org/wiki/PRNET" style=3D"color:rgb(68,68,170);font-fami=
+ly:&quot;Cormorant Garamond&quot;,serif;font-size:17.6px;font-weight:600;te=
+xt-align:justify" rel=3D"noreferrer" target=3D"_blank">PRNET</a><span style=
+=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&quot;,serif;font-=
+size:17.6px;font-weight:600;text-align:justify">=C2=A0and a packet-radio va=
+n which interacted with a satellite network, SATNET. Before that there was =
+a trans-atlantic link, NORSAR connecting to seismic units in Norway to, amo=
+ng other things,=C2=A0</span><a href=3D"https://en.wikipedia.org/wiki/NORSA=
+R" style=3D"color:rgb(68,68,170);font-family:&quot;Cormorant Garamond&quot;=
+,serif;font-size:17.6px;font-weight:600;text-align:justify" rel=3D"noreferr=
+er" target=3D"_blank">enforce the Comprehensive Nuclear Test Ban Treaty</a>=
+<span style=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&quot;,=
+serif;font-size:17.6px;font-weight:600;text-align:justify">.</span><br></di=
+v><div><span style=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond=
+&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify"><br></spa=
+n></div><div>ALOHAnet also let to Ethernet by the way.=C2=A0<span style=3D"=
+color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&quot;,serif;font-size=
+:17.6px;font-weight:600;text-align:justify"><br></span></div><div><br></div=
+><div><span style=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&=
+quot;,serif;font-size:17.6px;font-weight:600;text-align:justify">So the ARP=
+A people say they didn=E2=80=99t know about or were influenced by Baran=E2=
+=80=99s work yet Baran finds that implausible.</span><br></div><div><span s=
+tyle=3D"color:rgb(0,0,0);font-family:&quot;Cormorant Garamond&quot;,serif;f=
+ont-size:17.6px;font-weight:600;text-align:justify"><br></span></div><div>R=
+oberts likely knew about Paul&#39;s report and had done a point-to-point ex=
+periment in 1966 (?) linking the TX-2 machine at Lincoln Labs to the ANS/Q-=
+32 at System Development Corporation (Santa Monica spinout from RAND) using=
+ a packet-switching format.=C2=A0<span style=3D"color:rgb(0,0,0);font-famil=
+y:&quot;Cormorant Garamond&quot;,serif;font-size:17.6px;font-weight:600;tex=
+t-align:justify"><br></span></div><div><br></div><div>You absolutely should=
+ share your piece with Bob Kahn (<a href=3D"mailto:***@***" rel=
+=3D"noreferrer" target=3D"_blank">***@***</a>) and Steve Crocker =
+(<a href=3D"mailto:***@***" rel=3D"noreferrer" target=3D"_blan=
+k">***@***</a>)</div><div><br></div><div>The latter is doing a=
+ comprehensive history of the Arpanet work.=C2=A0</div><div><br></div><div>=
+vint</div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gm=
+ail_attr">On Fri, Oct 7, 2022 at 2:38 AM Chris McKenzie &lt;<a href=3D"mail=
+to:***@***" rel=3D"noreferrer" target=3D"_blank">kristopolou=
+***@***</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=
+=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding=
+-left:1ex">Hi,<br>
+<br>
+I&#39;m almost done with an article on the history of the various narrative=
+ <br>
+histories of the internet and I would like to make sure it has no <br>
+inaccuracies:<br>
+<br>
+<a href=3D"https://***.***/internet-history" rel=3D"noreferrer =
+noreferrer" target=3D"_blank">https://***.***/internet-history<=
+/a><br>
+<br>
+Any feedback or corrections on your part would be fantastic.<br>
+<br>
+So far I&#39;ve worked on it with John Quarterman (author of the Matrix and=
+ <br>
+others), Paul Gilster (Internet Navigator), John Levine (wrote a number <br=
+>
+of books on the internet and did a few PBS specials in the 90s), Sharon <br=
+>
+Fisher (wrote some Infoworld and Byte articles in the 80s and 90s and a <br=
+>
+few books on the Internet), Paul Albitz (author of DNS/BIND and others), <b=***
+r>
+Cricket Liu (Number of O&#39;Reilly networking books) along with some <br>
+folklorist scholars and social scientists one of which, Barry Gerber, <br>
+did sociological theory work of Arpanet at UCLA in the 1970s.<br>
+<br>
+Thank you so much for your time. I&#39;ve met you twice by the way: once at=
+ <br>
+the first Sharkfest (I was working for the company with the tcpdump and <br=
+>
+wireshark people at the time) and second at Scale in LA in July.<br>
+<br>
+~chris<br>
+<br>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+><div dir=3D"ltr"><div>Please send any postal/overnight deliveries to:</div=
+><div><div>Vint Cerf</div><div>Google, LLC</div><div>***</div><div>Reston, VA 20190</div><div>+1 (571) *** ****<br></d=
+iv><div><br style=3D"color:rgb(34,34,34)"></div></div><div><br></div><div>u=
+ntil further notice</div><div><br></div><div><br></div><div><br></div></div=
+></div>
+</blockquote></div>
+</div></div>
+
+--000000000000e6e46705ead5bc3b--
+
+From ***@***  Sat Oct 15 22:53:40 2022
+Return-Path: <***@***>
+X-Original-To: ***@***
+Delivered-To: ***@***
+Received: from mail-pf1-f173.***.*** (mail-pf1-f173.***.*** [*.*.*.*])
+	by ***.*** (Postfix) with ESMTPS id D5B521B89B7
+	for <***@***>; Sat, 15 Oct 2022 22:53:40 -0700 (PDT)
+Received: by mail-pf1-f173.***.*** with SMTP id y1so8469215pfr.3
+        for <***@***>; Sat, 15 Oct 2022 22:53:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=***.***; s=20210112;
+        h=in-reply-to:from:to:content-language:references:subject:user-agent
+         :mime-version:date:message-id:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=***
+        b=***
+         LZ5k8DybmerMZwbnQ0A/PhWCsuaRAlcfWgn2xmGInBwP+EBb2VJauxkxZ2f/Vg6Y2p9I
+         SjDA/MaSMLLQaKjd+rjBfgzB2d9uXq5zU9wiy2SPhJ8+WA9N5KIalndhvZKJGGF+mN65
+         0mEioTfqgxNqdjSizrLbIpEXPTotOw52BTBFL1tDtJHF/WWB5YYPW7rLmKcIlKmKpycj
+         PiK3Om9FhZl/HEl/XqkptPO5RBf79uMyGMDuu/+QbHsPBFxh0O1mAj2RRQgIVYguIizO
+         3OJQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=in-reply-to:from:to:content-language:references:subject:user-agent
+         :mime-version:date:message-id:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=***
+        b=***
+         YCNoa+YAhP6zmP6w99a7mtHhcuT3XpcHZ39a+/D8IWu2PFmK+OIME20diu7W991Lv02p
+         iiPG7wPdhrhWo4oZ2KwWy+4RuK/iQQSDxiM7nLkRPu3UCDAc3G9g7eSXqHT8XlxjXmqi
+         cYI13nk6kbEfnoof9z3mEHM36b4802df2p+aLg++il9yzUIOJ21FYjNJwHuKzP21UfxH
+         EwQZhBw3s8dQ297+2ITzx6HU//jwj0AVpxtF0P+rm3t+Pm5ribbfbT5NfkBxWdXukiJm
+         ijWw==
+X-Gm-Message-State: ACrzQf1rMTFBKY/gvqqBt4Uu5U53zvYzQsovKnPqh1WXTRCEubKkhPrO
+	wG8L/yaOQG2WtAxDryzcR80wui1ghH4=
+X-Google-Smtp-Source: AMsMyM6OVeCjgoCulpTOANnRX4WU+tK3zwJvnqDtu4SJTo5VKzjqz6kaANJuCqnZOyIo8WNhIQoMFw==
+X-Received: by 2002:a05:6a00:8cb:b0:52c:6962:2782 with SMTP id s11-20020a056a0008cb00b0052c69622782mr6027003pfu.81.1665899619556;
+        Sat, 15 Oct 2022 22:53:39 -0700 (PDT)
+Received: from [*.*.*.*] (075-084-037-074.res.***.***. [*.*.*.*])
+        by smtp.***.*** with ESMTPSA id n30-20020aa7985e000000b00563517deaa8sm4408354pfq.117.2*.*.*.*.53.38
+        for <***@***>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 15 Oct 2022 22:53:39 -0700 (PDT)
+Content-Type: multipart/alternative;
+ boundary="------------nBM0XEduqqjpPhsqCDmvVHXf"
+Message-ID: <450dbea3-1682-34c6-7ae8-***@***>
+Date: Sat, 15 Oct 2022 22:53:37 -0700
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101
+ Thunderbird/91.13.1
+Subject: Fwd: Paul Albitz referred me to you regarding a reference question on
+ "DNS and Bind"
+References: <36FA0A72-D147-4796-90F0-***@***>
+Content-Language: en-US
+To: ***@***
+From: Chris McKenzie <***@***>
+In-Reply-To: <36FA0A72-D147-4796-90F0-***@***>
+X-Forwarded-Message-Id: <36FA0A72-D147-4796-90F0-***@***>
+Status: O
+Content-Length: 8906
+Lines: 217
+
+This is a multi-part message in MIME format.
+--------------nBM0XEduqqjpPhsqCDmvVHXf
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+
+
+-------- Forwarded Message --------
+Subject: 	Re: Paul Albitz referred me to you regarding a reference 
+question on "DNS and Bind"
+Date: 	Thu, 13 Oct 2022 05:57:17 +1100
+From: 	Cricket Liu <***@***>
+To: 	Christopher McKenzie <***@***>
+CC: 	mrdns@ask-***.***
+
+
+
+Hi Chris!
+
+Yes, I think it’s fair to say that I no longer have notes on this.  I’m 
+sorry I couldn’t find anything!
+
+cricket
+
+> On Oct 12, 2022, at 11:54 PM, Christopher McKenzie 
+> <***@***> wrote:
+>
+> ﻿
+> Hi,
+> Thanks so much again for your time, I really appreciate it.
+>
+> I'm going to publish the article probably end of next week (my 
+> "usual traffic" for articles is ~1M uniques over a 12-month window).
+>
+> Did you find anything on this? I can also say "The author no longer 
+> has notes on material" which is totally acceptable being 30 years ago.
+>
+> Thanks! I hope you're well.
+>
+> On Wed, Oct 5, 2022 at 7:06 PM Cricket Liu <***@***> wrote:
+>
+>     Hi Chris!
+>
+>>     On Oct 5, 2022, at 2:14 PM, Christopher McKenzie
+>>     <***@***> wrote:
+>>
+>>     I'm working on an article about the history of narrative history
+>>     of the Internet and a section of your 1992 text, "DNS and Bind"
+>>     appears in it.
+>>
+>>     It would be really helpful to me if you know where you sourced
+>>     this section from
+>>
+>>         The original goal of the ARPANET was to allow government
+>>         contractors to share expensive or scarce computing resources.
+>>         From the beginning, however, users of the ARPANET also used
+>>         the network for collaboration. This collaboration ranged from
+>>         sharing files and software and exchanging electronic mail -
+>>         to joint development and research using shared remote computers.
+>>
+>>     Specifically it's for the narrative survey section and this
+>>     chart: https://***.***/nuclear-myth#chart
+>>
+>>     Thanks so much. I really appreciate your time
+>>
+>     Boy, that was written a long time ago—1991 or 1992, probably!  I
+>     can't remember off the top of my head.  Let me think about it.
+>
+>     cricket
+>
+--------------nBM0XEduqqjpPhsqCDmvVHXf
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body dir="auto">
+    <p><br>
+    </p>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Forwarded Message --------
+      <table class="moz-email-headers-table" cellspacing="0"
+        cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Subject:
+            </th>
+            <td>Re: Paul Albitz referred me to you regarding a reference
+              question on "DNS and Bind"</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Date: </th>
+            <td>Thu, 13 Oct 2022 05:57:17 +1100</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">From: </th>
+            <td>Cricket Liu <a class="moz-txt-link-rfc2396E" href="mailto:***@***">&lt;***@***&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">To: </th>
+            <td>Christopher McKenzie <a class="moz-txt-link-rfc2396E" href="mailto:***@***">&lt;***@***&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">CC: </th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:mrdns@ask-***.***">mrdns@ask-***.***</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      Hi Chris!<br>
+      <br>
+      Yes, I think it’s fair to say that I no longer have notes on this.
+       I’m sorry I couldn’t find anything!
+      <div><br>
+        <div dir="ltr">cricket</div>
+        <div dir="ltr"><br>
+          <blockquote type="cite">On Oct 12, 2022, at 11:54 PM,
+            Christopher McKenzie <a class="moz-txt-link-rfc2396E" href="mailto:***@***">&lt;***@***&gt;</a> wrote:<br>
+            <br>
+          </blockquote>
+        </div>
+        <blockquote type="cite">
+          <div dir="ltr">﻿
+            <div dir="ltr">
+              <div dir="ltr">Hi,
+                <div>Thanks so much again for your time, I really
+                  appreciate it.</div>
+                <div><br>
+                  <div>I'm going to publish the article probably end of
+                    next week (my "usual traffic" for articles is ~1M
+                    uniques over a 12-month window). </div>
+                  <div><br>
+                  </div>
+                  <div>Did you find anything on this? I can also say
+                    "The author no longer has notes on material" which
+                    is totally acceptable being 30 years ago. </div>
+                  <div><br>
+                  </div>
+                  <div>Thanks! I hope you're well.</div>
+                </div>
+              </div>
+              <br>
+              <div class="gmail_quote">
+                <div dir="ltr" class="gmail_attr">On Wed, Oct 5, 2022 at
+                  7:06 PM Cricket Liu &lt;<a
+                    href="mailto:***@***"
+                    moz-do-not-send="true" class="moz-txt-link-freetext">***@***</a>&gt;
+                  wrote:<br>
+                </div>
+                <blockquote class="gmail_quote" style="margin:0px 0px
+                  0px 0.8ex;border-left:1px solid
+                  rgb(204,204,204);padding-left:1ex">
+                  <div style="overflow-wrap: break-word;">Hi Chris!<br>
+                    <div><br>
+                      <blockquote type="cite">
+                        <div>On Oct 5, 2022, at 2:14 PM, Christopher
+                          McKenzie &lt;<a
+                            href="mailto:***@***"
+                            target="_blank" moz-do-not-send="true"
+                            class="moz-txt-link-freetext">***@***</a>&gt;
+                          wrote:</div>
+                        <div>
+                          <div>
+                            <p>I'm working on an article about the
+                              history of narrative history of the
+                              Internet and a section of your 1992 text,
+                              "DNS and Bind" appears in it.</p>
+                            <p>It would be really helpful to me if you
+                              know where you sourced this section from</p>
+                            <blockquote>
+                              <p>The original goal of the ARPANET was to
+                                allow government contractors to share
+                                expensive or scarce computing resources.
+                                From the beginning, however, users of
+                                the ARPANET also used the network for
+                                collaboration. This collaboration ranged
+                                from sharing files and software and
+                                exchanging electronic mail - to joint
+                                development and research using shared
+                                remote computers.</p>
+                            </blockquote>
+                            <p>Specifically it's for the narrative
+                              survey section and this chart: <a
+                                href="https://***.***/nuclear-myth#chart"
+                                target="_blank" moz-do-not-send="true"
+                                class="moz-txt-link-freetext">https://***.***/nuclear-myth#chart</a></p>
+                            <p>Thanks so much. I really appreciate your
+                              time</p>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                    <div>Boy, that was written a long time ago—1991 or
+                      1992, probably!  I can't remember off the top of
+                      my head.  Let me think about it.  </div>
+                    <div><br>
+                    </div>
+                    <div>cricket</div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </body>
+</html>
+
+--------------nBM0XEduqqjpPhsqCDmvVHXf--
+
+From ***@***  Sat Oct 15 22:55:58 2022
+Return-Path: <***@***>
+X-Original-To: ***@***
+Delivered-To: ***@***
+Received: from mail-pg1-f179.***.*** (mail-pg1-f179.***.*** [*.*.*.*])
+	by ***.*** (Postfix) with ESMTPS id 5C2C01B89B7
+	for <***@***>; Sat, 15 Oct 2022 22:55:58 -0700 (PDT)
+Received: by mail-pg1-f179.***.*** with SMTP id h185so7855702pgc.10
+        for <***@***>; Sat, 15 Oct 2022 22:55:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=***.***; s=20210112;
+        h=in-reply-to:from:to:content-language:references:subject:user-agent
+         :mime-version:date:message-id:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=***
+        b=***
+         uSla/dZxM02ZXh/G763yFL2WGkxtH+8qIpxkLoHL2t76Xzx/nOBm/3zDD1EZnEvmCqut
+         wuG5byUw85kIS0VTQp8HYMqb4J9U0QCxNjAENHsZncihxhvt3J1ynY4hX7bs9viXXsKc
+         Ajvc+56b2DPdezdAL25uUKVazElI6uwdue2l/nJWz0mZEzSI0eSZP43j76hP79VdpXS8
+         qytDLEwRv+mD20g+q2R5M0JaNCLt6r9c3kf5k1/1ZtuZZu2GofD/qDq4tHPFATZ+yRQK
+         22Lw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=in-reply-to:from:to:content-language:references:subject:user-agent
+         :mime-version:date:message-id:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=***
+        b=***
+         iqDN34NiYplO/XP3GHcZPGLdQNm6TfyJt3iTs6vxWx1RA/RpwusMNa56tok3FZAo+Eub
+         j+nFbQjR/wcVkQBKF3A5ciWqNzsYzgIBHATX16ZYIqAj/IDRCmPdmcSC5z98a1+nM/4K
+         gsstXplC/LIfeuDgFEkLo2NCM1ZWBEBgTMOK7HgzrgQghatxaea8u1WFVC6/T2NndauK
+         8MVkvWEsNG64agzMwgWaTiWTFWZAHvNhgIGqDhBYkomDdIyyNGZzngH/S6XjSPH1tloZ
+         zplg==
+X-Gm-Message-State: ACrzQf31iBCK1FrYs0DAokf5C5O9h/4IDpdmPgfkGTnAYP/NgQg7Z0RZ
+	S6aEx1LHHF7/obYIcj4YuOXfMRtEFyg=
+X-Google-Smtp-Source: AMsMyM5B866mQ31FR7lOZQexGtwQsMCeqf5fumkb9NqfcokQLtuqfVNSQBMR/WI2ml6wc2BVmpVNCg==
+X-Received: by 2002:a63:458:0:b0:463:9c77:285a with SMTP id 85-20020a630458000000b004639c77285amr5274803pge.517.1665899756822;
+        Sat, 15 Oct 2022 22:55:56 -0700 (PDT)
+Received: from [*.*.*.*] (075-084-037-074.res.***.***. [*.*.*.*])
+        by smtp.***.*** with ESMTPSA id z10-20020a63190a000000b0045feab454f6sm3909678pgl.51.2*.*.*.*.55.55
+        for <***@***>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 15 Oct 2022 22:55:56 -0700 (PDT)
+Content-Type: multipart/alternative;
+ boundary="------------HG4X9l0EpD3RnEu9pBrTEi7D"
+Message-ID: <fc3ce1d8-ddb2-89e3-7cf2-***@***>
+Date: Sat, 15 Oct 2022 22:55:54 -0700
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101
+ Thunderbird/91.13.1
+Subject: Fwd: [update] An article about the origins of the internet that
+ mentions you
+References: <CAPV9vOvdH5ntNee8cGuoSzdYXKkBD2VjpRfsBa=9U3BXXN=***@******.***>
+Content-Language: en-US
+To: ***@***
+From: Chris McKenzie <***@***>
+In-Reply-To: <CAPV9vOvdH5ntNee8cGuoSzdYXKkBD2VjpRfsBa=9U3BXXN=***@******.***>
+X-Forwarded-Message-Id: <CAPV9vOvdH5ntNee8cGuoSzdYXKkBD2VjpRfsBa=9U3BXXN=***@******.***>
+Status: O
+Content-Length: 34764
+Lines: 709
+
+This is a multi-part message in MIME format.
+--------------HG4X9l0EpD3RnEu9pBrTEi7D
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+
+
+-------- Forwarded Message --------
+Subject: 	Re: [update] An article about the origins of the internet that 
+mentions you
+Date: 	Wed, 5 Oct 2022 18:03:07 -0400
+From: 	John S. Quarterman <***@***>
+To: 	Christopher McKenzie <***@***>
+CC: 	John S. Quarterman <***@***>
+
+
+
+Didn't know I had opened quite that big a can of worms.
+
+The big missing piece in your previous draft was Licklider.
+I see his name in your latest draft a few times, but much more could be 
+added.
+
+FYI, I never thought of it as two tracks. If tracks, more than two.
+It's just not possible to explain everything for every audience.
+In some books and articles I go into detail about Internet growth history.
+In most I gloss over that, because there are other fish to fry.
+Etc.
+
+FYI, I don't know what a bazarre is. Maybe you mean bizarre.
+Or perhaps bazaar as in esr's relatively famous essay that you seem to 
+be alluding to,
+The Cathedral and the Bazaar.
+
+So far as I know, nobody has attempted to research the money trail.
+Might be something interesting in there; might not.
+No way to know without looking.
+
+Ed Krol is not hard to find. I can ask him if he's interested, if you like.
+
+Haven't heard from Bruce in a decade or so, but I've sent him a query to 
+his last known address.
+
+FYI, "This connection gets repeated" seems to indicate that I got it 
+from Bruce.
+Which is unlikely, since I was involved in the ARPANET long before Bruce.
+FYI, I worked directly on the ARPANET, but I was not one of the core 
+designers or implementors.
+Your Peer group is probably the right place for me in your schema, 
+because the Matrix is about many networks.
+
+I do like your matrices. The first one seems to indicate it's mostly 
+peer to peer. Heh. Internet joke.
+Suggest you number them, as in Table (or Figure) 1, etc. for ease of 
+reference by commenters.
+
+I vaguely remember that 1991 CPSR event as an EFF event with Sen. Leahy.
+Perhaps Bruce finds more significance in it.
+Ah, Steve Jackson. He took his court case winnings and funded an ISP.
+So we formed one and competed with him. Not relevant to your story, though.
+
+Vint is usually willing to talk. I don't know Kleinrock.
+
+Some time soon I can run it by a den of crusty oldtimers.
+They have, ah, opinions, and aren't shy of expressing them.
+
+Me, I'm 29. -jsq
+
+On Wed, Oct 5, 2022 at 4:30 PM Christopher McKenzie 
+<***@***> wrote:
+
+    Hi,
+
+    After working 16 or so hour days for the past week or so, I believe
+    I've incorporated all of your points in your email except for two:
+
+    1 Bruce Sterling appears to be too famous to find a way to contact.
+    Do you know how I can reach out?
+
+    2 The money trail question is fascinating. I looked into it and
+    wasn't able to make solid headway. I'd likely need to travel to
+    archives in DC as I kept running up against stuff that hasn't been
+    digitized.
+
+    I might do it. I've got a backlog of archives to visit now that
+    they're mostly open again.
+
+    If you'd like to see the updated article it's at
+    https://***.***/nuclear-myth
+
+    I'm going to reach out to Cerf and Kleinrock soon, who I have both
+    met a few times and ask for their feedback as well.
+
+    I'm also looking for more professional folklorists to go over it for
+    methodology and practice. If you know anyone I'd love to get in
+    touch with them.
+
+    Thanks again for your knowledge and valuable opinions.  I hope
+    everything is well.
+
+    ~chris
+
+    On Fri, Sep 30, 2022, 04:56 John S. Quarterman <***@***>
+    wrote:
+
+        Thanks, and looking forward to more history articles by you.
+        Hurricane Ian bypassed us. Others to the east were not so
+        fortunate. -jsq
+
+        On Wed, Sep 28, 2022 at 1:44 PM Christopher McKenzie
+        <***@***> wrote:
+
+            Thanks a lot for the detailed response.
+
+            I'll pull the article until I go over everything that you've
+            pointed out.
+
+            I hope the best for you during the storm and I'll respond
+            when I've addressed all your concerns.
+
+            On Wed, Sep 28, 2022, 08:36 John S. Quarterman
+            <***@***> wrote:
+
+                Thanks for the inquiry.
+
+                And thanks for digging into Internet history; it's
+                always interesting to see new material dug up.
+
+                I'm not sure what you're getting at with your "stated
+                without citation."
+                I didn't see any reason to cite my own opinion which I
+                previously also wrote.
+                Most likely if you dig back in issues of Matrix News
+                you'll find even earlier versions.
+
+                After your question "Why didn’t he just stick with that?"
+
+                I had to reread several times to convince myself you
+                weren't attributing the Japan Information Highway
+                article to me. Could you please clarify by saying
+                something like "text by others".
+
+                To directly answer your question, The Matrix is a
+                history and policy book. The other two you quote are, as
+                their titles indicate, about technical aspects of how to
+                use the stuff. History was not the main point of those
+                books. As you say, "these statements are small buried
+                passages in much larger, often dry technical works."
+                These particular statements were not intended to be
+                complete histories of the origins of the ARPANET. They
+                are indeed a bit too condensed.
+
+                I am puzzled by your characterization, "This “ARPANET is
+                one step removed from nuclear war planning” narrative".
+
+                First of all, that doesn't seem to be what you are
+                objecting to. Earlier, you wrote:
+                "was /designed from the start/ to withstand a nuclear
+                attack."
+
+                Secondly, you documented the one step removed in your
+                quotes from "“Recommendation to the air staff” by RAND,
+                from August 1965." See also below about Licklider: RAND
+                is not the only connection between nuclear war planning
+                and ARPA and the ARPANET..
+
+                Yes, I am and was well aware that the principal purpose
+                of ARPANET and the Internet is resource sharing. There
+                was no real need to spell that out of the readers of
+                those two books, because they were reading them to learn
+                how to implement that. But that is not the whole story,
+                as you have started discovering. Why was resource
+                sharing on peoples' minds back then? And where did the
+                money come from?
+
+                Bruce Sterling's writeup is not wrong. Sure, it's better
+                than my shorthand blurb in those two books. My error is
+                in the "ARPA was charged with". No, not exactly..
+
+                You may want to ask Bruce if he read “Recommendation to
+                the air staff”. I wouldn't be surprised if he did; he
+                does pretty thorough research.
+
+                Also, it's a bit unfair to characterize Bruce
+                among "fabulists trying to tell compelling stories."
+                That piece was history, not fiction.
+
+                However, remember that ARPA funding was from Navy money.
+                So while everybody working on ARPANET most likely was
+                working on resource sharing, if you want to dig, it
+                would be interesting to find out if in the ARPA funding
+                allocation discussions what else was used for
+                justification. It wouldn't be the first time researchers
+                were busily working on a virtuous project that was being
+                funded for different reasons. Let me know if you dig
+                into that.
+
+                You don't mention Licklider or his work at the Pentagon.
+                See Sharon Weinberger
+                <https://aeon.co/users/sharon-weinberger>, "Web of War,"
+                Aeon, extract from a 2017 book.
+                https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet
+                For example:
+                "Licklider was well aware of the Pentagon’s interest in
+                command and control of nuclear weapons. One of his early
+                descriptions for work on computer networking referenced
+                the need to link computers that would be part of the
+                nascent National Military Command System used to control
+                nuclear weapons. His vision was for something much
+                broader, however. When he met with Jack Ruina, the head
+                of ARPA, and Eugene Fubini, one of Brown’s deputies,
+                Licklider pitched interactive computing to them. Rather
+                than focusing strictly on technologies to improve
+                command and control, he wanted to transform the way
+                people worked with computers. ‘Who can direct a battle
+                when he’s got to write a program in the middle of that
+                battle?’ Licklider asked."
+
+                You ask: "where did people like Gilster and Quarterman
+                get this idea?"
+
+                I have no idea about Gilster.
+
+                As for me, I don't rightly recall, it was long common
+                wisdom. Since I worked at BBN, which was full of MIT
+                people who knew Licklider, I would guess it was some
+                derivation of Licklider's Pentagon and ARPA work. Whose
+                work shows that there were indeed Cold War nuclear bomb
+                roots of the ARPANET, even though that network was not
+                directly designed to survive a nuclear attack.
+
+                Errata: You mention NIRPNET. Maybe you mean NIPRnet.
+                In the same sentence, it's should be its.
+
+                You note: "If you click through the above article you'll
+                see a linguistic phenomena: It's called Internet without
+                the word "the" preceding it. This was pretty common
+                through about 1994. "I'm on Internet" sounds weird to us
+                but say, "I'm on AOL" does not - and that was basically
+                the logic. It gets deeper. For instance, it's called
+                "The Usenet" in the article and we actually would drop
+                the "the" on that word today just like we do with
+                "ARPANET", or how it used to be stylized, "ARPAnet".
+                This history needs its own atticle as well."
+
+                (Typo: atticle should be article.)
+
+                Yes, please write an article about Internet as a proper
+                name. Including the neo-logism internet without a
+                capital, which is irritating, because while there are
+                indeed disconnected small-i internets, there is only one
+                Internet with a capital I.
+
+                Got to go prepare for a hurricane. Thanks again for your
+                research. -jsq
+
+--------------HG4X9l0EpD3RnEu9pBrTEi7D
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><br>
+    </p>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Forwarded Message --------
+      <table class="moz-email-headers-table" cellspacing="0"
+        cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Subject:
+            </th>
+            <td>Re: [update] An article about the origins of the
+              internet that mentions you</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Date: </th>
+            <td>Wed, 5 Oct 2022 18:03:07 -0400</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">From: </th>
+            <td>John S. Quarterman <a class="moz-txt-link-rfc2396E" href="mailto:***@***">&lt;***@***&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">To: </th>
+            <td>Christopher McKenzie <a class="moz-txt-link-rfc2396E" href="mailto:***@***">&lt;***@***&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">CC: </th>
+            <td>John S. Quarterman <a class="moz-txt-link-rfc2396E" href="mailto:***@***">&lt;***@***&gt;</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <div dir="ltr">Didn't know I had opened quite that big a can of
+        worms.
+        <div><br>
+        </div>
+        <div>The big missing piece in your previous draft was Licklider.</div>
+        <div>I see his name in your latest draft a few times, but much
+          more could be added.</div>
+        <div><br>
+        </div>
+        <div>FYI, I never thought of it as two tracks. If tracks, more
+          than two.</div>
+        <div>It's just not possible to explain everything for every
+          audience.</div>
+        <div>In some books and articles I go into detail about Internet
+          growth history.</div>
+        <div>In most I gloss over that, because there are other fish to
+          fry.</div>
+        <div>Etc.</div>
+        <div><br>
+        </div>
+        <div>FYI, I don't know what a bazarre is. Maybe you mean
+          bizarre.</div>
+        <div>Or perhaps bazaar as in esr's relatively famous essay that
+          you seem to be alluding to,</div>
+        <div>The Cathedral and the Bazaar.</div>
+        <div><br>
+        </div>
+        <div>So far as I know, nobody has attempted to research the
+          money trail.</div>
+        <div>Might be something interesting in there; might not.</div>
+        <div>No way to know without looking.</div>
+        <div><br>
+        </div>
+        <div>Ed Krol is not hard to find. I can ask him if he's
+          interested, if you like.</div>
+        <div><br>
+        </div>
+        <div>Haven't heard from Bruce in a decade or so, but I've sent
+          him a query to his last known address.</div>
+        <div><br>
+        </div>
+        <div>FYI, "This connection gets repeated" seems to indicate that
+          I got it from Bruce.</div>
+        <div>Which is unlikely, since I was involved in the ARPANET long
+          before Bruce.</div>
+        <div>FYI, I worked directly on the ARPANET, but I was not one of
+          the core designers or implementors.</div>
+        <div>Your Peer group is probably the right place for me in your
+          schema, because the Matrix is about many networks.</div>
+        <div><br>
+        </div>
+        <div>I do like your matrices. The first one seems to indicate
+          it's mostly peer to peer. Heh. Internet joke.</div>
+        <div>Suggest you number them, as in Table (or Figure) 1, etc.
+          for ease of reference by commenters.</div>
+        <div><br>
+        </div>
+        <div>I vaguely remember that 1991 CPSR event as an EFF event
+          with Sen. Leahy.</div>
+        <div>Perhaps Bruce finds more significance in it.</div>
+        <div>Ah, Steve Jackson. He took his court case winnings and
+          funded an ISP.</div>
+        <div>So we formed one and competed with him. Not relevant to
+          your story, though.</div>
+        <div><br>
+        </div>
+        <div>Vint is usually willing to talk. I don't know Kleinrock.<br>
+        </div>
+        <div><br>
+        </div>
+        <div>Some time soon I can run it by a den of crusty oldtimers.</div>
+        <div>They have, ah, opinions, and aren't shy of expressing them.</div>
+        <div><br>
+        </div>
+        <div>Me, I'm 29. -jsq</div>
+      </div>
+      <br>
+      <div class="gmail_quote">
+        <div dir="ltr" class="gmail_attr">On Wed, Oct 5, 2022 at 4:30 PM
+          Christopher McKenzie &lt;<a
+            href="mailto:***@***" moz-do-not-send="true"
+            class="moz-txt-link-freetext">***@***</a>&gt;
+          wrote:<br>
+        </div>
+        <blockquote class="gmail_quote" style="margin:0px 0px 0px
+          0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+          <div dir="auto">Hi,
+            <div dir="auto"><br>
+            </div>
+            <div dir="auto">After working 16 or so hour days for the
+              past week or so, I believe I've incorporated all of your
+              points in your email except for two: </div>
+            <div dir="auto"><br>
+            </div>
+            <div dir="auto">1 Bruce Sterling appears to be too famous to
+              find a way to contact. Do you know how I can reach out?</div>
+            <div dir="auto"><br>
+            </div>
+            <div dir="auto">2 The money trail question is fascinating. I
+              looked into it and wasn't able to make solid headway. I'd
+              likely need to travel to archives in DC as I kept running
+              up against stuff that hasn't been digitized. </div>
+            <div dir="auto"><br>
+            </div>
+            <div dir="auto">I might do it. I've got a backlog of
+              archives to visit now that they're mostly open again.</div>
+            <div dir="auto"><br>
+            </div>
+            <div dir="auto">If you'd like to see the updated article
+              it's at <a
+                href="https://***.***/nuclear-myth"
+                target="_blank" moz-do-not-send="true"
+                class="moz-txt-link-freetext">https://***.***/nuclear-myth</a><br>
+            </div>
+            <div dir="auto"><br>
+            </div>
+            <div dir="auto">I'm going to reach out to Cerf and Kleinrock
+              soon, who I have both met a few times and ask for their
+              feedback as well.</div>
+            <div dir="auto"><br>
+            </div>
+            <div dir="auto">I'm also looking for more professional
+              folklorists to go over it for methodology and practice. If
+              you know anyone I'd love to get in touch with them.</div>
+            <div dir="auto"><br>
+            </div>
+            <div dir="auto">Thanks again for your knowledge and valuable
+              opinions.  I hope everything is well.</div>
+            <div dir="auto"><br>
+            </div>
+            <div dir="auto">~chris</div>
+          </div>
+          <br>
+          <div class="gmail_quote">
+            <div dir="ltr" class="gmail_attr">On Fri, Sep 30, 2022,
+              04:56 John S. Quarterman &lt;<a
+                href="mailto:***@***" target="_blank"
+                moz-do-not-send="true" class="moz-txt-link-freetext">***@***</a>&gt;
+              wrote:<br>
+            </div>
+            <blockquote class="gmail_quote" style="margin:0px 0px 0px
+              0.8ex;border-left:1px solid
+              rgb(204,204,204);padding-left:1ex">
+              <div dir="ltr">Thanks, and looking forward to more history
+                articles by you.
+                <div>Hurricane Ian bypassed us. Others to the east were
+                  not so fortunate. -jsq</div>
+              </div>
+              <br>
+              <div class="gmail_quote">
+                <div dir="ltr" class="gmail_attr">On Wed, Sep 28, 2022
+                  at 1:44 PM Christopher McKenzie &lt;<a
+                    href="mailto:***@***"
+                    rel="noreferrer" target="_blank"
+                    moz-do-not-send="true" class="moz-txt-link-freetext">***@***</a>&gt;
+                  wrote:<br>
+                </div>
+                <blockquote class="gmail_quote" style="margin:0px 0px
+                  0px 0.8ex;border-left:1px solid
+                  rgb(204,204,204);padding-left:1ex">
+                  <div dir="auto">Thanks a lot for the detailed
+                    response. 
+                    <div dir="auto"><br>
+                    </div>
+                    <div dir="auto">I'll pull the article until I go
+                      over everything that you've pointed out.
+                      <div dir="auto"><br>
+                      </div>
+                      <div dir="auto">I hope the best for you during the
+                        storm and I'll respond when I've addressed all
+                        your concerns.</div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="gmail_quote">
+                    <div dir="ltr" class="gmail_attr">On Wed, Sep 28,
+                      2022, 08:36 John S. Quarterman &lt;<a
+                        href="mailto:***@***" rel="noreferrer"
+                        target="_blank" moz-do-not-send="true"
+                        class="moz-txt-link-freetext">***@***</a>&gt;
+                      wrote:<br>
+                    </div>
+                    <blockquote class="gmail_quote" style="margin:0px
+                      0px 0px 0.8ex;border-left:1px solid
+                      rgb(204,204,204);padding-left:1ex">
+                      <div dir="ltr">Thanks for the inquiry.
+                        <div><br>
+                        </div>
+                        <div>And thanks for digging into Internet
+                          history; it's always interesting to see new
+                          material dug up.<br>
+                          <div><br>
+                          </div>
+                          <div>I'm not sure what you're getting at with
+                            your "stated without citation."</div>
+                          <div>I didn't see any reason to cite my own
+                            opinion which I previously also wrote.</div>
+                          <div>Most likely if you dig back in issues of
+                            Matrix News you'll find even earlier
+                            versions.</div>
+                          <div><br>
+                          </div>
+                          <div>After your question "<span
+                              style="color:rgb(0,0,0);font-family:&quot;Cormorant
+Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify">Why
+                              didn’t he just stick with that?"</span></div>
+                          <div><span
+                              style="color:rgb(0,0,0);font-family:&quot;Cormorant
+Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify"><br>
+                            </span></div>
+                          I had to reread several times to convince
+                          myself you weren't attributing the Japan
+                          Information Highway article to me. Could you
+                          please clarify by saying something like "text
+                          by others".
+                          <div><br>
+                          </div>
+                          <div>To directly answer your question, The
+                            Matrix is a history and policy book. The
+                            other two you quote are, as their titles
+                            indicate, about technical aspects of how to
+                            use the stuff. History was not the main
+                            point of those books. As you say, "these
+                            statements are small buried passages in much
+                            larger, often dry technical works." These
+                            particular statements were not intended to
+                            be complete histories of the origins of the
+                            ARPANET. They are indeed a bit too
+                            condensed.</div>
+                          <div><br>
+                          </div>
+                          <div>I am puzzled by your characterization, "<span
+style="color:rgb(0,0,0);font-family:&quot;Cormorant
+Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify">This
+                              “ARPANET is one step removed from nuclear
+                              war planning” narrative".</span></div>
+                          <div><span
+                              style="color:rgb(0,0,0);font-family:&quot;Cormorant
+Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify"><br>
+                            </span></div>
+                          First of all, that doesn't seem to be what you
+                          are objecting to. Earlier, you wrote:
+                          <div>"<span
+                              style="color:rgb(0,0,0);font-family:&quot;Cormorant
+Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify">was </span><em
+style="color:rgb(0,0,0);font-family:&quot;Cormorant
+Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify">designed
+                              from the start</em><span
+                              style="color:rgb(0,0,0);font-family:&quot;Cormorant
+Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify"> to
+                              withstand a nuclear attack."</span></div>
+                          <div><span
+                              style="color:rgb(0,0,0);font-family:&quot;Cormorant
+Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify"><br>
+                            </span></div>
+                          Secondly, you documented the one step removed
+                          in your quotes from "“Recommendation to the
+                          air staff” by RAND, from August 1965." See
+                          also below about Licklider: RAND is not the
+                          only connection between nuclear war planning
+                          and ARPA and the ARPANET..</div>
+                        <div><br>
+                          <div>Yes, I am and was well aware that the
+                            principal purpose of ARPANET and the
+                            Internet is resource sharing. There was no
+                            real need to spell that out of the readers
+                            of those two books, because they were
+                            reading them to learn how to implement that.
+                            But that is not the whole story, as you have
+                            started discovering. Why was resource
+                            sharing on peoples' minds back then? And
+                            where did the money come from?<span
+                              style="color:rgb(0,0,0);font-family:&quot;Cormorant
+Garamond&quot;,serif;font-size:17.6px;font-weight:600;text-align:justify"><br>
+                            </span></div>
+                          <div><br>
+                          </div>
+                          Bruce Sterling's writeup is not wrong. Sure,
+                          it's better than my shorthand blurb in those
+                          two books. My error is in the "ARPA was
+                          charged with". No, not exactly..</div>
+                        <div><br>
+                        </div>
+                        <div>You may want to ask Bruce if he read
+                          “Recommendation to the air staff”. I wouldn't
+                          be surprised if he did; he does pretty
+                          thorough research.</div>
+                        <div><br>
+                        </div>
+                        <div>Also, it's a bit unfair to characterize
+                          Bruce among "fabulists trying to tell
+                          compelling stories." That piece was history,
+                          not fiction.</div>
+                        <div><br>
+                          <div>However, remember that ARPA funding was
+                            from Navy money. So while everybody working
+                            on ARPANET most likely was working on
+                            resource sharing, if you want to dig, it
+                            would be interesting to find out if in the
+                            ARPA funding allocation discussions what
+                            else was used for justification. It wouldn't
+                            be the first time researchers were busily
+                            working on a virtuous project that was being
+                            funded for different reasons. Let me know if
+                            you dig into that.</div>
+                          <div><br>
+                          </div>
+                          <div>You don't mention Licklider or his work
+                            at the Pentagon. See <a
+                              href="https://aeon.co/users/sharon-weinberger"
+style="box-sizing:border-box;display:inline;margin-right:0.7ex;line-height:1.6"
+                              rel="noreferrer noreferrer"
+                              target="_blank" moz-do-not-send="true">Sharon
+                              Weinberger</a>, "Web of War," Aeon,
+                            extract from a 2017 book.</div>
+                          <div><a
+href="https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet"
+                              rel="noreferrer noreferrer"
+                              target="_blank" moz-do-not-send="true"
+                              class="moz-txt-link-freetext">https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet</a><br>
+                          </div>
+                          <div>For example:</div>
+                          "Licklider was well aware of the Pentagon’s
+                          interest in command and control of nuclear
+                          weapons. One of his early descriptions for
+                          work on computer networking referenced the
+                          need to link computers that would be part of
+                          the nascent National Military Command System
+                          used to control nuclear weapons. His vision
+                          was for something much broader, however. When
+                          he met with Jack Ruina, the head of ARPA, and
+                          Eugene Fubini, one of Brown’s deputies,
+                          Licklider pitched interactive computing to
+                          them. Rather than focusing strictly on
+                          technologies to improve command and control,
+                          he wanted to transform the way people worked
+                          with computers. ‘Who can direct a battle when
+                          he’s got to write a program in the middle of
+                          that battle?’ Licklider asked."
+                          <div><br>
+                          </div>
+                          <div>You ask: "where did people like Gilster
+                            and Quarterman get this idea?"</div>
+                          <div><br>
+                          </div>
+                          <div>I have no idea about Gilster.</div>
+                          <div><br>
+                          </div>
+                          <div>As for me, I don't rightly recall, it was
+                            long common wisdom. Since I worked at BBN,
+                            which was full of MIT people who knew
+                            Licklider, I would guess it was some
+                            derivation of Licklider's Pentagon and ARPA
+                            work. Whose work shows that there were
+                            indeed Cold War nuclear bomb roots of the
+                            ARPANET, even though that network was not
+                            directly designed to survive a nuclear
+                            attack.</div>
+                          <div><br>
+                          </div>
+                          <div>Errata: You mention NIRPNET. Maybe you
+                            mean NIPRnet. </div>
+                          <div>In the same sentence, it's should be its.</div>
+                        </div>
+                        <div><br>
+                        </div>
+                        <div>You note: "If you click through the above
+                          article you'll see a linguistic phenomena:
+                          It's called Internet without the word "the"
+                          preceding it. This was pretty common through
+                          about 1994. "I'm on Internet" sounds weird to
+                          us but say, "I'm on AOL" does not - and that
+                          was basically the logic. It gets deeper. For
+                          instance, it's called "The Usenet" in the
+                          article and we actually would drop the "the"
+                          on that word today just like we do with
+                          "ARPANET", or how it used to be stylized,
+                          "ARPAnet". This history needs its own atticle
+                          as well."</div>
+                        <div><br>
+                        </div>
+                        <div>(Typo: atticle should be article.)</div>
+                        <div><br>
+                        </div>
+                        <div>Yes, please write an article about Internet
+                          as a proper name. Including the neo-logism
+                          internet without a capital, which is
+                          irritating, because while there are indeed
+                          disconnected small-i internets, there is only
+                          one Internet with a capital I.</div>
+                        <div><br>
+                        </div>
+                        <div>Got to go prepare for a hurricane. Thanks
+                          again for your research. -jsq</div>
+                      </div>
+                    </blockquote>
+                  </div>
+                </blockquote>
+              </div>
+            </blockquote>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </body>
+</html>
+
+--------------HG4X9l0EpD3RnEu9pBrTEi7D--
+
+From ***@***  Sat Oct 15 23:05:39 2022
+Return-Path: <***@***>
+X-Original-To: ***@***
+Delivered-To: ***@***
+Received: from mail-pf1-f170.***.*** (mail-pf1-f170.***.*** [*.*.*.*])
+	by ***.*** (Postfix) with ESMTPS id E97261B89B7
+	for <***@***>; Sat, 15 Oct 2022 23:05:39 -0700 (PDT)
+Received: by mail-pf1-f170.***.*** with SMTP id p14so8484912pfq.5
+        for <***@***>; Sat, 15 Oct 2022 23:05:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=***.***; s=20210112;
+        h=in-reply-to:from:to:content-language:references:subject:user-agent
+         :mime-version:date:message-id:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=***
+        b=***
+         qb3btoQJdTk/Ol/RUoOajqgky/ILqKJr+1A2EKYi637hjt9717OCA5hxywQseXg4+JE1
+         KYiSs1oR+jm82aRWMvFZoZ2WaQ85GHitu1xFo+IHOvHGL9YfROKB1tYUxAmjMjqoqsH4
+         6096D6baB88sAkXXKer8XNSYyhyaz9EirbfBu6OwZtdDEM5jyaHAS5znfKO6WKN54azJ
+         /c4nT2kRjFPz8l7EWkhmaKVcoRPce4phRzWCJey3uvAgXyKr/qas2oN1x/w/CQZRvKiu
+         ax1A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=in-reply-to:from:to:content-language:references:subject:user-agent
+         :mime-version:date:message-id:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=***
+        b=***
+         uU/uL8pM7/eO0eH39+dwdhEIt0cuXP+CSlN+1qu5JXB4rPoLUL/FG3IU52FkKueIME9Y
+         bOjxBxbTIlZJf+hqy0xgknOsbBpAD9bo7ZldN9BfMSDNuwOX+RnVcIdYfnHP9uFh+7ze
+         S46QP0UySESKejw0M9t3UYBx1Pu+R09aLgD9JMX9JEMcXIJRDyuGLjMjBjOD9SolJDTN
+         FCZotgf0VDvWUDWDAgWduZ1aFlh2W+gOcHm0I6Xaq9nLzUws9SF8QjH1Skx2WpuuJWdb
+         bGNA==
+X-Gm-Message-State: ACrzQf0z56ye6MsWd7Yk+D0qjFX6w+c7XHUwRt/aD5lKrs02May4vuI5
+	jgjy1as9oMX8toxV17+R+tC2FoKaXpE=
+X-Google-Smtp-Source: AMsMyM6dOrKDuT3dfI8l+mag5XjdaSxzFLp8gJiF2zz6IM2QHLbom/x/BqS61M4r9aH37607mPzMAA==
+X-Received: by 2002:a63:1923:0:b0:441:2c12:f704 with SMTP id z35-20020a631923000000b004412c12f704mr5471806pgl.398.1665900338648;
+        Sat, 15 Oct 2022 23:05:38 -0700 (PDT)
+Received: from [*.*.*.*] (075-084-037-074.res.***.***. [*.*.*.*])
+        by smtp.***.*** with ESMTPSA id e24-20020a656798000000b00454f8a8cc24sm3923007pgr.12.2*.*.*.*.05.37
+        for <***@***>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 15 Oct 2022 23:05:38 -0700 (PDT)
+Content-Type: multipart/alternative;
+ boundary="------------Mm2r88Nb9QYy7u8WTMsvqGgc"
+Message-ID: <029c99bc-4572-8b09-74f2-***@***>
+Date: Sat, 15 Oct 2022 23:05:37 -0700
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101
+ Thunderbird/91.13.1
+Subject: Fwd: "The Internet Navigator" from an article about the origins of
+ the internet
+References: <CAM8bmg4=O9AC8+DfzORju+0Nk6b1fK3pyVctA4AoNHW-***@******.***>
+Content-Language: en-US
+To: ***@***
+From: Chris McKenzie <***@***>
+In-Reply-To: <CAM8bmg4=O9AC8+DfzORju+0Nk6b1fK3pyVctA4AoNHW-***@******.***>
+X-Forwarded-Message-Id: <CAM8bmg4=O9AC8+DfzORju+0Nk6b1fK3pyVctA4AoNHW-***@******.***>
+Status: O
+Content-Length: 6296
+Lines: 167
+
+This is a multi-part message in MIME format.
+--------------Mm2r88Nb9QYy7u8WTMsvqGgc
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+
+
+-------- Forwarded Message --------
+Subject: 	Re: "The Internet Navigator" from an article about the origins 
+of the internet
+Date: 	Tue, 27 Sep 2022 20:19:44 -0400
+From: 	Paul Gilster <***@***>
+To: 	Christopher McKenzie <***@***>
+
+
+
+My pleasure. By the way, my email address at ***@*** is 
+probably the one to use, in case you ever need to reach me again.
+
+All best with your article.
+
+Paul
+
+_______
+
+Paul A. Gilster  | p <mailto:***@***>***@***
+Writer/Editor, Centauri Dreams  | www.centauri-dreams.org 
+<http://www.centauri-dreams.org>
+"You accomplish the great task by a series of small acts." -- Lao Tzu
+
+
+On Tue, Sep 27, 2022 at 8:17 PM Christopher McKenzie 
+<***@***> wrote:
+
+    Thank you so much! I really appreciate your time!
+
+    On 9/27/22 17:16, Paul Gilster wrote:
+     > I wish I could come up with my source for it. After the book was
+     > published, I began to wonder about the statement and went back to
+     > verify where I had found it, and amidst all my research materials I
+     > couldn't find the source. So I'm drawing a blank here. I know I
+    pulled
+     > it from more than one source but that's about it, and I've wished I
+     > could clarify it, since it now eludes me. At this point I wish I
+     > hadn't written it, given the trajectory of the idea as you
+    recount in
+     > your article. Clearly it was an egregious error.
+
+--------------Mm2r88Nb9QYy7u8WTMsvqGgc
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><br>
+    </p>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Forwarded Message --------
+      <table class="moz-email-headers-table" cellspacing="0"
+        cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Subject:
+            </th>
+            <td>Re: "The Internet Navigator" from an article about the
+              origins of the internet</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Date: </th>
+            <td>Tue, 27 Sep 2022 20:19:44 -0400</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">From: </th>
+            <td>Paul Gilster <a class="moz-txt-link-rfc2396E" href="mailto:***@***">&lt;***@***&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">To: </th>
+            <td>Christopher McKenzie <a class="moz-txt-link-rfc2396E" href="mailto:***@***">&lt;***@***&gt;</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <div dir="ltr">
+        <div class="gmail_default"
+          style="font-family:verdana,sans-serif">My pleasure. By the
+          way, my email address at <a href="mailto:***@***"
+            moz-do-not-send="true" class="moz-txt-link-freetext">***@***</a>
+          is probably the one to use, in case you ever need to reach me
+          again.</div>
+        <div class="gmail_default"
+          style="font-family:verdana,sans-serif"><br>
+        </div>
+        <div class="gmail_default"
+          style="font-family:verdana,sans-serif">All best with your
+          article.</div>
+        <div class="gmail_default"
+          style="font-family:verdana,sans-serif"><br>
+        </div>
+        <div class="gmail_default"
+          style="font-family:verdana,sans-serif">Paul</div>
+        <div>
+          <div dir="ltr" class="gmail_signature"
+            data-smartmail="gmail_signature">
+            <div dir="ltr">
+              <div>
+                <div dir="ltr"><br>
+                  _______<br>
+                  <br>
+                  Paul A. Gilster  |  <a
+                    href="mailto:***@***" target="_blank"
+                    moz-do-not-send="true">p</a><a
+                    href="mailto:***@***" target="_blank"
+                    moz-do-not-send="true" class="moz-txt-link-freetext">***@***</a>
+                  <br>
+                  Writer/Editor, Centauri Dreams  |  <a
+                    href="http://www.centauri-dreams.org"
+                    target="_blank" moz-do-not-send="true">www.centauri-dreams.org</a><br>
+                  "You accomplish the great task by a series of small
+                  acts." -- Lao Tzu </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      <br>
+      <div class="gmail_quote">
+        <div dir="ltr" class="gmail_attr">On Tue, Sep 27, 2022 at 8:17
+          PM Christopher McKenzie &lt;<a
+            href="mailto:***@***" moz-do-not-send="true"
+            class="moz-txt-link-freetext">***@***</a>&gt;
+          wrote:<br>
+        </div>
+        <blockquote class="gmail_quote" style="margin:0px 0px 0px
+          0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">Thank
+          you so much! I really appreciate your time!<br>
+          <br>
+          On 9/27/22 17:16, Paul Gilster wrote:<br>
+          &gt; I wish I could come up with my source for it. After the
+          book was <br>
+          &gt; published, I began to wonder about the statement and went
+          back to <br>
+          &gt; verify where I had found it, and amidst all my
+          research materials I <br>
+          &gt; couldn't find the source. So I'm drawing a blank here. I
+          know I pulled <br>
+          &gt; it from more than one source but that's about it, and
+          I've wished I <br>
+          &gt; could clarify it, since it now eludes me. At this point I
+          wish I <br>
+          &gt; hadn't written it, given the trajectory of the idea as
+          you recount in <br>
+          &gt; your article. Clearly it was an egregious error. <br>
+        </blockquote>
+      </div>
+    </div>
+  </body>
+</html>
+
+--------------Mm2r88Nb9QYy7u8WTMsvqGgc--
+

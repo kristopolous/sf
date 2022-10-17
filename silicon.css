@@ -8,7 +8,7 @@ body {
 }
 main {
   text-align: left;
-  padding: 1.3rem;
+  padding: 1.4rem;
   padding-top: 0;
   display: inline-block;
   box-shadow: 0 0 1rem 0.1rem #e4e4e4;
@@ -22,7 +22,8 @@ h1,h2,h3,h4,h5{
 font-weight: 500;
 text-transform: uppercase;
 color:#69196D;
-margin-top:2.5rem;
+margin-top:3rem;
+margin-bottom:2rem;
 }
 h1,h2,      h5{
   text-align: center;
@@ -59,6 +60,7 @@ h5 {
 }
 a {
   color: #44a;
+  text-decoration: underline solid #44a 0.025rem;
 }
 a.foot {
   text-decoration:none;
@@ -80,15 +82,16 @@ strong,b {
 p {
   margin: 1.5rem 0;
   text-align: justify;
+  line-height: 1.40rem;
   font-size: 1.1rem;
 }
 blockquote {
-  border-left: 0.10rem solid #cac7f3;
-  padding-left: 0.75rem;
-  margin-left: 0.5rem;
+  border-left: 0.06rem solid #cac7f3;
+  padding-left: 0.72rem;
+  margin-left: 0.72rem;
   margin-right: 1.5rem;
   padding-top: 0;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
   color: #314;
   margin-top: -1rem;
   padding-bottom: 0rem;
@@ -165,14 +168,17 @@ td.no {
   background-color: #F2C6D9;
 }
 iframe,img {
-  width: min(80vw, 42rem);
   box-shadow: 0 0 0.5rem 0.2rem #eee6ee;
+  width: min(80vw, 42rem);
 }
 iframe {
   max-height: 60vw;
 }
 li {
   margin: 0.5rem 0;
+}
+#footnotes li {
+  margin: 2rem 0;
 }
 tt {
   font-family: 'Cutive Mono', monospace;
@@ -199,8 +205,8 @@ aside {
   color: #313;
   margin: 0 -.5rem;
   padding: 1rem 1.5rem;
-  border-top: 0.1rem solid rgba(105, 25, 109, 20%);
-  border-bottom: 0.1rem solid rgba(105, 25, 109, 20%);
+  border-top: 0.1rem double rgba(105, 25, 109, 20%);
+  border-bottom: 0.1rem double rgba(105, 25, 109, 20%);
 }
 aside h5 {
   text-transform: uppercase;
@@ -247,7 +253,7 @@ aside h5 {
   th {
     text-align: center;
   }
-   th,td{
+  th,td{
     border-bottom: 0.25px dotted black;
     border-right: 0.25px dotted black;
     padding: 0.2rem 0;
@@ -260,5 +266,48 @@ aside h5 {
   .tabular-magic {
     font-size: 12px;
     overflow: visible;
-   }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #222;
+  }
+  main {
+    background: #141617;
+    box-shadow: 0 0 1rem 0.1rem #222;
+  }
+  iframe,img {
+    box-shadow: 0 0 0.5rem 0.2rem #323633;
+  }
+  blockquote {
+    border-left-color: #669;
+  }
+  aside {
+    border-color: #669;
+  }
+    
+  blockquote p {
+    color: #eae0e5;
+  }
+  table {
+    background: none;
+  }
+  em,td,th,p,i,b,h1,h2,h3,li,figcaption,caption,h4,h5,aside h5,h6,h1 a, h1 a:visited {
+    color: #e4efef;
+  }
+  a {
+    color: #ccf;
+    text-decoration: underline solid #ccf 0.025rem;
+  }
+  td.maybe {
+    background-color: #444;
+  }
+  td.yes {
+    background-color: #0a1370;
+  }
+  td.no {
+    background-color: #521629;
+  }
+
 }
