@@ -66,7 +66,7 @@ function foot($name, $text = '') {
 <title>Was the Internet created to survive a nuclear strike? | Silicon Folkore</title>
 </head>
 <body>
-  <main>
+<main>
 <h1 class="noprint" id="silicon-folklore"><a href="/">Silicon Folklore</a></h1>
 <div id="h" class="noprint">
 <img <?= alt("Nine images depicting the layout of the ARPANET between 1969 and 1978 as a stylized header for the article.") ?> src=Report4799AHistoryOfArpanetTheFirstDecade_0023.png>
@@ -114,12 +114,10 @@ function foot($name, $text = '') {
 <blockquote>
 <p>After time sharing had been demonstrated and its impact began to be widespread in the mid 1960’s, the next logical step in this program was the linking of computers and terminals by communications networks, so that computer capabilities, programs and file resources could be accessed readily and shared remotely. The mainstream of ARPANET development involved individuals and institutions in the computer research communities which were supported by the growing ARPA <a href="https://en.wikipedia.org/wiki/Information_Processing_Techniques_Office">IPTO</a> program.</p>
 </blockquote>
-
 <p>So what happened? We're going to set our Wayback machine to 1991 to find out. But first, homework!</p>
 </section>
 <section>
 <h4>Common Knowledge or "Come on! Knowledge!"</h4>
-
 <p>Before we continue we need a headache-inducing distinction between <a href="https://en.wikipedia.org/wiki/Common_knowledge">"common knowledge or wisdom"</a> and <a href="https://en.wikipedia.org/wiki/General_knowledge">"general knowledge"</a>. Common knowledge is specific to a community and general knowledge is not. For instance, cultural customs are common knowledge.</p>
 <p>This difference is important. If you meet a foreigner, you'll likely tell them about regional laws or customs. You don't need to cite anything or know the history to be correct. It's not general knowledge because you also presume the foreigner doesn't know it.</p>
 <p>In our context, <b><em>common knowledge is a statement which can be falsified and verified wherein the one who states feels an obligation to share the information but doesn't feel an obligation to falsify or verify the statement or provide a mechanism for others to do so</em></b>. In more coarse language, these are facts that go uncited.</p>
@@ -155,7 +153,7 @@ function foot($name, $text = '') {
 <h3>1993: This thing's getting popular&hellip;</h3>
 <p>By 1993, second generation references start to pop up. For instance, <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet for Dummies</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details:</p> 
 <figure>
-<img src="inet-for-dummies.jpg" <?=alt("Two screenshots comparing an almost identical passage between the two books. The text is 'these days backhoes cutting cables are more of a threat' compared with 'an errant backhoe cutting a cable is just as much of a threat'")?>>
+<img src="inet-for-dummies.webp" <?=alt("Two screenshots comparing an almost identical passage between the two books. The text is 'these days backhoes cutting cables are more of a threat' compared with 'an errant backhoe cutting a cable is just as much of a threat'")?>>
 <figcaption><?= img() ?>“The Whole Internet User’s Guide & Catalog”, 1992 versus "Internet for Dummies", 1993.</figcaption>
 </figure>
 <p>(<b>Note:</b> The author of "Internet for Dummies", John Levine, responded to and disputed this section on October 6, 2022. Please <a href="#backhoe">see the note below for more information</a>.)</p> 
@@ -222,7 +220,7 @@ function foot($name, $text = '') {
 <p>In all these claims the statement was ARPA was looking for a resilient network due to cold war politics with the risk of nuclear war playing somewhere in the background and the ARPANET came out of this dynamic.</p>
 <p>Also by 1994 the ARPA people have started to hear the nuclear narrative a bit too much. In <a href="https://books.google.com/books?id=URcEAAAAMBAJ&amp;lpg=PA61&amp;pg=PA61#v=onepage&amp;q&amp;f=false">Network World from Aug 22, 1994</a> there's “Myth vs. Reality” inset from <a href="https://en.wikipedia.org/wiki/Leonard_Kleinrock">Leonard Kleinrock</a> in an absolutely futile effort to try and dislodge things:</p>
 <figure>
-<img src="myth-v-reality.jpg" <?=alt("The text of the image reads: Myth: ARPANET was conceived as a way to maintain government data communications after a nuclear war. Reality: ARPANET was conceived as a way to save money by getting government-funded researchers to share computers rather than each of them buying their own. Source: Leonard Kleinrock, UCLA")?> /><figcaption><?= img() ?>Sigh, we’re still trying to correct this</figcaption>
+<img src="myth-v-reality.webp" <?=alt("The text of the image reads: Myth: ARPANET was conceived as a way to maintain government data communications after a nuclear war. Reality: ARPANET was conceived as a way to save money by getting government-funded researchers to share computers rather than each of them buying their own. Source: Leonard Kleinrock, UCLA")?> /><figcaption><?= img() ?>Sigh, we’re still trying to correct this</figcaption>
 </figure>
 <p>It was hopeless. Network World was the first source we found for spreading it to begin with.</p>
 <p>While we're here, the article that was referenced in "Where the Wizards Stay Up Late" from the beginning is <a href="https://content.time.com/time/subscriber/article/0,33009,981132,00.html">the lead for the July 25, 1994 issue of TIME Magazine</a><?= foot("time-date") ?>. Here's the now common story:</p>
@@ -610,9 +608,6 @@ The narrative has been broken down into a number of story points and were arrang
   <li>(same reference) It was not intended to use the phone system but instead, be an independent network built parallel to the electric grid.</li>
   <li><a href="https://www.rand.org/pubs/research_memoranda/RM3103.html">It was designed to be redundant, but not to scale</a>.</li>
   <li>(same reference) It was meant to be used for command and control loads and not intended to be expanded beyond military communication and use.</li>
-<!--
-  <li><a href="https://archive.org/details/DTIC_AD0705149">The principal engineer doing that work on ARPANET was Leonard Kleinrock</a>.</li> 
--->
   <li><a href="https://archive.org/details/DraftReportForDataCommunicationFacilities/page/n1/mode/2up">The 1967 ARPA Network proposal by BBN says it's for research, sharing, and cost cutting</a>.</li>
   <li>(same reference) It was to run on normal phone lines and be focused on connecting nodes, presumed the network would be cared for, and did not offer extreme redundancy.</li>
 </ul>
@@ -631,15 +626,10 @@ Kleinrock did queueing theoretic analysis of capacity, delay, throughput of stor
   Multiple computer networks and intercomputer communication.</li>
 </ol>
 </p>
-
-
-<p>Additionally Cerf backs the claim of the scaling over reliability aspect of ARPANET which really lays bare any design for nuclear survivability hypothesis:
-</p>
-<blockquote>
-<p>
+<p>Additionally Cerf backs the claim of the scaling over reliability aspect of ARPANET which really lays bare any design for nuclear survivability hypothesis:</p>
+<blockquote><p>
 Regarding unreliability - yes, alternative, adaptive routing was part of the ARPANET design to deal with link and/or node (packet switch) failures but the protocols internal to the ARPANET were designed to include end-to-end retransmission WITHIN THE NETWORK. The Host-Host protocol (also known as the Network Control Protocol) basically assumed the network was reliable. The Internet design, which had to cope with unreliable radio communications of the Packet Radio and Packet Satellite networks, required end-to-end retransmission at the HOST level. 
 </p></blockquote>
-
 <p>Probably the most approachable narrative history of ARPA's side of the story is from a 1999 documentary, Nerds 2.0.1. The history goes from the timestamp at 19:22 to the end of the video with a bunch of interludes that make you think they're moving on from the narrative, but then they go right back. I clicked the gear, then playback speed and I know you will too.</p>
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L4D2nxQBmOM?start=1162" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -663,12 +653,9 @@ In the ARPA network, a user of one computer will have access to programs in all 
 </section>
 <section>
 <h3 id="common">How common are the narratives</h3>
-
 <p>Barry Gerber, who <a href="gerber-email.txt">was contacted for this story</a> and did some early social science research about the ARPAnet at UCLA presented an interesting question: "I have to wonder how widespread the belief in this particular myth is today".</p>
 <p>To make an attempt to discover this, a corpus of 13.5 billion <a href="https://files.pushshift.io/reddit/comments/">Reddit comments</a> were analyzed with <a href="https://github.com/kristopolous/sf/blob/main/narrative-extractor.sh">a complex regex yielding 191,725 candidate comments</a>. Then <a href="https://github.com/kristopolous/sf/blob/main/narrative-counter.py">a second pass was done</a> using a naive Regex classifier with another naive way to see if the user is negating (as in saying "arpanet was not about ww3"). No stemming, tokenizing or lemmatization was done; scikit wasn't even included. This is certainly ongoing research. (<a href="https://en.wikipedia.org/wiki/BERT_(language_model)">BERT Transformers</a> are the most likely next approach along with also using the <a href="https://files.pushshift.io/hackernews/">hn corpus</a>.)</p>
-
 <p>The first column are affirmatives of the story point and the second columns are instances where negation appeared. The "sample size" is the total number of comments considered for a given year. You can hover over each cell to see the value on desktop.</p>
-
 <center>
 <h2 class="onlyprint">This table does not work on the print version due to being based on cell opacity and background colors. Sorry, I'll get around to fixing this. (2022-10-17)</h2>
 <div class="tabular-magic noprint">
@@ -693,7 +680,6 @@ In the ARPA network, a user of one computer will have access to programs in all 
 </tbody></table>
 </div>
 </center>
-
 <h4>Notes</h4>
 <p>When filtering strictly on "ARPANET", the nuclear affirmative numbers dropped by about ~4 percentage points which is to be expected if we are to assume those familiar with ARPANET may be more likely to know the (A) narrative. To answer the posed question, it looks to be, at least according to those opining on Reddit in a way that matches my filters, about <b>1/6</b> affirm the nuclear narrative and this appears to be more or less stable over the 13 year range.</p>
 <p>The robustness of this result is interesting. The most likely cause is my own incompetent execution. Ignoring that possibility, it's of unique interest simply because of Reddit's growth and demographic change over time.</p>
@@ -715,7 +701,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <p>To put this in perspective let’s use living recent memory. It would be like seeing a connection between say COVID-19 pandemic outcomes being related to political governance, that there was a 2012 Ebola outbreak and then claim the outcome of the Obama/Romney 2012 election was a direct consequence of the federal COVID-19 response.</p>
 <p>That’s really the same dynamic. Events in the 1970s are being placed categorically adjacent to events in the 1960s and after the table is set, a narrative is drawn between them.</p>
 <figure class="noprint">
-<img src="cerf1.jpg" <?=alt("A crop of a comic book where the hero says 'This is worse than I imagined cerf boy. The writer has completely lost control of the plot'")?>>
+<img src="cerf1.webp" <?=alt("A crop of a comic book where the hero says 'This is worse than I imagined cerf boy. The writer has completely lost control of the plot'")?>>
 <figcaption><?= img() ?>From <a href="https://archive.org/details/CaptainInternetAndCERFBoyNumber1October1991/page/n13/mode/2up">The Adventures of Captain Internet And CERF Boy - Number 1 October 1991</a>.</figcaption>
 </figure>
 </section>
@@ -768,7 +754,6 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
 </blockquote>
 
 <p>A pont-by-point, design decision by design decision analysis could be made and it might be possible to empirically favor a single narrative but that's out of scope here. Don't worry though, it actually falls within the scope of a planned article so I should get to it eventually.</p>
-
 </section>
 <section>
 <h3>Final words</h3>
@@ -815,11 +800,10 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
   <li>2022/10/06: John Levine from the PBS documentary was contacted and responded. He also authored the 1993, "Internet for Dummies" source.</li>
   <li>2022/10/07: Vint Cerf responded to my inquiry. Modifications started</li>
   <li>2022/10/16: Bob Kahn and Steve Crocker contacted.</li>
-  <!--<li>2022/10/02: Bruce Sterling and Vint Cerf were emailed and requested for comment.</li>-->
 </ol>
-<p>I was unable to find a way to reach Ed Krol or Bruce Sterling. Corrections and comments are welcome at <a href="mailto:info@siliconfolklore.com">info@siliconfolklore.com</a>.</p>
+<p>I was unable to find a way to reach Ed Krol or Bruce Sterling.</p>
+<p>Corrections and comments are welcome at <a href="mailto:info@siliconfolklore.com">info@siliconfolklore.com</a>. You can also <a href="https://github.com/kristopolous/sf">open up an issue on the github or even do a pull request</a>.</p>
 <p>The nine colorful diagrams at the beginning forming the 3x3 motif are from the 1981 text, <a href="https://archive.org/details/Report4799AHistoryOfArpanetTheFirstDecade/page/n23/mode/2up">"A History Of ARPANet. The First Decade"</a>.</p>
-
 <h4>Footnotes</h4>
 <ol id="footnotes">
   <li id="jcr"><p>But not, perhaps, by ARPA IPTO (basically the CEO), JCR Licklider as John Quarterman points out in an email, linking to an excerpt from a 2017 book by <a href="https://en.wikipedia.org/wiki/Sharon_Weinberger">Sharon Weinberger</a>, <a href="https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet">"The Imagineers of War"</a> (not yet available in digital libraries, excerpt from Aeon.co included) where she quotes Licklider, "Who can direct a battle when he’s got to write a program in the middle of that battle?"</p></li>
@@ -827,7 +811,6 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
   <li id="prior"><p>This includes histories of the ARPANET "DARPANET" and “ARPA Network”. <a href="mailto:info@siliconfolklore.com?subject=Before+1991">Please reach out if you know of any</a> and I'll be happy to update.</p></li>
   <li id="sharon"><p>I had a brief chat with Sharon on Oct 3, 2022 over Facebook. She also wrote a 1993 text, <a href="https://archive.org/details/ridinginternethi00fish/page/12/mode/2up">"Riding the Internet Highway"</a> which contained a similar origin narrative. In our conversation she recommended a <a href="https://vintageapple.org/byte/pdf/199107_Byte_Magazine_Vol_16-07_DOS_5.0.pdf">July 1991 Byte</a> (PDF) article she wrote. It starts on PDF page 209 and cites Quarterman's Matrix as she does in the InfoWorld article work for his 1986 work, <a href="https://dl.acm.org/doi/abs/10.1145/6617.6618">"Notable Computer Networks"</a>.</p>
   <li id="first"><p>Calling something "first" is so risky. Let me clarify. First as far as ProQuest, archive.org and Google books is concerned. Have an earlier one? <a href="mailto:info@siliconfolklore.com?subject=Earlier+Reference">Please send it over</a>.</p></li>
-
   <li id="time-date"><p>This article has been misdated on Times website. It can also be found at <tt>/time/072594/07259925.000</tt> in the <a href="https://archive.org/details/cd_TIME_Magazine_Almanac_-_All_TIME_Magazine_articles_1989-1995_Win3.1">TIME Magazine Almanac CD-ROM from 1995</a> to confirm the 1994 date.</p></li>
   <li id="infoworld"><p>Quarterman's Matrix is included in Fisher's bibliography and her description mirrors the one from The Matrix. Going over the names referenced there's three without Wikipedia pages: David Wasley, David Buerger, John Rugo and <a href="https://en.wikipedia.org/wiki/Robert_Metcalfe">Bob Metcalfe</a> who wasn't used in the history section and is just as much a Peer as an ARPA for our imagined framework. No models are perfect.</li>
   <li id="krol"><p>I was unable to determine a source for Krol here. He mentions Quarterman's Matrix but that does not have the (P) bomb narrative. Krol has earlier work such as <a href="https://www.rfc-editor.org/rfc/rfc1118.html">"The Hitchhikers Guide to the Internet"</a> but nothing I could find had an origin story. He references Douglas Comer's "Internetworking TCP/IP" which is a 3-volume set also without an origin story. Comer's work references Cerf's "The History of the ARPANET" but Cerf is (A) while Krol is a (P) narrative. Also mentioned is Craig Hunt's <a href="https://archive.org/details/tcpipnetworkadmi00hunt/page/n25/mode/2up">"TCP/IP network administration"</a> which has an origin story but it's (A) style.</p>
@@ -855,34 +838,25 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
       <p>The US Presidential campaign cycle of 1992 was arguably the first time (excluding the <a href="https://en.wikipedia.org/wiki/Morris_worm">1988/89 Morris worm</a>) that significant effort was made to explain the concept of the Internet and (in 1993 after assuming office) demonstrate it to general audiences.  See the 24:06 mark of the <a href="https://youtu.be/BIq_mW-nSnQ?t=1446">1992 Stockdale Vice Presidential Debate</a> and <a href="https://www.nytimes.com/1992/11/10/science/clinton-to-promote-high-technology-with-gore-in-charge.html">"Clinton to Promote High Technology, With Gore in Charge"</a> from the November 10, 1992 New York Times as examples.</p>
       </li>
 </ol>
-
 <p class="foot"><a name="unconfirmed"><b>&dagger;</b></a> Efforts were made to confirm these links are accurate but there has not been any response.</p>
 </section>
 <section>
 <h4 id="backhoe">Backhoe Section</h4>
 <p>Here's John Levine's October 6, 2022 <a href="levine-email-backhoe.txt">response to my claim</a> of the Krol source:</p>
 <blockquote>
-<p>
-The research is impressive but sometimes you just guessed wrong.
-</p>
-<p>For example, the reference in Internet for Dummies about backhoe attacks didn't come from Krol's book.  It was and is a cliche in the telecom world (memes hadn't been invented yet) and we both used it independently.
-</p>
+<p>The research is impressive but sometimes you just guessed wrong.</p>
+<p>For example, the reference in Internet for Dummies about backhoe attacks didn't come from Krol's book.  It was and is a cliche in the telecom world (memes hadn't been invented yet) and we both used it independently. </p>
 </blockquote>
 <p>As a practice and a discipline, a source's claim takes precedence over any interpretation and should be disclosed. However, every subsequent claim needs to be subject to the same rigor and scrutiny and as of now, the phrasing similarity is just too close for me to claim they are disconnected. Additionally, there is no source that I could find that had such similarity prior to Krol. Of course it may not yet be digitized.</p>
 <p>The origin of the backhoe seems to be a now obscure December 12, 1986 White Plains ARPAnet Northeast disconnect incident when 7 fiber optic cables going through the same conduit were cut. This has its own narrative history. All New England trunk lines were cut at 1:11 AM and were knocked off until about 12:11.</p>
 <p>As far as I can tell, a backhoe started to be associated with this 1AM disconnect around 1988 and later was commonly claimed to be accidental. I was unable to find any criminal investigation, admittance of guilt, or direct evidence as to how the conduit was cut. Being an obscure event, a trip to archival rooms in New York libraries would probably be required to find out more information. Alternatively, it's possible that AT&T, which restored the line, could have a report somewhere.</p>
 <p>I will happily annotate the section as false if more instances of backhoes or related narratives comes forward as removing it could lead to Mandela effects and further folklore.</p>
-
 </section>
 <section>
 <h4 id="survey-method">Survey Methodology</h4>
-
 <p>Search queries were performed on archive.org text search, Google books, Google groups and ProQuest Central with the access covered by the LA public library card between September 18 2022 and October 6 2022.</p>
-
 <p>Terms searched were "arpanet", "arpa network", "darpanet", "internet 1969", "internet history", "internet started", "internet atomic", "internet bomb", "internet nuclear", and "internet war"</p>
-
 <p>Only media with a publish or air date of before January 1 1996 were considered. Those chosen needed to have enough words to establish their faction.</p>
-
 <p>A number of works were not considered. A few examples have been placed below with the reason:</p>
 <ul>
   <li><a href="https://archive.org/details/unixnetworkprogr0000stev/page/198/mode/2up">Stevens, W. Richard. "UNIX Network Programming", 1990</a>: No origin story.</li>
@@ -905,5 +879,5 @@ The research is impressive but sometimes you just guessed wrong.
 </div>
 </section>
 <script src="script.js"></script>
-  </main>
-  </html>
+</main>
+</html>
