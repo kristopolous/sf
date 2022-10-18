@@ -51,7 +51,7 @@ function foot($name, $text = '') {
 <link rel="preconnect" href="//fonts.googleapis.com">
 <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
 <link href="//fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Roboto+Slab&family=Cutive+Mono&display=swap" rel="stylesheet"> 
-<link href="silicon.css?1" rel="stylesheet">
+<link href="/silicon.css?1" rel="stylesheet">
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@emorobot" />
 <meta name="twitter:description" content="Silicon Folklore" />
@@ -79,7 +79,7 @@ function foot($name, $text = '') {
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0031.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0032.png>
 </div>
-<h2 class="noprint" id="was-the-internet-designed-to-survive-a-nuclear-attack">Was The Internet designed to survive a nuclear attack?</h2>
+<h2 class="noprint">Was The Internet designed to survive a nuclear attack?</h2>
 <h1 class="onlyprint">Was The Internet Designed to Survive a Nuclear Attack?</h1>
 <center><h4 style="margin:0" class="onlyprint"><em>(Note: The print version has videos and some artwork removed. Hyperlinks are numbered like so <tt>[L##]</tt> with a corresponding list at the end)</em></h4></center>
 <p>The early Internet didn't look like the mountainside NORAD bunkers you see in movies. Instead it was computers sitting in normal offices in university buildings without any backup power, fortification, security (network or physical) and no connections to military communication. Designed for World War 3? The children in <a href="//www.youtube.com/watch?v=LWH4tWkZpPU">"Duck and Cover"</a> from 1951 had a better chance of surviving.</p>
@@ -100,7 +100,7 @@ function foot($name, $text = '') {
 <h2>The origin of the origin myth</h2>
 <p>That's not a typo. We're trying to find out when the folklore began; the history of this "History of the Internet".</p>
 <p>Prior to 1991 there is no history narrative which has the nuclear origin story so let's look at what came before.<?= foot("prior") ?></p>
-<p>Back then, they more closely resemble the one Cerf and Taylor of the ARPANET project advocate for. In April 1988 for instance, <a href="//twitter.com/slfisher">Sharon Fisher</a><?= foot("sharon")?> in <a href="//books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiGz_ml97H6AhXtMEQIHV5EC2oQ6AF6BAgEEAI#v=onepage&amp;q&amp;f=false">Infoworld says</a>:</p>
+<p>Back then, they more closely resemble the one Cerf and Taylor of the ARPANET project advocate for. In April 1988 for instance, <a href="//twitter.com/slfisher">Sharon Fisher</a><?= foot("sharon")?> in <a href="//books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X#v=onepage&amp;q&amp;f=false">Infoworld says</a>:</p>
 <blockquote>
 <p>The network was originally set up for universities and research organizations to exchange information efficiently.</p>
 </blockquote>
@@ -122,12 +122,11 @@ function foot($name, $text = '') {
 <p>This difference is important. If you meet a foreigner, you'll likely tell them about regional laws or customs. You don't need to cite anything or know the history to be correct. It's not general knowledge because you also presume the foreigner doesn't know it.</p>
 <p>In our context, <b><em>common knowledge is a statement which can be falsified and verified wherein the one who states feels an obligation to share the information but doesn't feel an obligation to falsify or verify the statement or provide a mechanism for others to do so</em></b>. In more coarse language, these are facts that go uncited.</p>
 <p>You may notice there is a requisite of commonality for common knowledge. When trying to figure out narrative histories, whether someone cites a passage or not is a forensic tool of how common they considered the knowledge. Generally speaking, presuming good intent, the more careful a narration is, the more likely we are to an early version of it. This is of course a statistical and not anecdotal statement.</p>
-
 <p>Alright, good homework. You get an A+. Let's continue.</p>
 </section>
 <section>
 <h3>1991: Network World Vol.8-33 P65&sect;12. It Begins.</h3>
-<p>The first instance<?= foot("first") ?> of the misattribution is both a victim of how chronology works and slight journalistic error. The <a href="//books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiSyfnLqrT6AhUXLEQIHTjLBmEQ6AF6BAgCEAI#v=onepage&amp;q&amp;f=false">Aug 19, 1991 issue of Network World</a> has a biography on someone who will be important in our story, <a href="//en.wikipedia.org/wiki/Paul_Baran">Paul Baran</a>. It’s a long passage. I snipped the relevant parts below:</p>
+<p>The first instance<?= foot("first") ?> of the misattribution is both a victim of how chronology works and slight journalistic error. The <a href="//books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X#v=onepage&amp;q&amp;f=false">Aug 19, 1991 issue of Network World</a> has a biography on someone who will be important in our story, <a href="//en.wikipedia.org/wiki/Paul_Baran">Paul Baran</a>. It’s a long passage. I snipped the relevant parts below:</p>
 <blockquote>
   <p>… questions were being asked regarding the U.S.’s ability to survive a pre-emptive nuclear attack with enough of its military capability intact … Baran and his RAND colleagues decided to keep the packet-switching research unclassified… After delays caused by political issues, the government commissioned a public net based on Baran’s research <b>(my note: false)</b>. In 1969, the Defense Advanced Research Projects Agency completed the first packet switched net, dubbed ARPANET.</p>
 </blockquote>
@@ -145,19 +144,21 @@ function foot($name, $text = '') {
 <p>Without knowing the individuals involved in each project it is understandable to assume they are connected; that a later effort was a result of an earlier effort as opposed to an independent one.</p>
 <p>The ARPA narrative continues to persist as well such as in the 1992 <a href="//archive.org/details/dnsbindinnutshel00albi/page/n29/mode/2up">“DNS and BIND in a nutshell”</a> by <a href="//www.linkedin.com/in/paul-albitz-9602294/">Paul Albitz</a> and <a href="//www.linkedin.com/in/cricketliu/">Cricket Liu</a>:</p>
 <blockquote>
-  <p>The original goal of the ARPANET was to allow government contractors to share expensive or scarce computing resources. <b>(my note: time-sharing)</b> From the beginning, however, users of the ARPANET also used the network for collaboration. This collaboration ranged from sharing files and software and exchanging electronic mail - to joint development and research using shared remote computers.</p>
+<p>The original goal of the ARPANET was to allow government contractors to share expensive or scarce computing resources. <b>(my note: time-sharing)</b> From the beginning, however, users of the ARPANET also used the network for collaboration. This collaboration ranged from sharing files and software and exchanging electronic mail - to joint development and research using shared remote computers.</p>
 </blockquote>
 <p>Looks like there's now two fairly incompatible stories. Well I'm sure this will be tidied right up. Hold on, I heard from the future. Apparently no, it's just a bigger mess.</p>
 </section>
 <section>
 <h3>1993: This thing's getting popular&hellip;</h3>
-<p>By 1993, second generation references start to pop up. For instance, <a href="//archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet for Dummies</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details:</p> 
+<p>By 1993, second generation references start to pop up. For instance, <a href="//archive.org/details/internetfordummi03levi/page/11/mode/1up">"The Internet for Dummies"</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details:</p> 
 <figure>
-<img src="inet-for-dummies.webp" <?=alt("Two screenshots comparing an almost identical passage between the two books. The text is 'these days backhoes cutting cables are more of a threat' compared with 'an errant backhoe cutting a cable is just as much of a threat'")?>>
+<picture>
+<source srcset="inet-for-dummies.webp" type="image/webp" />
+<img src="inet-for-dummies.jpg" <?=alt("Two screenshots comparing an almost identical passage between the two books. The text is 'these days backhoes cutting cables are more of a threat' compared with 'an errant backhoe cutting a cable is just as much of a threat'")?>>
+</picture>
 <figcaption><?= img() ?>“The Whole Internet User’s Guide & Catalog”, 1992 versus "Internet for Dummies", 1993.</figcaption>
 </figure>
 <p>(<b>Note:</b> The author of "Internet for Dummies", John Levine, responded to and disputed this section on October 6, 2022. Please <a href="#backhoe">see the note below for more information</a>.)</p> 
-
 <p>The generic bomb gets an upgrade in what was at the time, a best-seller, the 1993 text, “The Internet Navigator” by <a href="//www.planetary.org/profiles/paul-gilster">Paul Gilster</a> which, <a href="//archive.org/details/internetnavigato00paul/page/14/mode/2up">on page 14 says in an uncited passage</a>:</p>
 <blockquote>
 <p>The ARPANET was a network connecting university, military, and defense contractors; it was established to aid researchers in the process of sharing information, and not coincidentally to study how communications could be maintained in the event of nuclear attack.</p>
@@ -167,8 +168,7 @@ function foot($name, $text = '') {
 <h5>Paul Gilster Responds</h5>
 <p>Paul Gilster <a href="gilster-email.txt">responded to my inquiry</a> on this article on Sep 27, 2022. Here's what he had to say:</p>
 <blockquote>
-<p>
-  I wish I could come up with my source for it. After the book was published, I began to wonder about the statement and went back to verify where I had found it, and amidst all my research materials I couldn't find the source. So I'm drawing a blank here. I know I pulled it from more than one source but that's about it, and I've wished I could clarify it, since it now eludes me. At this point I wish I hadn't written it, given the trajectory of the idea as you recount in your article. Clearly it was an egregious error.
+<p>I wish I could come up with my source for it. After the book was published, I began to wonder about the statement and went back to verify where I had found it, and amidst all my research materials I couldn't find the source. So I'm drawing a blank here. I know I pulled it from more than one source but that's about it, and I've wished I could clarify it, since it now eludes me. At this point I wish I hadn't written it, given the trajectory of the idea as you recount in your article. Clearly it was an egregious error.
 </p>
 </blockquote>
 </aside>
@@ -220,7 +220,10 @@ function foot($name, $text = '') {
 <p>In all these claims the statement was ARPA was looking for a resilient network due to cold war politics with the risk of nuclear war playing somewhere in the background and the ARPANET came out of this dynamic.</p>
 <p>Also by 1994 the ARPA people have started to hear the nuclear narrative a bit too much. In <a href="//books.google.com/books?id=URcEAAAAMBAJ&amp;lpg=PA61&amp;pg=PA61#v=onepage&amp;q&amp;f=false">Network World from Aug 22, 1994</a> there's “Myth vs. Reality” inset from <a href="//en.wikipedia.org/wiki/Leonard_Kleinrock">Leonard Kleinrock</a> in an absolutely futile effort to try and dislodge things:</p>
 <figure>
-<img src="myth-v-reality.webp" <?=alt("The text of the image reads: Myth: ARPANET was conceived as a way to maintain government data communications after a nuclear war. Reality: ARPANET was conceived as a way to save money by getting government-funded researchers to share computers rather than each of them buying their own. Source: Leonard Kleinrock, UCLA")?> /><figcaption><?= img() ?>Sigh, we’re still trying to correct this</figcaption>
+<picture>
+<source srcset=myth-v-reality.webp type=image/webp />
+<img src="myth-v-reality.jpg" <?=alt("The text of the image reads: Myth: ARPANET was conceived as a way to maintain government data communications after a nuclear war. Reality: ARPANET was conceived as a way to save money by getting government-funded researchers to share computers rather than each of them buying their own. Source: Leonard Kleinrock, UCLA")?> /><figcaption><?= img() ?>Sigh, we’re still trying to correct this</figcaption>
+</picture>
 </figure>
 <p>It was hopeless. Network World was the first source we found for spreading it to begin with.</p>
 <p>While we're here, the article that was referenced in "Where the Wizards Stay Up Late" from the beginning is <a href="//content.time.com/time/subscriber/article/0,33009,981132,00.html">the lead for the July 25, 1994 issue of TIME Magazine</a><?= foot("time-date") ?>. Here's the now common story:</p>
@@ -274,11 +277,11 @@ The narrative has been broken down into a number of story points and were arrang
 <div class="onlyprint">
 <h4>Table headers</h4>
 <ol style="line-height:1rem">
-<li>1988/04: <a href="//books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiGz_ml97H6AhXtMEQIHV5EC2oQ6AF6BAgEEAI#v=onepage&amp;q&amp;f=false">Infoworld</a></li>
+<li>1988/04: <a href="//books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X#v=onepage&amp;q&amp;f=false">Infoworld</a></li>
 <li>1990/01: <a href="//archive.org/details/matrixcomputernet00quar/page/142/mode/2up">Matrix</a></li>
 <li>1990/02: <a href="//www.researchgate.net/publication/235051902_DARPA_Technical_Accomplishments_An_Historical_Review_of_Selected_DARPA_Projects_Volume_1">DARPA</a></li>
 <li>1990/09: <a href="//www.nytimes.com/1990/09/02/business/creating-a-giant-computer-highway.html">NYT</a></li>
-<li>1991/08: <a href="//books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiSyfnLqrT6AhUXLEQIHTjLBmEQ6AF6BAgCEAI#v=onepage&amp;q&amp;f=false">Network World</a></li>
+<li>1991/08: <a href="//books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X&amp;q&amp;f=false">Network World</a></li>
 <li>1991/09: <a href="//archive.org/details/computer-magazine-1991-09/page/n69/mode/2up">Computer Magazine</a></li>
 <li>1992/09: <a href="//archive.org/details/wholeinternetuse00krol/page/10/mode/2up">Krol</a></li>
 <li>1992/10: <a href="//archive.org/details/dnsbindinnutshel00albi/page/n29/mode/2up">DNS/BIND</a></li>
@@ -306,11 +309,11 @@ The narrative has been broken down into a number of story points and were arrang
   <thead>
     <tr>
       <th></th>
-<th><span class='onlyprint'><?=$th++;?></span><span class='noprint'>1988/04: <a href="//books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiGz_ml97H6AhXtMEQIHV5EC2oQ6AF6BAgEEAI#v=onepage&amp;q&amp;f=false">Infoworld</a></th>
+<th><span class='onlyprint'><?=$th++;?></span><span class='noprint'>1988/04: <a href="//books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X&amp;q&amp;f=false">Infoworld</a></th>
 <th><span class='onlyprint'><?=$th++;?></span><span class='noprint'>1990/01: <a href="//archive.org/details/matrixcomputernet00quar/page/142/mode/2up">Matrix</a></th>
 <th><span class='onlyprint'><?=$th++;?></span><span class='noprint'>1990/02: <a href="//www.researchgate.net/publication/235051902_DARPA_Technical_Accomplishments_An_Historical_Review_of_Selected_DARPA_Projects_Volume_1">DARPA</a></th>
 <th><span class='onlyprint'><?=$th++;?></span><span class='noprint'>1990/09: <a href="//www.nytimes.com/1990/09/02/business/creating-a-giant-computer-highway.html">NYT</a></th>
-<th><span class='onlyprint'><?=$th++;?></span><span class='noprint'>1991/08: <a href="//books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiSyfnLqrT6AhUXLEQIHTjLBmEQ6AF6BAgCEAI#v=onepage&amp;q&amp;f=false">Network World</a></th>
+<th><span class='onlyprint'><?=$th++;?></span><span class='noprint'>1991/08: <a href="//books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X#v=onepage&amp;q&amp;f=false">Network World</a></th>
 <th><span class='onlyprint'><?=$th++;?></span><span class='noprint'>1991/09: <a href="//archive.org/details/computer-magazine-1991-09/page/n69/mode/2up">Computer Magazine</a></li>
 <th><span class='onlyprint'><?=$th++;?></span><span class='noprint'>1992/09: <a href="//archive.org/details/wholeinternetuse00krol/page/10/mode/2up">Krol</a></th>
 <th><span class='onlyprint'><?=$th++;?></span><span class='noprint'>1992/10: <a href="//archive.org/details/dnsbindinnutshel00albi/page/n29/mode/2up">DNS/BIND</a></th>
@@ -701,7 +704,10 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <p>To put this in perspective let’s use living recent memory. It would be like seeing a connection between say COVID-19 pandemic outcomes being related to political governance, that there was a 2012 Ebola outbreak and then claim the outcome of the Obama/Romney 2012 election was a direct consequence of the federal COVID-19 response.</p>
 <p>That’s really the same dynamic. Events in the 1970s are being placed categorically adjacent to events in the 1960s and after the table is set, a narrative is drawn between them.</p>
 <figure class="noprint">
-<img src="cerf1.webp" <?=alt("A crop of a comic book where the hero says 'This is worse than I imagined cerf boy. The writer has completely lost control of the plot'")?>>
+<picture>
+<source srcset=cerf1.webp type=image/webp />
+<img src="cerf1.jpg" <?=alt("A crop of a comic book where the hero says 'This is worse than I imagined cerf boy. The writer has completely lost control of the plot'")?>>
+</picture>
 <figcaption><?= img() ?>From <a href="//archive.org/details/CaptainInternetAndCERFBoyNumber1October1991/page/n13/mode/2up">The Adventures of Captain Internet And CERF Boy - Number 1 October 1991</a>.</figcaption>
 </figure>
 </section>
@@ -776,7 +782,10 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
 <p>The point is that Paul Baran wasn’t chartering a path through the wilderness. For instance, here's a <a href="//ieeexplore.ieee.org/document/1088726">1963 text on "communication network &hellip; subject to random failure (or destruction)"</a>. Baran's work with hot-potato routing was a year later. Robust networked time-sharing and resource combination was the clear eventual trajectory. The obvious way to achieve this was to time-share the communication channel as well. That’s where you get packets and switching.</p>
 <p>Or hey, there’s probably more to it. There always is.</p>
 <figure class="noprint">
+<picture>
+<source srcset="web.avif" type="image/avif" />
 <img src="web.png" <?=alt("A black and white adventurous drawing of a woman with a keyboard strapped to her shoulder like a purse admiring an abstract frame surrounded by a cloud titled 'Internetland' which depicts E-mail, usenet, gopher and other internet technologies that were common in 1994")?> >
+</picture>
 <figcaption><?= img() ?>From <a href="//archive.org/details/internetguidefor00dani/page/n33/mode/2up">The Internet Guide for New Users, 1994</a>. Artist is <a href="http://www.pyracantha.com/">Hannah MG Shapero</a>.</figcaption>
 </figure>
 </section>
@@ -878,6 +887,6 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
 <h2>Links</h2>
 </div>
 </section>
-<script src="script.js"></script>
+<script src="/script.js"></script>
 </main>
 </html>
