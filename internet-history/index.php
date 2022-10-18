@@ -809,10 +809,10 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
   <li>2022/10/04: Paul Albitz responded. Hacker News user Matt Campbell assisted in the accessibility of the document. Thanks!</li>
   <li>2022/10/05: Quarterman was followed up. Cricket Liu (DNS/BIND) was contacted.</li>
   <li>2022/10/06: John Levine from the PBS documentary was contacted and responded. He also authored the 1993, "Internet for Dummies" source.</li>
-  <li>2022/10/07: Vint Cerf responded to my inquiry. Modifications started</li>
-  <li>2022/10/16: Bob Kahn and Steve Crocker contacted.</li>
+  <li>2022/10/07: Vint Cerf responded to my inquiry. Various modifications made.</li>
+  <li>2022/10/16: Bob Kahn and Steve Crocker asked for review.</li>
 </ol>
-<p>I was unable to find a way to reach Ed Krol or Bruce Sterling.</p>
+<p>I was unable to find a way to reach Ed Krol or Bruce Sterling and David Farber has not responded.</p>
 <p>Corrections and comments are welcome at <a href="mailto:info@siliconfolklore.com">info@siliconfolklore.com</a>. You can also <a href="//github.com/kristopolous/sf">open up an issue on the github or even do a pull request</a>.</p>
 <p>The nine colorful diagrams at the beginning forming the 3x3 motif are from the 1981 text, <a href="//archive.org/details/Report4799AHistoryOfArpanetTheFirstDecade/page/n23/mode/2up">"A History Of ARPANet. The First Decade"</a>.</p>
 <h4>Footnotes</h4>
