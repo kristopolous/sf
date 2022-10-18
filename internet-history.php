@@ -17,15 +17,15 @@ function counter($what) {
 
 function table() {
   $number = counter('table');
-  return "<b><a name='tbl-$number'></a>Table $number.</b> ";
+  return "<b id='tbl-$number'>Table $number.</b> ";
 }
 function img() {
   $number = counter('img');
-  return "<b><a name='img-$number'></a>Figure $number.</b> ";
+  return "<b id='img-$number'>Figure $number.</b> ";
 }
 function vid() {
   $number = counter('vid');
-  return "<b><a name='vid-$number'></a>Video $number.</b> ";
+  return "<b id='vid-$number'>Video $number.</b> ";
 }
 function alt($text) {
   echo 'alt="'.$text.'" title="'.$text.'"';
@@ -67,35 +67,6 @@ function foot($name, $text = '') {
 </head>
 <body>
   <main>
-<style>
-#h > img { 
-  background: rgba(202, 199, 243, 50%);
-  box-shadow: none;
-  margin: 0.15rem;
-  width: 30%
-}
-#h img:nth-child(3n) {
-  background:rgba(239, 242, 198,50%);
-}
-#h img:nth-child(2n) {
-  background:rgba(242,198,217,50%);
-}
-#h img:nth-child(4n) {
-  background:rgba(198, 242, 223,50%);
-}
-#h h2 {margin-top: 1rem;}
-#h h4 {font-size: 1rem;}
-#h {
- margin-top: 2rem;
- display:inline-block;
- text-align: center;
- font-size: 0
-}
-#h figcaption {
-  font-size: .8rem;
-}
-
-</style>
 <h1 class="noprint" id="silicon-folklore"><a href="/">Silicon Folklore</a></h1>
 <div id="h" class="noprint">
 <img <?= alt("Nine images depicting the layout of the ARPANET between 1969 and 1978 as a stylized header for the article.") ?> src=Report4799AHistoryOfArpanetTheFirstDecade_0023.png>
@@ -122,11 +93,11 @@ function foot($name, $text = '') {
 <p>Lately, the mainstream press had picked up the grim myth of a nuclear survival scenario and had presented it as an established truth. When <a href="http://content.time.com/time/magazine/0,9263,7601940725,00.html">TIME magazine committed the error</a>, Taylor wrote a letter to the editor, but the magazine didn’t print it. The effort to set the record straight was like chasing the wind</p>
 </blockquote>
 <p>Here’s <a href="https://en.wikipedia.org/wiki/Vint_Cerf">Vint Cerf</a>, one of the key architects of the Internet, in <a href="https://youtu.be/lWyv4wU-WNA?t=4441">July 2022 still trying to correct things</a>. Apparently, the "Networking for the Post-Apocalypse" story has gotten out of hand and people who were there have been trying to politely fix things in vain for decades.</p>
-<p>It's understanding how it could spread. Military communications during Nuclear War makes a more memorable story than designing a way to remote access what would become the first massively parallel computer, the <a href="https://en.wikipedia.org/wiki/ILLIAC_IV">ILLIAC IV</a>. The funding and motivation for building ARPANET was partially to get this computer, once built, to be "online" in order to justify the cost of building it. This way more scientists could use the expensive machine.<?= foot("cerf"); ?></p>
+<p>It's understandable how it could spread. Military communications during Nuclear War makes a more memorable story than designing a way to remote access what would become the first massively parallel computer, the <a href="https://en.wikipedia.org/wiki/ILLIAC_IV">ILLIAC IV</a>. The funding and motivation for building ARPANET was partially to get this computer, once built, to be "online" in order to justify the cost of building it. This way more scientists could use the expensive machine.<?= foot("cerf"); ?></p>
 <p>See you glazed over that. I know it. Isn’t <a href="https://jacobin.com/2022/06/internet-privatization-profit-centralization-democracy">“bringing the mainframe to the battlefield”</a> more sexy? That’s from June 2022.</p>
 <p>To find out where this story comes from we're going back to when hard drives were measured in megabytes and colorful floppies arrived in your mail promising you 100 free hours online.</p>
 <section>
-<h2 id="where-the-internet-came-from-before-1991">The origin of the origin myth</h2>
+<h2>The origin of the origin myth</h2>
 <p>That's not a typo. We're trying to find out when the folklore began; the history of this "History of the Internet".</p>
 <p>Prior to 1991 there is no history narrative which has the nuclear origin story so let's look at what came before.<?= foot("prior") ?></p>
 <p>Back then, they more closely resemble the one Cerf and Taylor of the ARPANET project advocate for. In April 1988 for instance, <a href="https://twitter.com/slfisher">Sharon Fisher</a><?= foot("sharon")?> in <a href="https://books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiGz_ml97H6AhXtMEQIHV5EC2oQ6AF6BAgEEAI#v=onepage&amp;q&amp;f=false">Infoworld says</a>:</p>
@@ -157,7 +128,7 @@ function foot($name, $text = '') {
 <p>Alright, good homework. You get an A+. Let's continue.</p>
 </section>
 <section>
-<h3 id="im-sure-nobody-will-notice">1991: Network World Vol.8-33 P65&sect;12. It Begins.</h3>
+<h3>1991: Network World Vol.8-33 P65&sect;12. It Begins.</h3>
 <p>The first instance<?= foot("first") ?> of the misattribution is both a victim of how chronology works and slight journalistic error. The <a href="https://books.google.com/books?id=mREEAAAAMBAJ&amp;pg=PA65&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwiSyfnLqrT6AhUXLEQIHTjLBmEQ6AF6BAgCEAI#v=onepage&amp;q&amp;f=false">Aug 19, 1991 issue of Network World</a> has a biography on someone who will be important in our story, <a href="https://en.wikipedia.org/wiki/Paul_Baran">Paul Baran</a>. It’s a long passage. I snipped the relevant parts below:</p>
 <blockquote>
   <p>… questions were being asked regarding the U.S.’s ability to survive a pre-emptive nuclear attack with enough of its military capability intact … Baran and his RAND colleagues decided to keep the packet-switching research unclassified… After delays caused by political issues, the government commissioned a public net based on Baran’s research <b>(my note: false)</b>. In 1969, the Defense Advanced Research Projects Agency completed the first packet switched net, dubbed ARPANET.</p>
@@ -167,7 +138,7 @@ function foot($name, $text = '') {
 <p>Let's move on to 1992.</p>
 </section>
 <section>
-<h3 id="tying-it-together">1992: The Inter-what?!</h3>
+<h3>1992: The Inter-what?!</h3>
 <p>So apparently the Internet is becoming a big deal. The first prominent and more direct "Internet was designed to survive bombs" connection is in <a href="https://archive.org/details/wholeinternetuse00krol/page/10/mode/2up">“The Whole Internet User’s Guide &amp; Catalog” from September 1992</a> by <a href="https://en.wikipedia.org/wiki/Ed_Krol">Ed Krol</a>. This is one of those books that’s so successful he came back to pen two sequels. <a href="https://www.amazon.com/Internet-Catalog-Intanetto-yuzazu-Japanese/dp/4900718122/">Amazon even sells a Japanese version</a>. Here, near the beginning of the book, we get our narrative. However, instead of “nuclear” it’s an unspecified “bomb attack”:</p>
 <figure>
 <img src="first-reference.png" <?= alt("An image of the first page of the book. The important text is 'research about how to build networks that could withstand partial outages (like bomb attacks) and still function'") ?> /><figcaption><?= img() ?>Is this the beginning?</figcaption>
@@ -181,7 +152,7 @@ function foot($name, $text = '') {
 <p>Looks like there's now two fairly incompatible stories. Well I'm sure this will be tidied right up. Hold on, I heard from the future. Apparently no, it's just a bigger mess.</p>
 </section>
 <section>
-<h3 id="what-about-a-bigger-bomb">1993: This thing's getting popular&hellip;</h3>
+<h3>1993: This thing's getting popular&hellip;</h3>
 <p>By 1993, second generation references start to pop up. For instance, <a href="https://archive.org/details/internetfordummi03levi/page/11/mode/1up">The Internet for Dummies</a> elaborates multiple narratives including from Ed Krol's 1992 work down to oddly specific details:</p> 
 <figure>
 <img src="inet-for-dummies.jpg" <?=alt("Two screenshots comparing an almost identical passage between the two books. The text is 'these days backhoes cutting cables are more of a threat' compared with 'an errant backhoe cutting a cable is just as much of a threat'")?>>
@@ -235,11 +206,10 @@ function foot($name, $text = '') {
   &hellip;The ARPANET was created by DARPA as an experiment in and platform for research in packet switched networking.
   </p>
 </blockquote>
-
 <p>Regardless, the "common knowledge" narrative continues to evolve.</p>
 </section>
 <section>
-<h3 id="no-wait-wait-it-was-even-more-connected">1994: The Cathedral Becomes a Bazaar</h3>
+<h3>1994: The Cathedral Becomes a Bazaar</h3>
 <p>It's 1994! Along with GeoCitites, Lycos and CDNow, we get perhaps the first claim of a direct causal connection from <a href="https://www.google.com/books/edition/INSCOM_Journal/wqkrAAAAYAAJ?hl=en&amp;gbpv=1&amp;pg=RA3-PA10&amp;printsec=frontcover">INSCOM (Army Intelligence &amp; Security Command) in March 1994 on page 10</a>:</p>
 <blockquote>
 <p>…says University of Pennsylvania Telecommunications Professor David Farber, “that the Internet is actually a cold war relic, designed in the 1960s as a decentralized military communications system <b>capable of surviving a nuclear attack</b>. The Internet, which has grown explosively ever since Hurricane Andrew in 1992, has now proved its usefulness for emergency action in the civilian world.”</p>
@@ -261,7 +231,7 @@ function foot($name, $text = '') {
 </blockquote>
 </section>
 <section>
-<h3 id="the-extended-universe">1995: The extended universe</h3>
+<h3>1995: The extended universe</h3>
 <p>1995! Let's log on to AOL and use the keyword MovieLink to find the screentimes for The Net with Sandra Bullock. Then we'll hop in the minivan and watch it at the mall!</p>
 <div class="noprint">
 <p>"Oh what do you mean we have to watch PBS instead?! Alright alright fine, let's <a href="https://archive.org/details/The_Internet_Show_KCET_PBS_1994">watch the documentary</a>!":</p>
@@ -700,7 +670,8 @@ In the ARPA network, a user of one computer will have access to programs in all 
 <p>The first column are affirmatives of the story point and the second columns are instances where negation appeared. The "sample size" is the total number of comments considered for a given year. You can hover over each cell to see the value on desktop.</p>
 
 <center>
-<div class="tabular-magic">
+<h2 class="onlyprint">This table does not work on the print version due to being based on cell opacity and background colors. Sorry, I'll get around to fixing this. (2022-10-17)</h2>
+<div class="tabular-magic noprint">
 <!-- This is generated from the python program linked above. -->
 <table id=heat>
 <caption><?= table() ?>Heatmap of Internet history narrative story points from Reddit comments.</caption>
@@ -749,7 +720,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 </figure>
 </section>
 <section>
-<h2 id="right-click-view-source">Right Click, View Source</h2>
+<h2>Right Click, View Source</h2>
 <p>As I’ll cover in further articles in this series, there’s no expectation that an engineer be a historian or that accurate scholarship can be expected in the days before mass digitization especially in texts where the history isn’t a focus of the scholarship.</p>
 <p>Also, the prevailing assumption is to look for mistakes before assuming malice. Not just because it’s more polite to do so but also because these statements are small buried passages in much larger, often dry technical works. There’s no evidence these authors are fabulists trying to tell compelling stories.</p>
 <p>To dig deeper on this we’ll refer back to the 1990 DARPA document.</p>
@@ -800,7 +771,7 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
 
 </section>
 <section>
-<h3 id="batch-processing-versus-time-sharing">Final words</h3>
+<h3>Final words</h3>
 <p>There's earlier notable history to the Internet. Vannevar Bush's <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/">"As We May Think"</a> in July 1945 describes a mechanical microfilm archival machine he dubs the Memex. The IPTO of ARPA, JCR Licklider's April 1963, <a href="http://worrydream.com/refs/Licklider-IntergalacticNetwork.pdf">"Members and Affiliates of the Intergalactic Computer Network"</a>.
 <p>There's also many other networks long forgotten. The best reference is in the April 1972 issue of Datamation which isn't digitized yet. However, I went to the archives at UCLA and painfully montaged some photocopies. David Farber, who was mentioned above, is the author. Pages <a href="farber-datamation-0472-01.png">36, 37</a> and <a href="farber-datamation-0472-02.png">38, 39</a>. No mention of Paul Baran or nuclear war this time in his description of ARPANET and we even got a shout out to Slotnick's ILLIAC IV which is also called out in the DARPA document, section 18-1.</p>
 <p>Also any scholar reading this will be yelling at their computer screen right now because I seemed to have forgotten the French <a href="https://en.wikipedia.org/wiki/CYCLADES">CYCLADES</a> network. Disarm your keyboards, comrades, we're good.</p>
@@ -843,6 +814,7 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
   <li>2022/10/05: Quarterman was followed up. Cricket Liu (DNS/BIND) was contacted.</li>
   <li>2022/10/06: John Levine from the PBS documentary was contacted and responded. He also authored the 1993, "Internet for Dummies" source.</li>
   <li>2022/10/07: Vint Cerf responded to my inquiry. Modifications started</li>
+  <li>2022/10/16: Bob Kahn and Steve Crocker contacted.</li>
   <!--<li>2022/10/02: Bruce Sterling and Vint Cerf were emailed and requested for comment.</li>-->
 </ol>
 <p>I was unable to find a way to reach Ed Krol or Bruce Sterling. Corrections and comments are welcome at <a href="mailto:info@siliconfolklore.com">info@siliconfolklore.com</a>.</p>
@@ -850,14 +822,14 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
 
 <h4>Footnotes</h4>
 <ol id="footnotes">
-  <li><p><a name="jcr"></a>But not, perhaps, by ARPA IPTO (basically the CEO), JCR Licklider as John Quarterman points out in an email, linking to an excerpt from a 2017 book by <a href="https://en.wikipedia.org/wiki/Sharon_Weinberger">Sharon Weinberger</a>, <a href="https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet">"The Imagineers of War"</a> (not yet available in digital libraries, excerpt from Aeon.co included) where she quotes Licklider, "Who can direct a battle when he’s got to write a program in the middle of that battle?"</p></li>
-  <li><p><a name="cerf"></a>Thanks to Vint Cerf for helping me on these sections.</p></li>
-  <li><p><a name="prior"></a>This includes histories of the ARPANET "DARPANET" and “ARPA Network”. <a href="mailto:info@siliconfolklore.com?subject=Before+1991">Please reach out if you know of any</a> and I'll be happy to update.</p></li>
-  <li><p><a name="sharon"></a>I had a brief chat with Sharon on Oct 3, 2022 over Facebook. She also wrote a 1993 text, <a href="https://archive.org/details/ridinginternethi00fish/page/12/mode/2up">"Riding the Internet Highway"</a> which contained a similar origin narrative. In our conversation she recommended a <a href="https://vintageapple.org/byte/pdf/199107_Byte_Magazine_Vol_16-07_DOS_5.0.pdf">July 1991 Byte</a> (PDF) article she wrote. It starts on PDF page 209 and cites Quarterman's Matrix as she does in the InfoWorld article work for his 1986 work, <a href="https://dl.acm.org/doi/abs/10.1145/6617.6618">"Notable Computer Networks"</a>.</p>
-  <li><p><a name="first"></a>Calling something "first" is so risky. Let me clarify. First as far as ProQuest, archive.org and Google books is concerned. Have an earlier one? <a href="mailto:info@siliconfolklore.com?subject=Earlier+Reference">Please send it over</a>.</p></li>
+  <li id="jcr"><p>But not, perhaps, by ARPA IPTO (basically the CEO), JCR Licklider as John Quarterman points out in an email, linking to an excerpt from a 2017 book by <a href="https://en.wikipedia.org/wiki/Sharon_Weinberger">Sharon Weinberger</a>, <a href="https://aeon.co/essays/how-nuclear-fears-helped-inspire-creation-of-the-internet">"The Imagineers of War"</a> (not yet available in digital libraries, excerpt from Aeon.co included) where she quotes Licklider, "Who can direct a battle when he’s got to write a program in the middle of that battle?"</p></li>
+  <li id="cerf"><p>Thanks to Vint Cerf for helping me on these sections.</p></li>
+  <li id="prior"><p>This includes histories of the ARPANET "DARPANET" and “ARPA Network”. <a href="mailto:info@siliconfolklore.com?subject=Before+1991">Please reach out if you know of any</a> and I'll be happy to update.</p></li>
+  <li id="sharon"><p>I had a brief chat with Sharon on Oct 3, 2022 over Facebook. She also wrote a 1993 text, <a href="https://archive.org/details/ridinginternethi00fish/page/12/mode/2up">"Riding the Internet Highway"</a> which contained a similar origin narrative. In our conversation she recommended a <a href="https://vintageapple.org/byte/pdf/199107_Byte_Magazine_Vol_16-07_DOS_5.0.pdf">July 1991 Byte</a> (PDF) article she wrote. It starts on PDF page 209 and cites Quarterman's Matrix as she does in the InfoWorld article work for his 1986 work, <a href="https://dl.acm.org/doi/abs/10.1145/6617.6618">"Notable Computer Networks"</a>.</p>
+  <li id="first"><p>Calling something "first" is so risky. Let me clarify. First as far as ProQuest, archive.org and Google books is concerned. Have an earlier one? <a href="mailto:info@siliconfolklore.com?subject=Earlier+Reference">Please send it over</a>.</p></li>
 
-  <li><p><a name="time-date"></a>This article has been misdated on Times website. It can also be found at <tt>/time/072594/07259925.000</tt> in the <a href="https://archive.org/details/cd_TIME_Magazine_Almanac_-_All_TIME_Magazine_articles_1989-1995_Win3.1">TIME Magazine Almanac CD-ROM from 1995</a> to confirm the 1994 date.</p></li>
-  <li><p><a name="infoworld"></a>Quarterman's Matrix is included in Fisher's bibliography and her description mirrors the one from The Matrix. Going over the names referenced there's three without Wikipedia pages: David Wasley, David Buerger, John Rugo and <a href="https://en.wikipedia.org/wiki/Robert_Metcalfe">Bob Metcalfe</a> who wasn't used in the history section and is just as much a Peer as an ARPA for our imagined framework. No models are perfect.</li>
+  <li id="time-date"><p>This article has been misdated on Times website. It can also be found at <tt>/time/072594/07259925.000</tt> in the <a href="https://archive.org/details/cd_TIME_Magazine_Almanac_-_All_TIME_Magazine_articles_1989-1995_Win3.1">TIME Magazine Almanac CD-ROM from 1995</a> to confirm the 1994 date.</p></li>
+  <li id="infoworld"><p>Quarterman's Matrix is included in Fisher's bibliography and her description mirrors the one from The Matrix. Going over the names referenced there's three without Wikipedia pages: David Wasley, David Buerger, John Rugo and <a href="https://en.wikipedia.org/wiki/Robert_Metcalfe">Bob Metcalfe</a> who wasn't used in the history section and is just as much a Peer as an ARPA for our imagined framework. No models are perfect.</li>
   <li id="krol"><p>I was unable to determine a source for Krol here. He mentions Quarterman's Matrix but that does not have the (P) bomb narrative. Krol has earlier work such as <a href="https://www.rfc-editor.org/rfc/rfc1118.html">"The Hitchhikers Guide to the Internet"</a> but nothing I could find had an origin story. He references Douglas Comer's "Internetworking TCP/IP" which is a 3-volume set also without an origin story. Comer's work references Cerf's "The History of the ARPANET" but Cerf is (A) while Krol is a (P) narrative. Also mentioned is Craig Hunt's <a href="https://archive.org/details/tcpipnetworkadmi00hunt/page/n25/mode/2up">"TCP/IP network administration"</a> which has an origin story but it's (A) style.</p>
 <p>An additional reference later in the work is <a href="https://archive.org/details/computersecurity00russ/page/210/mode/2up">"Computer Security Basics"</a> which references ARPANET but has no origin story. Another reference <a href="https://archive.org/details/practicalunixsec00garf_0/page/6/mode/2up">"Practical UNIX Security"</a> only historical reference is a brief description of Project MAC without referring to it by name.</p>
 <p>The section from his book photographed above even gets published as <a href="https://www.rfc-editor.org/rfc/rfc1462">RFC 1462</a> and here is where we find our first potential (P) link. The other author here, <a href="https://dblp.org/pid/86/5409.html">Ellen S Hoffman</a> is from the alternative <a href="https://en.wikipedia.org/wiki/Merit_Network">Merit Network</a> which is older than the ARPANET. It plays a very important role in the history of the Internet which is outside our scope.</p>
@@ -866,20 +838,20 @@ Roberts likely knew about Paul's report and had done a point-to-point experiment
   <li id="dns-note"><p>There's two authors listed, Paul Albitz and Cricket Liu. At first I believed the author of the passage was most likely Paul Albitz because it was repeated in <a href="https://archive.org/details/dnsonwindowsnt00albi/page/n17/mode/2up">"DNS on Windows NT"</a> in 1998 and cannot be found in other work by Cricket Liu such as <a href="https://archive.org/details/dnsbindcookbook0000liuc/mode/2up">"DNS and BIND Cookbook"</a> in 2003 or <a href="https://archive.org/details/managinginternet00jerr/mode/2up">"Managing Internet Information Services"</a> from 1994.</p>
   <p>However, after effort was made to reach out to him via LinkedIn on October 3, 2022 to inquire about the source, he claimed on October 4, 2022 that Cricket Liu wrote that chapter. After reaching out to Liu and a few back and forth emails, his final statement is "I no longer have notes on this.  I’m sorry I couldn’t find anything". </p>
   <p>The text is not robust enough in references to lead to a factional claim, citing a few RFCs. For acknowledgments we get Ken Stone, <a href="https://www.linkedin.com/in/jerry-mccollom-a552316">Jerry McCollom</a>&dagger; (HP), <a href="https://www.linkedin.com/in/peterjeffe/">Peter Jeffe</a>&dagger; (IBM), Christopher Durham, Hal Stern, Bill Wisner, Dave Curry and Jeff Okamoto. All dead-ends. Paul Albitz credits his spouse, Katherine Albitz, who is also an engineer but without any obvious ARPA or Peer connection. Further searches in google groups, proquest, and archive.org found only references to the aforementioned texts and no other works. This makes it <?= $on ?> unless further documentation comes forth.</p></li>
-  <li><p><a name="sterling"></a>Sterling doesn't directly quote anyone in his February 1993 story however, in his November 1992 text, <a href="https://www.mit.edu/hacker/hacker.html">"The Hacker Crackdown: Law and Disorder on the Electronic Frontier"</a> he talks about a <a href="https://www.mit.edu/hacker/part4.html">1991 CPSR roundtable</a> mentioning two Peers:</p>
+  <li id="sterling"><p>Sterling doesn't directly quote anyone in his February 1993 story however, in his November 1992 text, <a href="https://www.mit.edu/hacker/hacker.html">"The Hacker Crackdown: Law and Disorder on the Electronic Frontier"</a> he talks about a <a href="https://www.mit.edu/hacker/part4.html">1991 CPSR roundtable</a> mentioning two Peers:</p>
     <blockquote><p>Sixty people attended, myself included -- in this instance, not so much as a journalist as a cyberpunk author. Many of the luminaries of the field took part: <a href="https://en.wikipedia.org/wiki/Mitch_Kapor">Kapor</a> and <a href="https://en.wikipedia.org/wiki/Mike_Godwin">Godwin</a> as a matter of course. Richard Civille and <a href="https://en.wikipedia.org/wiki/Marc_Rotenberg">Marc Rotenberg</a> of CPSR. Jerry Berman of the ACLU. <b>John Quarterman</b>, author of The Matrix. <a href="https://en.wikipedia.org/wiki/Steven_Levy">Steven Levy</a>, author of Hackers. George Perry and Sandy Weiss of Prodigy Services, there to network about the civil-liberties troubles their young commercial network was experiencing. <a href="https://en.wikipedia.org/wiki/Dorothy_E._Denning">Dr. Dorothy Denning</a>. Cliff Figallo, manager of the Well. <a href="https://en.wikipedia.org/wiki/Steve_Jackson_(American_game_designer)">Steve Jackson</a> was there, having finally found his ideal target audience, and so was <a href="https://en.wikipedia.org/wiki/Craig_Neidorf">Craig Neidorf</a>, "Knight Lightning" himself, with his attorney, Sheldon Zenner. <a href="https://en.wikipedia.org/wiki/Katie_Hafner">Katie Hafner</a>, science journalist, and co-author of Cyberpunk: Outlaws and Hackers on the Computer Frontier. <b>Dave Farber</b>, ARPAnet pioneer and fabled Internet guru. <a href="https://its.law.nyu.edu/facultyprofiles/index.cfm?fuseaction=profile.overview&personid=43007">Janlori Goldman</a> of the ACLU's Project on Privacy and Technology. John Nagle of Autodesk and the Well. Don Goldberg of the House Judiciary Committee. Tom Guidoboni, the defense attorney in the Internet Worm case. <a href="https://en.wikipedia.org/wiki/Lance_Hoffman">Lance Hoffman</a>, computer-science professor at The George Washington University. Eli Noam of Columbia. And a host of others no less distinguished.</p></blockquote>
   </li>
-  <li><p><a name="time"></a> Time names the following in the article: <a href="https://en.wikipedia.org/wiki/Laurence_Canter_and_Martha_Siegel">Laurence Canter, Martha Siegel</a>, <a href="https://en.wikipedia.org/wiki/Howard_Rheingold">Howard Rheingold</a>, <a href="https://en.wikipedia.org/wiki/Clifford_Stoll">Clifford Stoll</a> (quoted for article, author of The Cuckoo's Egg), Steven Levy, <a href="https://en.wikipedia.org/wiki/Thomas_Kalil">Tom Kalil</a>, <a href="https://en.wikipedia.org/wiki/Bruce_Fancher">Bruce Fancher</a> (quoted), <a href="https://en.wikipedia.org/wiki/A._J._Liebling">AJ Liebling</a>, <a href="https://en.wikipedia.org/wiki/Adam_Curry">Adam Curry</a>, <a href="https://en.wikipedia.org/wiki/Brad_Templeton"><b>Brad Templeton</b></a>, <a href="https://en.wikipedia.org/wiki/Brock_Meeks">Brock Meeks</a> (quoted), <a href="https://en.wikipedia.org/wiki/Martin_Nisenholtz">Martin Nisenholtz</a> (quoted), <a href="https://en.wikipedia.org/wiki/Dale_Dougherty">Dale Dougherty</a> (quoted), <b>Dave Farber</b>, <a href="https://en.wikipedia.org/wiki/Esther_Dyson">Esther Dyson</a> (quoted) and <a href="https://en.wikipedia.org/wiki/Stacy_Horn">Stacy Horn</a> (quoted). 
-  <li><p><a name="pbs"></a> The documentary has a date of 1994 but an air date of 08/1995. Everything takes more than zero time to produce so we're using "release date" for the timestamping.</p>
+  <li id="time"><p> Time names the following in the article: <a href="https://en.wikipedia.org/wiki/Laurence_Canter_and_Martha_Siegel">Laurence Canter, Martha Siegel</a>, <a href="https://en.wikipedia.org/wiki/Howard_Rheingold">Howard Rheingold</a>, <a href="https://en.wikipedia.org/wiki/Clifford_Stoll">Clifford Stoll</a> (quoted for article, author of The Cuckoo's Egg), Steven Levy, <a href="https://en.wikipedia.org/wiki/Thomas_Kalil">Tom Kalil</a>, <a href="https://en.wikipedia.org/wiki/Bruce_Fancher">Bruce Fancher</a> (quoted), <a href="https://en.wikipedia.org/wiki/A._J._Liebling">AJ Liebling</a>, <a href="https://en.wikipedia.org/wiki/Adam_Curry">Adam Curry</a>, <a href="https://en.wikipedia.org/wiki/Brad_Templeton"><b>Brad Templeton</b></a>, <a href="https://en.wikipedia.org/wiki/Brock_Meeks">Brock Meeks</a> (quoted), <a href="https://en.wikipedia.org/wiki/Martin_Nisenholtz">Martin Nisenholtz</a> (quoted), <a href="https://en.wikipedia.org/wiki/Dale_Dougherty">Dale Dougherty</a> (quoted), <b>Dave Farber</b>, <a href="https://en.wikipedia.org/wiki/Esther_Dyson">Esther Dyson</a> (quoted) and <a href="https://en.wikipedia.org/wiki/Stacy_Horn">Stacy Horn</a> (quoted). 
+  <li id="pbs"><p> The documentary has a date of 1994 but an air date of 08/1995. Everything takes more than zero time to produce so we're using "release date" for the timestamping.</p>
   <p>This is a co-production of Rice University and there's a few names I've contacted: <a href="https://en.wikipedia.org/wiki/John_R._Levine">John Levine</a>, <a href="https://en.wikipedia.org/wiki/Gina_Smith_(author)">Gina Smith</a> (the hosts), <a href="https://www.wattsrunning.com/">Bill Watts</a> (who gets a writer credit), <a href="https://www.uh.edu/nsm/computer-science/people/faculty/">Kevin Brook Long</a> (credited as "Internet Consultant"). <a href="https://en.wikipedia.org/wiki/G._Anthony_Gorry">G. Anthony Gorry</a> (Special Thanks section, Computer Science Professor at Rice University) <a href="https://yale62.org/george-anthony-gorry-jr/">died in 2018</a>. On October 6, 2022, <a href="levine-email.txt">John Levine responded</a> giving it an "Other/Nobody" or "common knowledge" mark.</p></li>
-  <li><p><a name="pbs-text"></a>The 96-word transcript of the narrative is as follows:
+  <li id="pbs-text">The 96-word transcript of the narrative is as follows:
 <blockquote>
 <p>
 <b>Gina Smith</b>: The predecessor of the Internet was a child of the Cold War first developed by the Defense Department's Advanced Research Projects Agency or ARPA partly to ensure the data communications could survive in case of a nuclear attack.
 </p><p>
 <b>John Levine</b>: Created in the late 1960s, ARPANET first connected four computers in California and Utah campuses using a new networking technique. It allowed researchers to run programs on remote computers. Later other research institutions and military sites were added. The idea was even if one part of the system were damaged, the rest would still function and it worked.</p>
 </blockquote></li>
-    <li><p><a name="gore"></a>As Senator and eventual Vice Presidential candidate, Al Gore not only popularized the term "Information Superhighway" but also spearheaded legislation like the <a href="https://en.wikipedia.org/wiki/High_Performance_Computing_Act_of_1991">High Performance Computing Act of 1991</a> which funded the development of the Mosaic Browser.</p>
+    <li id="gore"><p>As Senator and eventual Vice Presidential candidate, Al Gore not only popularized the term "Information Superhighway" but also spearheaded legislation like the <a href="https://en.wikipedia.org/wiki/High_Performance_Computing_Act_of_1991">High Performance Computing Act of 1991</a> which funded the development of the Mosaic Browser.</p>
       <p>The US Presidential campaign cycle of 1992 was arguably the first time (excluding the <a href="https://en.wikipedia.org/wiki/Morris_worm">1988/89 Morris worm</a>) that significant effort was made to explain the concept of the Internet and (in 1993 after assuming office) demonstrate it to general audiences.  See the 24:06 mark of the <a href="https://youtu.be/BIq_mW-nSnQ?t=1446">1992 Stockdale Vice Presidential Debate</a> and <a href="https://www.nytimes.com/1992/11/10/science/clinton-to-promote-high-technology-with-gore-in-charge.html">"Clinton to Promote High Technology, With Gore in Charge"</a> from the November 10, 1992 New York Times as examples.</p>
       </li>
 </ol>
