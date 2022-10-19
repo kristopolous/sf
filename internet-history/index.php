@@ -239,7 +239,7 @@ function foot($name, $text = '') {
 <div class="noprint">
 <p>"Oh what do you mean we have to watch PBS instead?! Alright alright fine, let's <a href="//archive.org/details/The_Internet_Show_KCET_PBS_1994">watch the documentary</a>!":</p>
 <figure>
-<iframe <?= alt("The predecessor of the internet was a child of the Cold War first developed by the defense departments advanced research projects agency or ARPA partly to ensure the data communications could survive in case of a nuclear attack. Created in the late 1960s ARPANET first connected four computers in California and Utah campuses using a new networking technique. It allowed researchers to run programs on remote computers. Later other research institutions and military sites were added. The idea was even if one part of the system were damaged, the rest would still function and it worked.") ?> width="560" height="315" src="//www.youtube.com/embed/S_JzUBP_1wM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe <?= alt("The predecessor of the internet was a child of the Cold War first developed by the defense departments advanced research projects agency or ARPA partly to ensure the data communications could survive in case of a nuclear attack. Created in the late 1960s ARPANET first connected four computers in California and Utah campuses using a new networking technique. It allowed researchers to run programs on remote computers. Later other research institutions and military sites were added. The idea was even if one part of the system were damaged, the rest would still function and it worked.") ?> width="560" height="315" src="https://www.youtube.com/embed/S_JzUBP_1wM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption><?= vid() ?>We even get to see the explosion! (&#9855; <a href="#pbs-text">Transcript</a>)</figcaption>
 </figure>
 </div>
@@ -637,7 +637,7 @@ Regarding unreliability - yes, alternative, adaptive routing was part of the ARP
 </p></blockquote>
 <p>Probably the most approachable narrative history of ARPA's side of the story is from a 1999 documentary, Nerds 2.0.1. The history goes from the timestamp at 19:22 to the end of the video with a bunch of interludes that make you think they're moving on from the narrative, but then they go right back. I clicked the gear, then playback speed and I know you will too.</p>
 <figure>
-<iframe width="560" height="315" src="//www.youtube.com/embed/L4D2nxQBmOM?start=1162" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L4D2nxQBmOM?start=1162" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption><?= vid() ?>I'll hold my tongue on the narrator. However, <a href="//en.wikipedia.org/wiki/Robert_X._Cringely#InfoWorld">Wikipedia does not</a>.</figure>
 </figure>
 <p>
