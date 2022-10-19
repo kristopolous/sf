@@ -84,7 +84,7 @@ function foot($name, $text = '') {
 <h1 class="onlyprint">Was The Internet Designed to Survive a Nuclear Attack?</h1>
 <center><h4 style="margin:0" class="onlyprint"><em>(Note: The print version has videos and some artwork removed. Hyperlinks are numbered like so <tt>[L##]</tt> with a corresponding list at the end)</em></h4></center>
 <p>The early Internet didn't look like the mountainside NORAD bunkers you see in movies. Instead it was computers sitting in normal offices in university buildings without any backup power, fortification, security (network or physical) and no connections to military communication. Designed for World War 3? The children in <cite><a href="//www.youtube.com/watch?v=LWH4tWkZpPU">"Duck and Cover"</a></cite> from 1951 had a better chance of surviving.</p>
-<p>Besides, the "Computing on Doomsday" story is disputed by people who did the actual designing of the Internet and an older network, ARPANET.<?= foot("jcr") ?></p>
+<p>The "Computing on Doomsday" story is disputed by people who did the actual designing of the Internet and an older network, ARPANET.<?= foot("jcr") ?></p>
 <p>In texts giving Internet history a serious treatment, such as the 1996 <cite><a href="//archive.org/details/wherewizardsstay00haf_vgj/">“Where Wizards Stay Up Late - The Origin of the Internet”</a></cite> you can <a href="//archive.org/details/wherewizardsstay00haf_vgj/page/n4/mode/2up?q=nuclear">search the word “nuclear”</a> and come up with passages like:</p>
 <blockquote>
 <p><a href="//en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist)">Bob Taylor</a>… was also on a personal mission to correct an inaccuracy of long standing. Rumors had persisted for years that the ARPANET had been built to protect national security in the face of a nuclear attack. It was a myth that had gone unchallenged long enough to become widely accepted as fact.</p>
@@ -102,7 +102,7 @@ function foot($name, $text = '') {
 <h2>The origin of the origin myth</h2>
 <p>That's not a typo. We're trying to find out when the folklore began; the history of this "History of the Internet".</p>
 <p>Prior to 1991 there is no history narrative which has the nuclear origin story so let's look at what came before.<?= foot("prior") ?></p>
-<p>Back then, they more closely resemble the one Cerf and Taylor of the ARPANET project advocate for. In April 1988 for instance, <a href="//twitter.com/slfisher">Sharon Fisher</a><?= foot("sharon")?> in <cite><a href="//books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X#v=onepage&amp;q&amp;f=false">Infoworld</a></cite> says:</p>
+<p>Back then, the stories more closely resembled the one Cerf and Taylor of the ARPANET project advocate for. In April 1988 for instance, <a href="//twitter.com/slfisher">Sharon Fisher</a><?= foot("sharon")?> in <cite><a href="//books.google.com/books?id=pj0EAAAAMBAJ&amp;pg=PA57&amp;hl=en&amp;sa=X#v=onepage&amp;q&amp;f=false">Infoworld</a></cite> says:</p>
 <blockquote>
 <p>The network was originally set up for universities and research organizations to exchange information efficiently.</p>
 </blockquote>
