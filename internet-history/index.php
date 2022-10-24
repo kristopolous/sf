@@ -51,18 +51,18 @@ function foot($name, $text = '') {
 <link rel="preconnect" href="//fonts.googleapis.com">
 <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
 <link href="//fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Roboto+Slab&family=Cutive+Mono&display=swap" rel="stylesheet"> 
-<link href="/silicon.css?1" rel="stylesheet">
+<link href="/silicon.css" rel="stylesheet">
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@emorobot" />
-<meta name="twitter:description" content="Silicon Folklore" />
-<meta name="twitter:image" content="//siliconfolklore.com/nuclear-twit.jpg" />
-<meta name="twitter:creator" content="@emorobot" />
-<meta name="twitter:url" content="//siliconfolklore.com/nuclear-myth.html" />
-<meta name="twitter:title" content="Was the Internet created for nuclear war?" />
 <meta name="og:title" content="Silicon Folklore" />
-<meta name="og:description" content="Was the Internet created for nuclear war?" />
-<meta name="twitter:description" content="Was the Internet created for nuclear war?" />
-<meta name="og:image" content="//siliconfolklore.com/nuclear-fb.jpg" />
+<meta name="twitter:description" content="Silicon Folklore" />
+<meta name="twitter:image" content="https://siliconfolklore.com/nuclear-twit.jpg" />
+<meta name="twitter:creator" content="@emorobot" />
+<meta name="twitter:url" content="https://siliconfolklore.com/internet-history/" />
+<meta name="twitter:title" content="Was the Internet Created for Nuclear War?" />
+<meta name="og:description" content="Was the Internet Created for Nuclear War?" />
+<meta name="twitter:description" content="A history of the narrative histories of the Internet" />
+<meta name="og:image" content="https://siliconfolklore.com/nuclear-fb.jpg" />
 <title>Was the Internet created to survive a nuclear strike? | Silicon Folkore</title>
 </head>
 <body>
@@ -80,8 +80,11 @@ function foot($name, $text = '') {
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0031.png>
 <img src=Report4799AHistoryOfArpanetTheFirstDecade_0032.png>
 </div>
-<h2 class="noprint">Was The Internet designed to survive a nuclear attack?</h2>
-<h1 class="onlyprint">Was The Internet Designed to Survive a Nuclear Attack?</h1>
+<h2 class="noprint">Was The Internet designed to survive a nuclear attack?
+<small>The History of the Narrative History of the Internet</small>
+</h2>
+<h1 class="onlyprint">Was The Internet Designed to Survive a Nuclear Attack?
+</h1>
 <center><h4 style="margin:0" class="onlyprint"><em>(Note: The print version has videos and some artwork removed. Hyperlinks are numbered like so <tt>[L##]</tt> with a corresponding list at the end)</em></h4></center>
 <p>The early Internet didn't look like the mountainside NORAD bunkers you see in movies. Instead it was computers sitting in normal offices in university buildings without any backup power, fortification, security (network or physical) and no connections to military communication. Designed for World War 3? The children in <cite><a href="//www.youtube.com/watch?v=LWH4tWkZpPU">"Duck and Cover"</a></cite> from 1951 had a better chance of surviving.</p>
 <p>The "Computing on Doomsday" story is disputed by people who did the actual designing of the Internet and an older network, ARPANET.<?= foot("jcr") ?></p>
