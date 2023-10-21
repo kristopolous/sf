@@ -1,3 +1,11 @@
+Notes:
+
+Part of the theory is that as microcomputer capabilities increased, software complexity did as well and the licensing and royalty logistics of open ended, source available, higher level software became increasingly infeasible making the maintenance of a proprietary stack economically unviable outside of the consumer appliance (think smartphone) space
+
+There's a clayton christensen style hypothesis I'm working on about how the increasing computing power of micros were more favorable to various organizational structures and that the *marketplace* success of things like linux and freebsd aren't just due to only hard work but also the context of the conditions.
+
+It's also somewhat a crib from Eric S Raymond's cathedral/bazaar analogy
+
 In the 1980s, an era known as the Unix Wars was in full swing and the future was all but inevitable. For instance, in the 1984 text, The Coming Computer Industry Shakeout, Stephen McLellan states "IBM may dominate the office automation market with its hardware, but AT&T has the software ... AT&T undoubtedly will come out with its own line of computer products using UNIX" portending not a rise of Microsoft and Windows but instead, AT&T and UNIX for the microcomputer market.
 
 AT&T might have had an edge but like IBM, they were subject to the same cloning strategies that Compaq used to reverse engineer IBM's BIOS using a clean room design. This, along with the hacker ethic led to a number of clones and variations causing some splits that persists to this day.
