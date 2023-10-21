@@ -6,6 +6,9 @@ There's a clayton christensen style hypothesis I'm working on about how the incr
 
 It's also somewhat a crib from Eric S Raymond's cathedral/bazaar analogy
 
+UNIX System Laboratories, Inc. v. Berkeley Software Design, Inc.
+
+
 In the 1980s, an era known as the Unix Wars was in full swing and the future was all but inevitable. For instance, in the 1984 text, The Coming Computer Industry Shakeout, Stephen McLellan states "IBM may dominate the office automation market with its hardware, but AT&T has the software ... AT&T undoubtedly will come out with its own line of computer products using UNIX" portending not a rise of Microsoft and Windows but instead, AT&T and UNIX for the microcomputer market.
 
 AT&T might have had an edge but like IBM, they were subject to the same cloning strategies that Compaq used to reverse engineer IBM's BIOS using a clean room design. This, along with the hacker ethic led to a number of clones and variations causing some splits that persists to this day.
