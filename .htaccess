@@ -7,6 +7,7 @@ RewriteBase /
 RewriteRule ^nuclear-myth.html$ internet-history/ [R]
 RewriteRule ^nuclear-myth$ internet-history/ [R]
 RewriteRule ^internet-history$ internet-history/ [R]
+RewriteRule ^linux-corrections$ corrections.html [R]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.+)$ $1.php [L]
