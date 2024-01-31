@@ -19,11 +19,11 @@ h1,h2,h3,h4,h5{
   font-family: 'Roboto Slab', serif;
 }
    h2,h3,h4   {
-font-weight: 500;
-text-transform: uppercase;
-color:#69196D;
-margin-top:3rem;
-margin-bottom:2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color:#69196D;
+  margin-top:3rem;
+  margin-bottom:2rem;
 }
 h1,h2,      h5{
   text-align: center;
@@ -105,7 +105,6 @@ blockquote {
 blockquote p {
   text-align: left;
 }
-
   
 figure {
   padding-left: 0;
@@ -246,6 +245,20 @@ aside h5 {
 #h figcaption {
   font-size: .8rem;
 }
+.input {
+  display: flex;
+  align-items: flex-start;
+  padding: .5rem 0;
+  vertical-align: top;
+}
+.input label {
+  display:inline-block;
+  width: 10%;
+}
+.input textarea {
+  display:inline-block;
+  width: 50%;
+}
 
 .onlyprint { display: none }
 @media print {
@@ -333,7 +346,7 @@ aside h5 {
   table {
     background: none;
   }
-  em,td,th,p,i,b,h1,h2,h3,li,figcaption,caption,h4,h5,aside h5,h6,h1 a, h1 a:visited {
+  label,em,td,th,p,i,b,h1,h2,h3,li,figcaption,caption,h4,h5,aside h5,h6,h1 a, h1 a:visited {
     color: #e4efef;
   }
   a {
@@ -348,6 +361,10 @@ aside h5 {
   }
   td.no {
     background-color: #521629;
+  }
+  .input input, .input textarea {
+    color: #e4efef;
+    background: #222;
   }
 
 }
