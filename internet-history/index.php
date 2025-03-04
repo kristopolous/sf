@@ -764,7 +764,7 @@ In the ARPA network, a user of one computer will have access to programs in all 
 Roberts likely knew about Paul's report and had done a point-to-point experiment in 1966 (?) linking the TX-2 machine at Lincoln Labs to the ANS/Q-32 at System Development Corporation (Santa Monica spinout from RAND) using a packet-switching format.</p>
 </blockquote>
 
-<p>A pont-by-point, design decision by design decision analysis could be made and it might be possible to empirically favor a single narrative but that's out of scope here. Don't worry though, it actually falls within the scope of a planned article so I should get to it eventually.</p>
+<p>A point-by-point, design decision by design decision analysis could be made and it might be possible to empirically favor a single narrative but that's out of scope here. Don't worry though, it actually falls within the scope of a planned article so I should get to it eventually.</p>
 </section>
 <section>
 <h3>Final words</h3>
